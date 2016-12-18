@@ -1,0 +1,24 @@
+# Site settings
+title: Scateu Blog - S.B.
+email: scateu@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Yet another Scateu Blog (aka SB)
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://scateu.github.io" # the base hostname & protocol for your site
+twitter_username: scateu
+github_username:  scateu
+linkedin_url: "http://cn.linkedin.com/in/scateu"
+facebook_url: "https://www.facebook.com/kangw2"
+flickr_url: ""
+
+imageurl: "https://scateu.github.io/images"
+
+# Build settings
+markdown: kramdown
+kramdown:
+        input: GFM
+#highlighter: pygments
+#highlighter: rouge
+
+# _pages
+include: ['_pages']
