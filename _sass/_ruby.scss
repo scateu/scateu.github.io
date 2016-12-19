@@ -23,12 +23,11 @@ rb {
   font-weight: bold;
 }
 
-/* ruby notation */                                                                                                                                                                                                                           
-                                                                                                                                                                                                                                              
-ruby rb a {                                                                                                                                                                                                                                   
-            color: $text-color;                                                                                                                                                                                                               
-}                                                                                                                                                                                                                                             
-                                                                                                                                                                                                                                              
-ruby rb a:visited {                                                                                                                                                                                                                           
-            color: $text-color;                                                                                                                                                                                                               
-}                                                                                                                                                                                                                                             
+/* ruby notation */
+ruby rb a {
+            color: $text-color;
+}
+
+ruby rb a:visited {
+            color: $text-color;
+}
