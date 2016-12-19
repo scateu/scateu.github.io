@@ -75,6 +75,8 @@ print "hello"
 
 ### sequence-diagram
 
+引用了[js-sequence-diagrams](https://bramp.github.io/js-sequence-diagrams/). (另外，markdown编辑器如quiver也引用了它)
+
 ```
 diagram: true
 ```
