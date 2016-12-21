@@ -92,6 +92,8 @@
  * Site footer
  */
 .site-footer {
+    background: $grey-color-light;
+    box-shadow: 0 0 1px $grey-color;
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
