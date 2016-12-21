@@ -3,8 +3,11 @@
 
 ### MathJax
 
-```
- mathjax: true
+```yaml
+---
+title: "Some Title" 
+mathjax: true
+---
 ```
 
 eg:
@@ -23,8 +26,11 @@ $$
 
 ### Ruby Notation
 
-```
- ruby_notation: true
+```yaml
+---
+title: "Some Title"
+ruby_notation: true
+---
 ```
 
 which converts
@@ -43,7 +49,7 @@ to:
 
 ### Collapsible Table of Contents
 
-Currently, can't exist as a switch of YAML frontmatter.
+Currently, can't exist as a switch of YAML frontmatter. (TODO)
 
 ```html
 <details markdown="1"><summary>目录</summary>
@@ -69,15 +75,12 @@ print "hello"
 </details>
 
 
-### fix-punctuation.sh
-
-用`sed`把中文全角符号转换成`, ` `. ` `; ` `! ` `"` 这样的半角符号. (张贤科老师的教材中多用`. `号)
-
 ### diagram
 
 ```yaml
 ---
- - diagram: true
+title: "Some Title"
+diagram: true
 ---
 ```
 
@@ -114,3 +117,6 @@ flowchart语法见: <http://flowchart.js.org/>
 	cond(no)->sub1(right)->op1
 	```
 
+### fix-punctuation.sh
+
+用`sed`把中文全角符号转换成`, ` `. ` `; ` `! ` `"` 这样的半角符号. (张贤科老师的教材中多用`. `号)
