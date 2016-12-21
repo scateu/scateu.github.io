@@ -2,9 +2,12 @@
 <script src="/js/underscore-min.js"></script>
 <script src="/js/jquery-3.1.1.min.js"></script>
 <script src="/js/sequence-diagram-min.js"></script>
+<script src="/js/flowchart-latest.js"></script>
 
 
 <script>
-$(".language-diagram").sequenceDiagram({theme: 'simple'});
-$(".language-diagram > svg").unwrap().unwrap(); // 把外层的<pre><code>给去掉
+$(".language-sequence").sequenceDiagram({theme: 'simple'});
+$(".language-sequence > svg").unwrap().unwrap(); // 把外层的<pre><code>给去掉
+$(".language-flowchart").flowChart();
+$(".language-flowchart > svg").unwrap().unwrap(); // 把外层的<pre><code>给去掉
 </script>

@@ -73,18 +73,17 @@ print "hello"
 
 用`sed`把中文全角符号转换成`, ` `. ` `; ` `! ` `"` 这样的半角符号. (张贤科老师的教材中多用`. `号)
 
-### sequence-diagram
+### diagram
 
-引用了[js-sequence-diagrams](https://bramp.github.io/js-sequence-diagrams/). (另外，markdown编辑器如quiver也引用了它)
-
-```
+```yaml
 ---
  - diagram: true
 ---
-
 ```
 
-	```diagram
+sequence语法见: <https://bramp.github.io/js-sequence-diagrams/>
+	
+	```sequence
 	participant Device
 	participant Browser
 	participant Server
@@ -99,4 +98,19 @@ print "hello"
 	Note over Server: verify response
 	```
 
-See also: <http://flowchart.js.org/>
+flowchart语法见: <http://flowchart.js.org/>
+
+	```flowchart
+	st=>start: Start:>http://www.google.com[blank]
+	e=>end:>http://www.google.com
+	op1=>operation: My Operation
+	sub1=>subroutine: My Subroutine
+	cond=>condition: Yes
+	or No?:>http://www.google.com
+	io=>inputoutput: catch something...
+
+	st->op1->cond
+	cond(yes)->io->e
+	cond(no)->sub1(right)->op1
+	```
+
