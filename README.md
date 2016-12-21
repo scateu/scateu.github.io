@@ -78,37 +78,25 @@ print "hello"
 引用了[js-sequence-diagrams](https://bramp.github.io/js-sequence-diagrams/). (另外，markdown编辑器如quiver也引用了它)
 
 ```
-diagram: true
-```
-
-```html
-<div class="diagram">
-participant Device
-participant Browser
-participant Server
-Browser->Server: username and password
-Note over Server: verify password
-Note over Server: generate challenge
-Server->Browser:  challenge
-Browser->Device: challenge
-Note over Device: user touches button
-Device-->Browser: response
-Browser->Server: response
-Note over Server: verify response
-</div>
+---
+ - diagram: true
+---
 
 ```
 
-TODO: 用js实现一个从
-
-    ```diagram
-    ```
-
-到
-
-    <div class="diagram"> </div>
-
-的语法糖
-
+	```diagram
+	participant Device
+	participant Browser
+	participant Server
+	Browser->Server: username and password
+	Note over Server: verify password
+	Note over Server: generate challenge
+	Server->Browser:  challenge
+	Browser->Device: challenge
+	Note over Device: user touches button
+	Device-->Browser: response
+	Browser->Server: response
+	Note over Server: verify response
+	```
 
 See also: <http://flowchart.js.org/>
