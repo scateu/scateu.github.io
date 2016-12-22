@@ -4,7 +4,19 @@ title: Scan
 permalink: /scan/
 ---
 
-![]({{ site.imageurl }}/scateu-wechat.png)
+<script src="/js/qrcode.min.js"></script>
 
-![]({{ site.imageurl }}/bh1rlw.jpg)
+## Wechat
 
+<div id="qrcode" style="text-align:center"></div>
+
+<script>
+var qrcode = new QRCode('qrcode', {
+  text: 'http://weixin.qq.com/r/mJEMFHXEsCjPrTF398SK',
+  width: 256,
+  height: 256,
+  colorDark: '#000000',
+  colorLight: '#ffffff',
+  correctLevel: QRCode.CorrectLevel.H
+});
+</script>
