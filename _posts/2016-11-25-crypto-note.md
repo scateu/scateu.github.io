@@ -386,6 +386,12 @@ $$
  - Common Name (CN)
  - Fully Qualified Domain Name (FQDN)
 
+### 习题: 生成自签名的证书
+
+```bash
+openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365
+```
+
 ## 习题: 使用Let's Encrypt做一个HTTPS服务器
 
 建议直接看<https://letsencrypt.org/>上面的文档, 其次才是参考这篇[中文博客](https://imququ.com/post/letsencrypt-certificate.html). 

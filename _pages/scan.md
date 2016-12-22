@@ -8,7 +8,7 @@ permalink: /scan/
 
 ## Wechat
 
-<div id="qrcode" style="text-align:center"></div>
+<div id="qrcode"></div>
 
 <script>
 var qrcode = new QRCode('qrcode', {
