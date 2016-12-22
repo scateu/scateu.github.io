@@ -2,7 +2,6 @@
 layout: post
 title:  "大陆局域网route列表"
 date:   2014-12-02 16:14:48
-categories: route
 ---
 
 <https://github.com/jimmyxu/chnroutes>  

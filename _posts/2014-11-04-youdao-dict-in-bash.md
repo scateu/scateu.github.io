@@ -2,7 +2,6 @@
 layout: post
 title:  "使用命令行在有道上查字典"
 date:   2014-11-04 00:28:13
-categories: bash tips
 ---
 
 补充: 金山版 <https://github.com/Flowerowl/ici>

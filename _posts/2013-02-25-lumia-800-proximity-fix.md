@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  使用502胶修复lumia800距离感应器
-Date: 2013-2-25 17:00
-categories: story
+date: 2013-2-25 17:00
 ---
 
 ## 缘起

@@ -2,7 +2,6 @@
 layout: post
 title:  "OpenWRT中DHCP推送DNS地址"
 date:   2014-11-30 15:42:00
-categories: OpenWRT
 ---
 
 如果希望将某一个DHCP的区域, 推送自定义的DNS服务器地址, 可以在`/etc/config/dhcp`里加入最后一行

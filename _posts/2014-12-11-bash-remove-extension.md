@@ -2,7 +2,6 @@
 layout: post
 title:  "Bash中移除扩展名"
 date:   2014-12-11 13:57
-categories: bash xargs sed
 ---
 
 ## 问题

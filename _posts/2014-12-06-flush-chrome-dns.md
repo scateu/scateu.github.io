@@ -2,7 +2,6 @@
 layout: post
 title:  "清空DNS缓存"
 date:   2014-12-06 18:40
-categories: dns
 ---
 
 ## 清理Chrome的DNS缓存
