@@ -175,6 +175,7 @@ L = loss_function( f(输入), 期望的结果 )
  - <http://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html> [^2]
  - <http://scs.ryerson.ca/~aharley/vis> [^2]
  - <http://playground.tensorflow.org/> [^3]
+ - <http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/> [^4]
 
 Google TensorFlow. 以及TensorFlow的图形化调试工具TensorBoard.
 
@@ -202,3 +203,4 @@ Tensor: 张量. 2阶张量为矩阵, 1阶张量为向量, 0阶张量为标量.
 [^1]: > Kodaira(小平邦彦)自己经常说自己天资不好, 但是他从中学开始就是那种做事情一丝不苟全身心投入的人, 他回忆自己第一次学习van de Wearden的《代数学》, 几乎学不懂, 然后就开始抄书, 一直到抄懂为止, 可见的Feilds奖的人的学习方法也不见的先进, 唯手熟尔.  -- Heroes in My Heart (40) 发信站: BBS 水木清华站 (Wed May 15 10:38:29 2002)
 [^2]: 由 [@ppwwyyxx](http://ppwwyyxx.com/) 推荐
 [^3]: 由 GaoYichuan 推荐
+[^4]: 由 wzbozz 推荐
