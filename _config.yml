@@ -17,8 +17,8 @@ imageurl: "https://scateu.github.io/images"
 markdown: kramdown
 kramdown:
         input: GFM
-#highlighter: pygments
-#highlighter: rouge
-
+        hard_wrap: true
+        syntax_highlighter_opts:
+                disable: true
 # _pages
 include: ['_pages']

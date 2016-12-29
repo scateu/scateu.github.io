@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+      {% if page.title %}
+        {{ page.title }} | {{ site.title }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </title>
+
+    <meta name="author" content="{{ site.author }}" />
+
+    <!-- Description -->
+    {% if page.description %}
+      <meta name="description" content="{{ page.description }}" />
+    {% else %}
+      <meta name="description" content="{{ site.description }}">
+    {% endif %}
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="{{ "/js/reveal.js/css/reveal.css" | prepend: site.baseurl }}"/>
+    {%if page.theme %}
+      <link rel="stylesheet" href="{{ "/js/reveal.js/css/theme/" | prepend: site.baseurl | append: page.theme | append: '.css' }}" id="theme"/>
+    {% else %}
+      <link rel="stylesheet" href="{{ "/js/reveal.js/css/theme/black.css" | prepend: site.baseurl }}" id="theme"/>
+    {% endif %}
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="{{ "/js/reveal.js/lib/css/zenburn.css" | prepend: site.baseurl }}"/>
+
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '{{ "/js/reveal.js/css/print/pdf.css" | prepend: site.baseurl }}' : '{{ "/js/reveal.js/css/print/paper.css" | prepend: site.baseurl }}';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | prepend: site.baseurl }}" />
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  
+
+    <div class="reveal">
+      <div class="slides">
+        {{ content }}
+	<!--scateu-->
+        {% if page.ruby_notation %} {% include ruby_notation.html %} {% endif %}
+      </div>
+    </div>
+
+
+    <script src="{{ "/js/reveal.js/lib/js/head.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/reveal.js/js/reveal.js" | prepend: site.baseurl }}"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+{% if page.mathjax %}
+	math: {
+	  mathjax: 'https://cdn.bootcss.com/mathjax/2.7.0/MathJax.js',
+	  config: 'TeX-AMS-MML_HTMLorMML'  // See http://docs.mathjax.org/en/latest/config-files.html
+	},
+{% endif %}
+{% if page.multiplex %}
+    	multiplex: {
+  {% if page.multiplex == "master" %}
+		secret: '{{ page.multiplex_secret }}', // Obtained from the socket.io server. Gives this (the master) control of the presentation
+  {% else %}
+		secret: null, 
+  {% endif %}
+		id: '{{ page.multiplex_id }}', // Obtained from socket.io server
+		url: '{{ page.multiplex_url }}' // Location of socket.io server
+    	},
+{% endif %}
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+{%if page.transition %}
+          transition: '{{page.transition}}',
+{% else %}
+          transition: 'slide', // none/fade/slide/convex/concave/zoom
+{% endif %}
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '{{ "/js/reveal.js/lib/js/classList.js" | prepend: site.baseurl }}', condition: function() { return !document.body.classList; } },
+          { src: '{{ "/js/reveal.js/plugin/markdown/marked.js" | prepend: site.baseurl }}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '{{ "/js/reveal.js/plugin/markdown/markdown.js" | prepend: site.baseurl }}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '{{ "/js/reveal.js/plugin/highlight/highlight.js" | prepend: site.baseurl }}', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '{{ "/js/reveal.js/plugin/zoom-js/zoom.js" | prepend: site.baseurl }}', async: true },
+{% if page.multiplex %}
+          { src: '//cdn.socket.io/socket.io-1.3.5.js', async: true },
+  {% if page.multiplex == "master" %}
+          { src: '{{ "/js/reveal.js/plugin/multiplex/master.js" | prepend: site.baseurl }}', async: true },
+          // and if you want speaker notes
+//          { src: '{{ "/js/reveal.js/plugin/notes-server/client.js" | prepend: site.baseurl }}', async: true },
+  {% else %}
+          { src: '{{ "/js/reveal.js/plugin/multiplex/client.js" | prepend: site.baseurl }}', async: true },
+  {% endif %}
+{% endif %}
+{% if page.mathjax %} 
+          { src: '{{ "/js/reveal.js/plugin/math/math.js" | prepend: site.baseurl }}', async: true },
+{% endif %}
+          { src: '{{ "/js/reveal.js/plugin/notes/notes.js" | prepend: site.baseurl }}', async: true }
+        ]
+      });
+    </script>
+
+    {% if page.diagram %} {% include diagram-slide.html %} {% endif %}
+    
+  </body>
+</html>
