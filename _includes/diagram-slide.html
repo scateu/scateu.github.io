@@ -8,7 +8,7 @@
 <script>
 // 生成CSS Patch: .flowchart-diagram, .sequence-diagram
 // 自动根据前景色和背景色选颜色
-var word_color=$('p').css("color"); // 找一下颜色
+var word_color=$('p').css("color"); // 找一下颜色 TODO: 这有个BUG: 如果通篇没有一个文字的话，颜色就选不上了
 $('head').append('<style> .sequence-diagram > svg { fill: ' + word_color + '; } .sequence-diagram > svg rect { stroke: ' + word_color + '; fill: none; } .sequence-diagram > svg line { stroke: ' + word_color + '; fill: none; } .sequence-diagram > svg path{ stroke: ' + word_color + '; fill: ' + word_color + '; }   .sequence-diagram > svg text{ fill: ' + word_color + '; } </style>'); // 添加css
 $('head').append('<style> .flowchart-diagram > svg { fill: ' + word_color + '; } .flowchart-diagram > svg rect { stroke: ' + word_color + '; fill: none; } .flowchart-diagram > svg line { stroke: ' + word_color + '; fill: none; } .flowchart-diagram > svg path{ stroke: ' + word_color + '; fill: none; }   .flowchart-diagram > svg text{ fill: ' + word_color + '; } </style>'); // 添加css
 
