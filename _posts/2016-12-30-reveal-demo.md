@@ -1,7 +1,7 @@
 ---
 layout: slide
 title: Reveal.js与Jekyll结合演示(幻灯片)
-theme: blood
+theme: night
 # beige black blood league moon night serif simple sky solarized white
 transition: slide 
 # none/fade/slide/convex/concave/zoom  #concave可能会使iOS的Safari崩溃
@@ -251,16 +251,32 @@ echo "auth sufficient pam_u2f.so authfile=/etc/u2f_mappings cue" >> /etc/pam.d/c
 ```
 scateu:BJkQhw,04efe995ba9361b9530e2d3572662f01da08e6f28e77cfdac8981000128c0597ee5d706b7eaee9ea3a79f572654c482daa0ef9193407a3a2b379e284c08bb95a59:axh4xfEr6o_i6z8BAXcW24Q_2AWGgfx2HiW7FURLV-Wz-hCPIh_UWS1ANASSUDsxNDklsZsf2tqQ_ECy4KdRmA,04c113c247a2233665f58c1f949f25c91f9408b7dc769e69c844e147fabc6cba73be629f2dc4a8c559aeab72ca24fcd5bce221b29ea5cd0a52131f2426625376d7
 ```
+</section> <section markdown="1">
+
+ - 首先
+ - {:.fragment} 先完成一个小目标
+ - {:.fragment} 比如
+ - {:.fragment} 开个博客
 
 </section> <section markdown="1">
 
-# One More Thing
+## One More Thing
 
 </section> <section markdown="1">
 
 它可以远程遥控。Master/Client，以及Token。
 
-参见本文的[源文件](https://github.com/scateu/scateu.github.io/blob/master/_posts/2016-12-30-reveal-demo.md)。
+控制权限只需要在URL后面加一个GET参数:
 
- - 控: </2016/12/30/reveal-demo.html?multiplex_secret=14830192734523284320>
+如`?multiplex_secret=12345677898098324` 
 
+(由Token获得)
+
+ - 参见本文的[源文件](https://github.com/scateu/scateu.github.io/blob/master/_posts/2016-12-30-reveal-demo.md)
+ - 本文的[控制链接](http://scateu.me/2016/12/30/reveal-demo.html?multiplex_secret=14830192734523284320)
+
+</section> <section markdown="1">
+
+Merci.
+
+</section>
