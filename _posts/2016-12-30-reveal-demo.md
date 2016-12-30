@@ -8,13 +8,12 @@ transition: slide
 ruby_notation: true
 diagram: true
 mathjax: true
-multiplex: client # master/client 
-multiplex_id: 99702b17e6a745f9
-multiplex_secret: 14830192734523284320
-multiplex_url: https://reveal-js-multiplex-ccjbegmaii.now.sh
+multiplex:
+  id: 99702b17e6a745f9 #Secret: 14830192734523284320
+  url: https://reveal-js-multiplex-ccjbegmaii.now.sh
 # DONE: 把rogue着色器在这里关掉，或者在全局全部用highlight.js来着色
 # TODO: https://github.com/webpro/reveal-md
-# TODO: 想一个更优雅的办法来处理multiplex
+# DONE: 想一个更优雅的办法来处理multiplex
 # HELP: <section markdown="1"> </section>为分隔
 # HELP: <aside class="notes"> </aside> 为注记
 ---
@@ -262,4 +261,6 @@ scateu:BJkQhw,04efe995ba9361b9530e2d3572662f01da08e6f28e77cfdac8981000128c0597ee
 它可以远程遥控。Master/Client，以及Token。
 
 参见本文的[源文件](https://github.com/scateu/scateu.github.io/blob/master/_posts/2016-12-30-reveal-demo.md)。
+
+ - 控: </2016/12/30/reveal-demo.html?multiplex_secret=14830192734523284320>
 
