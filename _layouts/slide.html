@@ -127,5 +127,16 @@
 
     {% if page.diagram %} {% include diagram-slide.html %} {% endif %}
     
+{% if page.multiplex %}
+  <script>
+  // 强制停掉multiplex
+  if (findGetParameter("no_multiplex")) {  
+  	for ( var i in io.managers ) { 
+  		io.managers[i].removeAllListeners(); 
+  	} 
+  }
+  </script>
+{% endif %}
+
   </body>
 </html>

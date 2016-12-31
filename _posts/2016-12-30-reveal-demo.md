@@ -269,7 +269,9 @@ scateu:BJkQhw,04efe995ba9361b9530e2d3572662f01da08e6f28e77cfdac8981000128c0597ee
 
 控制权限只需要在URL后面加一个GET参数:
 
-如`?multiplex_secret=12345677898098324` 
+```
+?multiplex_secret=12345677898098324
+```
 
 (由Token获得)
 
@@ -280,15 +282,24 @@ scateu:BJkQhw,04efe995ba9361b9530e2d3572662f01da08e6f28e77cfdac8981000128c0597ee
 
 ### Tips: 如何手动禁止被控
 
-打开控制台,
-
 ```javascript
 for ( var i in io.managers ) { 
     io.managers[i].removeAllListeners(); 
 }
 ```
+
+我的模板里, 在URL后面加上一个
+
+```
+?no_multiplex=true
+```
+
+即可执行此段代码.
+
+例如本文的[强制不受控链接](http://scateu.me/2016/12/30/reveal-demo.html?no_multiplex=true)
+
 </section> <section markdown="1">
 
-Merci.
+## Merci.
 
 </section>
