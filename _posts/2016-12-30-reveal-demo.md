@@ -10,7 +10,7 @@ diagram: true
 mathjax: true
 multiplex:
   id: 99702b17e6a745f9 #Secret: 14830192734523284320
-  url: http://vpn.solarule.cn:1948/token
+  url: https://multiplex.scateu.me
   #url: https://reveal-js-multiplex-ccjbegmaii.now.sh
 # DONE: 把rogue着色器在这里关掉，或者在全局全部用highlight.js来着色
 # TODO: https://github.com/webpro/reveal-md
