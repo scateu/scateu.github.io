@@ -277,6 +277,17 @@ scateu:BJkQhw,04efe995ba9361b9530e2d3572662f01da08e6f28e77cfdac8981000128c0597ee
 
 </section> <section markdown="1">
 
+### Tips: 如何手动禁止被控
+
+打开控制台,
+
+```javascript
+for ( var i in io.managers ) { 
+    io.managers[i].removeAllListeners(); 
+}
+```
+</section> <section markdown="1">
+
 Merci.
 
 </section>
