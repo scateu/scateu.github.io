@@ -1,4 +1,5 @@
-<link href="https://cdn.bootcss.com/prism/1.6.0/themes/prism-tomorrow.min.css" rel="stylesheet">  
+<link href="https://cdn.bootcss.com/prism/1.6.0/themes/prism.min.css" rel="stylesheet">  
+<!--<link href="https://cdn.bootcss.com/prism/1.6.0/themes/prism-tomorrow.min.css" rel="stylesheet">  -->
 
 <script src="https://cdn.bootcss.com/prism/1.6.0/prism.min.js"></script>  
 
@@ -13,6 +14,8 @@
 //把所有没class的 pre code标签加上一个language-default类别，以便被prism.js处理
 //$('code:not([class])').addClass("language-default");
 
+// 暂时先不用，注释掉。
+/*
 window.onload = function(){
 	var codes = document.querySelectorAll('pre > code:not([class])');
 
@@ -21,5 +24,5 @@ window.onload = function(){
 		codes[i].parentNode.setAttribute("class","language-default");
 	}
 };
-
+*/
 </script>
