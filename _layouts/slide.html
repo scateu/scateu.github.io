@@ -25,15 +25,15 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-    <link rel="stylesheet" href="{{ "/js/reveal.js/css/reveal.css" | prepend: site.baseurl }}"/>
+    <link rel="stylesheet" href="{{ "/assets/js/reveal.js/css/reveal.css" | prepend: site.baseurl }}"/>
     {%if page.theme %}
-      <link rel="stylesheet" href="{{ "/js/reveal.js/css/theme/" | prepend: site.baseurl | append: page.theme | append: '.css' }}" id="theme"/>
+      <link rel="stylesheet" href="{{ "/assets/js/reveal.js/css/theme/" | prepend: site.baseurl | append: page.theme | append: '.css' }}" id="theme"/>
     {% else %}
-      <link rel="stylesheet" href="{{ "/js/reveal.js/css/theme/black.css" | prepend: site.baseurl }}" id="theme"/>
+      <link rel="stylesheet" href="{{ "/assets/js/reveal.js/css/theme/black.css" | prepend: site.baseurl }}" id="theme"/>
     {% endif %}
 
     <!-- Code syntax highlighting -->
-    <link rel="stylesheet" href="{{ "/js/reveal.js/lib/css/zenburn.css" | prepend: site.baseurl }}"/>
+    <link rel="stylesheet" href="{{ "/assets/js/reveal.js/lib/css/zenburn.css" | prepend: site.baseurl }}"/>
 
 
     <!-- Printing and PDF exports -->
@@ -41,7 +41,7 @@
       var link = document.createElement( 'link' );
       link.rel = 'stylesheet';
       link.type = 'text/css';
-      link.href = window.location.search.match( /print-pdf/gi ) ? '{{ "/js/reveal.js/css/print/pdf.css" | prepend: site.baseurl }}' : '{{ "/js/reveal.js/css/print/paper.css" | prepend: site.baseurl }}';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '{{ "/assets/js/reveal.js/css/print/pdf.css" | prepend: site.baseurl }}' : '{{ "/assets/js/reveal.js/css/print/paper.css" | prepend: site.baseurl }}';
       document.getElementsByTagName( 'head' )[0].appendChild( link );
     </script>
 
@@ -66,8 +66,8 @@
     </div>
 
 
-    <script src="{{ "/js/reveal.js/lib/js/head.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/reveal.js/js/reveal.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/reveal.js/lib/js/head.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/reveal.js/js/reveal.js" | prepend: site.baseurl }}"></script>
     <script>
     function findGetParameter(parameterName) {
         var result = null,
@@ -108,19 +108,19 @@
 {% endif %}
         // Optional reveal.js plugins
         dependencies: [
-          { src: '{{ "/js/reveal.js/lib/js/classList.js" | prepend: site.baseurl }}', condition: function() { return !document.body.classList; } },
-          { src: '{{ "/js/reveal.js/plugin/markdown/marked.js" | prepend: site.baseurl }}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: '{{ "/js/reveal.js/plugin/markdown/markdown.js" | prepend: site.baseurl }}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: '{{ "/js/reveal.js/plugin/highlight/highlight.js" | prepend: site.baseurl }}', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-          { src: '{{ "/js/reveal.js/plugin/zoom-js/zoom.js" | prepend: site.baseurl }}', async: true },
+          { src: '{{ "/assets/js/reveal.js/lib/js/classList.js" | prepend: site.baseurl }}', condition: function() { return !document.body.classList; } },
+          { src: '{{ "/assets/js/reveal.js/plugin/markdown/marked.js" | prepend: site.baseurl }}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '{{ "/assets/js/reveal.js/plugin/markdown/markdown.js" | prepend: site.baseurl }}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '{{ "/assets/js/reveal.js/plugin/highlight/highlight.js" | prepend: site.baseurl }}', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '{{ "/assets/js/reveal.js/plugin/zoom-js/zoom.js" | prepend: site.baseurl }}', async: true },
 {% if page.multiplex %}
           { src: '//cdn.socket.io/socket.io-1.3.5.js', async: true },
-          { src: '{{ "/js/reveal.js/plugin/multiplex/" | prepend: site.baseurl }}' + (findGetParameter("multiplex_secret") ? "master.js" : "client.js"), async: true },
+          { src: '{{ "/assets/js/reveal.js/plugin/multiplex/" | prepend: site.baseurl }}' + (findGetParameter("multiplex_secret") ? "master.js" : "client.js"), async: true },
 {% endif %}
 {% if page.mathjax %} 
-          { src: '{{ "/js/reveal.js/plugin/math/math.js" | prepend: site.baseurl }}', async: true },
+          { src: '{{ "/assets/js/reveal.js/plugin/math/math.js" | prepend: site.baseurl }}', async: true },
 {% endif %}
-          { src: '{{ "/js/reveal.js/plugin/notes/notes.js" | prepend: site.baseurl }}', async: true }
+          { src: '{{ "/assets/js/reveal.js/plugin/notes/notes.js" | prepend: site.baseurl }}', async: true }
         ]
       });
     </script>
