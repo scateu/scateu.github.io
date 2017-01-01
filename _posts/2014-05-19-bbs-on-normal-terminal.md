@@ -17,7 +17,7 @@ Host *
     ServerAliveInterval 15
     ServerAliveCountMax 3
 ```
-[来源链接](http://huiyiqun.github.io/2016/10/21/openssh-freeze-inactive-session.html)
+[来源链接](https://blog.huiyiqun.me/2016/10/21/openssh-freeze-inactive-session.html)
 
 (貌似效果没有那么显著, 但也有一部分改善. )
 
