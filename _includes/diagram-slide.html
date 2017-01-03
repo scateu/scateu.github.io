@@ -18,7 +18,7 @@ $('head').append('<style> .flowchart-diagram > svg { fill: ' + word_color + '; }
 
 // 在页面第一次载入的时候，监听一下事件，首次绘制
 //Reveal.addEventListener('ready', function( event ) { diagramPresentSlide(); });
-if ($("section.present").find(".language-sequence, .language-seq, .language-flowchart, .language-flow").length > 0) { 
+if ($("section[class='present']").find(".language-sequence, .language-seq, .language-flowchart, .language-flow").length > 0) { 
 	diagramPresentSlide(); 
 	Reveal.layout();
 }
@@ -33,12 +33,12 @@ Reveal.addEventListener('slidechanged', function( event ) { // event.previousSli
 //  sequence 是有动画的版本
 //  seq 无动画
 function diagramPresentSlide(){
-	initAnimatedSequenceDiagram("section.present .language-sequence");
-	initSequenceDiagram("section.present .language-seq");
+	initAnimatedSequenceDiagram("section[class='present'] .language-sequence");
+	initSequenceDiagram("section[class='present'] .language-seq");
 
 	// -----------以下为flowchart---------------
-	$("section.present .language-flow, section.present .language-flowchart").flowChart();
-	$("section.present .language-flow > svg, section.present .language-flowchart > svg ").unwrap().unwrap().wrap("<div class=\"flowchart-diagram\"></div>"); // 把外层的<pre><code>给去掉
+	$("section[class='present'] .language-flow, section[class='present'] .language-flowchart").flowChart();
+	$("section[class='present'] .language-flow > svg, section[class='present'] .language-flowchart > svg ").unwrap().unwrap().wrap("<div class=\"flowchart-diagram\"></div>"); // 把外层的<pre><code>给去掉
 }
 
 function initSequenceDiagram(_selector) {
@@ -55,7 +55,7 @@ function initAnimatedSequenceDiagram(_selector) { // 参考自 https://gist.gith
 
 	initSequenceDiagram(_selector);
 
-	selector="section.present .sequence-diagram";
+	selector="section[class='present'] .sequence-diagram";
 
 	$(selector + " svg").each(function() {
 		var each_svg = $(this);
