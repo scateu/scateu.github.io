@@ -38,6 +38,7 @@ permalink: /links/
  - 时序图 <http://www.websequencediagrams.com/>
     - <https://bramp.github.io/js-sequence-diagrams/>
     - <http://flowchart.js.org/>
+    - <https://knsv.github.io/mermaid/>
  - Araxis Merge / Beyond Compare 差异比对
  - Ascii 风格的流程图 <http://asciiflow.com/>
 
