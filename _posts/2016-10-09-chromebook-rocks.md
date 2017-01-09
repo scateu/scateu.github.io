@@ -126,6 +126,7 @@ Android子系统里的网络是以NAT的方式从ChromeOS出来的.
  - Search+Esc: 任务管理器
  - Alt+Search = Caps Lock
  - 貌似有原生的emacs可以用: <https://www.emacswiki.org/emacs/EmacsForChromeBooks> (目前的ARM机器还不完全被支持)
+ - Crosh Window: 配置Powerline字体: [wernight/powerline-web-fonts](https://github.com/wernight/powerline-web-fonts)
 
 
 ## One More Thing
