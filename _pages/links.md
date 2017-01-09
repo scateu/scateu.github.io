@@ -41,6 +41,7 @@ permalink: /links/
     - <https://knsv.github.io/mermaid/>
  - Araxis Merge / Beyond Compare 差异比对
  - Ascii 风格的流程图 <http://asciiflow.com/>
+ - Learn, Build & Test RegEX <http://www.regexr.com/>
 
 ## Cool stuff
  - <https://github.com/wsvn53/twitter-with-shadowsocks>
