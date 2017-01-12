@@ -3,3 +3,4 @@ _site
 .sass-cache
 *.swp
 .jekyll-metadata
+*.gem
