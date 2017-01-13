@@ -10,9 +10,10 @@ date: 2016-05-30
 
 以我的TP-Link WR720N为例:
 
-    echo 1 > /sys/class/gpio/gpio8/value #亮
-    echo 0 > /sys/class/gpio/gpio8/value #灭
-
+```bash
+echo 1 > /sys/class/gpio/gpio8/value #亮
+echo 0 > /sys/class/gpio/gpio8/value #灭
+```
 
 以后说不定可以在`make`或其它什么比较耗时的命令结束之后, blink一下灯. 或者把消息用Morse Code闪出来. 感觉会很好玩的样子. 
 
