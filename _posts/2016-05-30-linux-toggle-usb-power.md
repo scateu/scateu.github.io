@@ -44,18 +44,17 @@ fi
 
 还可以很方便的用bash来控:
 
-
-    alias blink='for i in 1 2 3 4;do curl -s -o /dev/null http://192.168.11.1/cgi-bin/led;sleep 0.3;done'
-    alias led='curl -s -o /dev/null http://192.168.11.1/cgi-bin/led'
-    
+```bash
+alias blink='for i in 1 2 3 4;do curl -s -o /dev/null http://192.168.11.1/cgi-bin/led;sleep 0.3;done'
+alias led='curl -s -o /dev/null http://192.168.11.1/cgi-bin/led'
+```
 
 这样, 就可以优雅地:
 
-
-    wget http://example.com/somemovie.mp4 && blink
-    make -j12 && blink
-    
-
+```bash
+wget http://example.com/somemovie.mp4 && blink
+make -j12 && blink
+```
 
 最棒的是, 你可以装一个我厂的[阿里钱盾](http://qd.alibaba.com), 使用钱盾快启功能, 加一个自定义URL到iOS的全局下拉框中. 非常方便. 
 (以前用京东的WIFI插座, 拖了一个充电头, 再拖了一个USB LED小灯, 作为夜灯. 要打开手机, 解锁, 打开APP, 等广告, 找到开关, 点. 特别费劲, 而且还费电.  )
@@ -67,7 +66,7 @@ fi
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lR6hN6Lh_Is" frameborder="0" allowfullscreen></iframe>
 
-```
+```bash
 sudo npm install -g homebridge
 sudo npm install -g homebridge-http
 ```
@@ -116,12 +115,13 @@ sudo npm install -g homebridge-http
 
 Linux 下可以: 
 
-    #turn on
-    xset led named "Scroll Lock"
-    
-    #turn off
-    xset -led named "Scroll Lock"
-    
+```bash
+#turn on
+xset led named "Scroll Lock"
+
+#turn off
+xset -led named "Scroll Lock"
+```
 
 Mac OS X:
 
@@ -140,7 +140,7 @@ Thinkpad的键盘灯可以直接被操作:
 
  - <http://www.thinkwiki.org/wiki/ThinkLight>
 
-```
+```bash
 # cd /sys/devices/platform/thinkpad_acpi/leds
 # ls
 tpacpi::power  tpacpi::standby  tpacpi::thinklight  tpacpi::thinkvantage
