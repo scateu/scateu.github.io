@@ -2,6 +2,7 @@
 title: "脑洞:字幕宝 (幻灯片)"
 date: 2017-01-13
 layout: slide
+diagram: true
 ---
 <section markdown="1">
 
@@ -111,10 +112,25 @@ offensive(无理) and untrue(错误的).
  - {:.fragment}不给钱就插入错的单词进行记忆污染勒索
 
 </section> <section markdown="1">
+## 商业模式示意
+
+```sequence
+用户->我们: 获取服务
+我们->用户: 提供服务
+用户->我们: 付费
+我们->广告商: 拉取广告
+广告商->我们: 付费
+我们->用户: 插入广告
+Note over 我们: 分钱
+```
+
+</section> <section markdown="1">
 
 ## 融资计划
 
- - Pre A轮: \$ 3,000,000,000,000
+ - {:.fragment}天使轮: 5000人民币占股10%
+   - {:.fragment}一次性全部买断股权可优惠到8折
+ - {:.fragment}Pre A轮: \$ 3,000,000,000
 
 </section> <section markdown="1">
 
@@ -123,6 +139,5 @@ offensive(无理) and untrue(错误的).
 </section> <section markdown="1">
 
 ## Q&A
-
 
 </section> 
