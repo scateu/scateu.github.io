@@ -134,7 +134,7 @@ Note over 我们: 分钱
 
 </section> <section markdown="1">
 
-## 谢谢。
+谢谢。
 
 </section> <section markdown="1">
 
