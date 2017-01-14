@@ -102,6 +102,10 @@ offensive(无理) and untrue(错误的).
 
 ## 再进一步: 上接 OpenSubtitles.org
 
+ - [OpenSubtitles - Developer](http://trac.opensubtitles.org/projects/opensubtitles)
+ - [OSDb协议](http://trac.opensubtitles.org/projects/opensubtitles/wiki/OSDb)
+ - [XMLRPC of OpenSubtitles](http://trac.opensubtitles.org/projects/opensubtitles/wiki/XMLRPC)
+
 </section> <section markdown="1">
 
 ## 商业模式
