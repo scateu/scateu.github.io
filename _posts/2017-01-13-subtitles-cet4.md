@@ -120,12 +120,18 @@ offensive(无理) and untrue(错误的).
 ## 商业模式示意
 
 ```sequence
-用户->我们: 钱
-Note over 我们: 分钱
-广告商->我们: 钱
-Note over 我们: 分钱
-风投->我们: 钱
-Note over 我们: 分钱
+Participant Advertisement as AD
+Participant User as U
+Participant 字幕宝® as us
+Participant Venture Capital as VC
+U->us: Money
+Note over us: Money burning
+AD->us: A lot of money
+us->U: Shit feeding
+Note over U: Shit eating
+Note over us: Money burning
+VC->us: A lot of money
+Note over us: Spend a lot of money.
 ```
 
 </section> <section markdown="1">
