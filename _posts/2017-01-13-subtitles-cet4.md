@@ -9,9 +9,9 @@ layout: slide
 
 </section> <section markdown="1">
 
- - http://example.com/Batman.srt?cet4
- - http://example.com/Batman.srt?cet6
- - http://example.com/Batman.srt?gre
+ - http://example.com/Batman.srt?level=cet4
+ - http://example.com/Batman.srt?level=cet6
+ - http://example.com/Batman.srt?level=gre
 
 </section> <section markdown="1">
 
