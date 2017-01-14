@@ -131,7 +131,7 @@ us->U: Shit feeding
 Note over U: Shit eating
 Note over us: Money burning
 VC->us: A lot of money
-Note over us: Spend a lot of money.
+Note over us: So happy.
 ```
 
 </section> <section markdown="1">
