@@ -1,5 +1,5 @@
 ---
-title: "脑洞:字幕宝"
+title: "脑洞:字幕宝 (幻灯片)"
 date: 2017-01-13
 layout: slide
 ---
