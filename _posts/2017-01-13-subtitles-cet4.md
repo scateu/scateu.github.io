@@ -88,7 +88,7 @@ offensive(无理) and untrue(错误的).
 
 ## DEMO
 
-![DEMO: Yes Prime Minister](https://github.com/scateu/zimubao/raw/master/snapshots/Yes.Prime.Minister.S02E08.png) ![DEMO: Yes Prime Minister](https://github.com/scateu/zimubao/raw/master/snapshots/Yes.Prime.Minister.S02E08-2.png) 
+|![DEMO: Yes Prime Minister](https://github.com/scateu/zimubao/raw/master/snapshots/Yes.Prime.Minister.S02E08.png) | ![DEMO: Yes Prime Minister](https://github.com/scateu/zimubao/raw/master/snapshots/Yes.Prime.Minister.S02E08-2.png) |
 
 </section> <section markdown="1">
 
