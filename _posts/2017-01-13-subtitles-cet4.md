@@ -10,6 +10,10 @@ diagram: true
 
 </section> <section markdown="1">
 
+> 语言学家在掌握词汇方法VLS(Vocabulary Learning Strategies)上常年关注和推荐的是通过自然语言情境掌握(natural context)
+
+</section> <section markdown="1">
+
  - http://example.com/Batman.srt?level=cet4
  - http://example.com/Batman.srt?level=cet6
  - http://example.com/Batman.srt?level=gre
@@ -161,8 +165,6 @@ Note over us: So happy.
 谢谢。
 
 </section> <section>
-
-<h5> Q&A </h5>
 
 {% include disqus.html %}
 
