@@ -164,4 +164,6 @@ Note over us: So happy.
 
 ## Q&A
 
+{% include disqus.html %}
+
 </section> 
