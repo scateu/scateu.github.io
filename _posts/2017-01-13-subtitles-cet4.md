@@ -160,9 +160,9 @@ Note over us: So happy.
 
 谢谢。
 
-</section> <section markdown="1">
+</section> <section>
 
-## Q&A
+<h2> Q&A </h2>
 
 {% include disqus.html %}
 
