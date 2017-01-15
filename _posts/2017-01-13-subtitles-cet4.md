@@ -162,7 +162,7 @@ Note over us: So happy.
 
 </section> <section>
 
-<h2> Q&A </h2>
+<h5> Q&A </h5>
 
 {% include disqus.html %}
 
