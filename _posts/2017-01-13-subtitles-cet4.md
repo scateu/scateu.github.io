@@ -16,6 +16,15 @@ diagram: true
 
 </section> <section markdown="1">
 
+## 字幕的四个境界
+
+ - 全中文
+ - 中外对照
+ - 全外语
+ - 只标注重点
+
+</section> <section markdown="1">
+
  - http://example.com/Batman.srt?level=cet4
  - http://example.com/Batman.srt?level=cet6
  - http://example.com/Batman.srt?level=gre
