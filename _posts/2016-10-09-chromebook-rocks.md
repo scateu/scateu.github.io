@@ -135,6 +135,10 @@ Android子系统里的网络是以NAT的方式从ChromeOS出来的.
 
 Chromium OS是开源的. 
 
+2017-02-07 补充: sbilly提醒，有一家国内的公司 [Flint OS](http://techcrunch.cn/2017/02/06/flint-os/)，打算把Chromium OS本土化。
+
+以及2016年10月中旬，阿里和HP及Intel[发布了中国版的Chromebook](http://www.ifanr.com/731268)。
+
 此外, 此机器的拆解见[张宇翔发布在iFixit上的帖子](https://www.ifixit.com/Teardown/Asus+Chromebook+Flip+C100P+Teardown/72454)
 
 
