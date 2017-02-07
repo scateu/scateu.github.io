@@ -52,7 +52,7 @@ permalink: /links/
  - [微信公众号RSS化](http://weirss.me/)
  - <https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/>
  - 辐射剂量描述表: <https://xkcd.com/radiation/>
-
+ - Geek聚集的'Kickstarter': <https://www.crowdsupply.com/>
 
 ## Resources
 
