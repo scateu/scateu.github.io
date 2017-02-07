@@ -154,3 +154,6 @@ Chromium OS是开源的.
 买了[H26M52103FMR](https://item.taobao.com/item.htm?ut_sk=1.WAionKv8eSQDAI%2BwbiJNt3KW_21380790_1479807598643.Copy.1&id=45849929512&sourceType=item&price=35-85&suid=59CBBBF7-DDB7-4FD0-9FC2-F78037047B9E&un=d49adc12bab59d5fc8173a2742a8d707&share_crt_v=1&cpp=1&shareurl=true&spm=a313p.22.1eg.16658551388&short_name=h.YFlnQX&cv=AAbEPRDo&sm=a6f2bd&app=chrome)(大约35块钱)去中关村换上好了. 
 
 
+## See Also
+
+ - [Bigeagle 关于 ASUS Chromebook Flip 的体验](https://bigeagle.me/2017/02/ASUS-chromebook-flip/)
