@@ -153,6 +153,8 @@ $$ (m^e)^d \equiv m \mod pq $$
 
 费马小定理: ($p$为素数, 且$p$不整除$a$. )
 
+([这里](https://mp.weixin.qq.com/s?__biz=MzA3OTgzMzUzOA==&mid=2651227431&idx=1&sn=8a249975b3b754b062a9f998eb111338&chksm=845f558ab328dc9c200db932866abd363a5b284e35f72c7317aa2329c9d7b003339724cbe735&mpshare=1&scene=1&srcid=02155ICQJ3eATKwRpgHvufkN&pass_ticket=9%2F4JlZH6VGedHYRK2ggZ1a04q%2FglG9kWCUNTWLKKdauf91Rr3tjyz8UPyKamAyJS#rd)有一个很有趣的证明，物理学家给出的，使用伊辛自旋(Ising spin)证明，但实际上不理解这个概念也无所谓，用小学几何知识就够了)
+
 $$ a^{p-1} \equiv 1 \mod p $$ 
 
 中国剩余定理(CRT: Chinese Remainder Theorem):
