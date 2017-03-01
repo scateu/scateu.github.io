@@ -39,7 +39,7 @@ $$
 则$\mathrm{G}$的频率为:
 
 $$
-2^{\frac{7}{12}} f \approx 1.498 f \approx \frac{3}{2} f
+2^{\frac{7}{12}} f \approx 1.498 f \approx \frac{3}{2} f \approx 392.476 \mathrm{Hz}
 $$
 
 
