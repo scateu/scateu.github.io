@@ -27,7 +27,7 @@ $$
 \mathrm{a} = 441 \times 2^{\frac{12}{12}} = 882 \mathrm{Hz}
 $$
 
-(在演出前，吹笙的同学会四处找我们给我们校音，亮出家伙低声道: "要A么?")
+(在演出前，[吹笙的同学](https://sites.google.com/site/mydtsinghua/dui-wei-jie-shao/xue-yuan-ban)会四处找我们给我们校音，亮出家伙低声道: "要A么?")
 
 ## 功夫熊猫
 
