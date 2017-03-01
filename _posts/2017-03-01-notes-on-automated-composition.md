@@ -24,6 +24,7 @@ $$
 \mathrm{A} = 441 \mathrm{Hz} \\
 \mathrm{A\#} = 441 \times 2^{\frac{1}{12}} = 467.223 \mathrm{Hz} \\
 \mathrm{B} = 441 \times 2^{\frac{2}{12}} = 495.006 \mathrm{Hz} \\
+\vdots \\
 \mathrm{a} = 441 \times 2^{\frac{12}{12}} = 882 \mathrm{Hz}
 $$
 
