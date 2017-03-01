@@ -17,10 +17,13 @@ $$
 十二平均律的话:
 
 $$
-C = 441 Hz \\
-C# = 441 \times 2^{\frac{1}{12}} = 467.223 Hz \\
-c = 441 \times 2^{\frac{12}{12}} = 882 Hz 
+\mathrm{A} = 441 \mathrm{Hz}
+\mathrm{A\#} = 441 \times 2^{\frac{1}{12}} = 467.223 \mathrm{Hz} \\
+\mathrm{B} = 441 \times 2^{\frac{2}{12}} = 495.006 \mathrm{Hz} \\
+\mathrm{a} = 441 \times 2^{\frac{12}{12}} = 882 \mathrm{Hz}
 $$
+
+(在演出前，吹笙的同学会四处找我们给我们校音，亮出家伙低声道: "要A么?")
 
 作曲家的工作，就是从这些组合里，尽可能地搜索(暴力破解、遍历)到好的、令人印象深刻的、魔音绕耳三日不绝的跳频序列(Frequency Hopping Pattern)
 
