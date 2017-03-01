@@ -31,15 +31,22 @@ $$
 
 **算例:**
 
-(五度相生律)
+([五度相生律](https://zh.wikipedia.org/wiki/%E4%BA%94%E5%BA%A6%E7%9B%B8%E7%94%9F%E5%BE%8B))
 
-设$\mathrm{C}$的频率为$f$。
+设$\mathrm{C}$的频率为$f=262 \mathrm{Hz}$。
 
 则$\mathrm{G}$的频率为:
 
 $$
-2^{\frac{7}{12}} \times f \approx 1.498 f \approx \frac{3}{2} f
+2^{\frac{7}{12}} f \approx 1.498 f \approx \frac{3}{2} f
 $$
+
+
+| C (Do) | D (Re) | E (Mi) | F (Fa) | G (Sol) | A (La) | B (Si) | c (Do) |
+|--------|--------|--------|--------|---------|--------|--------|--------|
+| 262    | 294    | 330    | 349    | 392     | 440    | 494    | 524    |
+
+
 
 ## 功夫熊猫
 
