@@ -29,6 +29,18 @@ $$
 
 (在演出前，[吹笙的同学](https://sites.google.com/site/mydtsinghua/dui-wei-jie-shao/xue-yuan-ban)会四处找我们给我们校音，亮出家伙低声道: "要A么?")
 
+**算例:**
+
+(五度相生律)
+
+设$\mathrm{C}$的频率为$f$。
+
+则$\mathrm{G}$的频率为:
+
+$$
+2^{\frac{7}{12}} \times f \approx 1.498 f \approx \frac{3}{2} f
+$$
+
 ## 功夫熊猫
 
     | 3 5 6 3 2 1 3 |
