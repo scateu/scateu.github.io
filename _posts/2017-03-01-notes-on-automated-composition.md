@@ -1,5 +1,5 @@
 ---
-title: "自动作曲导论"
+title: "音频跳频序列搜索 - 自动作曲导论"
 date: 2017-03-01
 layout: post
 mathjax: true
@@ -97,6 +97,9 @@ $$
 
     35 6i65 6
 
+## Viva la vida - Coldplay
+
+    1 1 1 12 2 2 2 2 7 7 7 7 3 3 3 3 3 
 
 ## 谭晶: 在那东山顶上
 
