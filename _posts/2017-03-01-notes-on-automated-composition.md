@@ -20,6 +20,8 @@ $$
 
 ## 十二平均律
 
+学有余力的同学，建议参考[Yaboo: 《律学》](https://leoyaboo.github.io/2017/03/04/musical-temperament.html)
+
 $$
 \mathrm{A} = 441 \mathrm{Hz} \\
 \mathrm{A\#} = 441 \times 2^{\frac{1}{12}} = 467.223 \mathrm{Hz} \\
