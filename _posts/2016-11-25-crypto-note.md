@@ -281,12 +281,15 @@ $$
 
 关于椭圆曲线密码学(Elliptic Curve), 可以见
  - [Certicom公司的教程](https://www.certicom.com/index.php/ecc-tutorial)
- - [这篇中文博客](https://097.io/understand-ecc/)
- - [这篇文章](http://www.pediy.com/kssd/pediy06/pediy6014.htm)
+ - <https://097.io/understand-ecc/>
+ - <http://www.pediy.com/kssd/pediy06/pediy6014.htm>
  - [Youtube](https://www.youtube.com/watch?v=dCvB-mhkT0w)
- - 以及[OpenSSL Wiki](https://wiki.openssl.org/index.php/Elliptic_Curve_Cryptography)
+ - [OpenSSL Wiki](https://wiki.openssl.org/index.php/Elliptic_Curve_Cryptography)
  - 这篇[签名算法DSA和ECDSA-阅微堂](http://zhiqiang.org/blog/it/das-and-ecdsa-rsa.html)写的也非常不错
- - 还有这篇: <http://www.johannes-bauer.com/compsci/ecc/>
+ - <http://www.johannes-bauer.com/compsci/ecc/>
+ - <https://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/>
+
+![](https://blog.cloudflare.com/content/images/image01.gif)
 
 ### 准备知识: 连续情况的椭圆曲线
 
