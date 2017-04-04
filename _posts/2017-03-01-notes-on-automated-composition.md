@@ -272,3 +272,7 @@ $$
 ## 习题
 
 请根据以上信息，制备一个自动作曲人工智能。下周五交给课代表。
+
+## 参考
+
+ - <https://www.youtube.com/watch?v=wxJImbUCyJw&list=PLKDwJGmIffmdWLKsfrpNKyY1QCo653rya>
