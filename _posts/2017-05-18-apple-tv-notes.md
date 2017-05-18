@@ -17,6 +17,8 @@ layout: post
 
 > NSBlink: Apple TV是点对点投屏，怪不得比乐播流畅，电脑只要开了WiFi和蓝牙，不需要在一个网络里。
 
+> NSBlink: 似乎是这个interface: AWDL (Apple Wireless Direct Link) is a low latency/high speed WiFi peer-to peer-connection Apple uses for everywhere you'd expect: AirDrop, GameKit (which also uses Bluetooth), AirPlay, and perhaps elsewhere. It works using its own dedicated network interface, typically “awdl0".  实测AirDrop传文件的时候不会让AirPlay卡顿
+
 ## 材料 
 
 - Apple TV 3
