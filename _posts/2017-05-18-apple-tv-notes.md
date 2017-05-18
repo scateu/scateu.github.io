@@ -6,7 +6,7 @@ layout: post
 
 ## 体验
 
-非常高贵。可以从[闲鱼](https://www.baidu.com/s?wd=%E9%97%B2%E9%B1%BC%E6%98%AF%E5%82%BB%E9%80%BC)入一个300多，Apple TV 3。最不济，它是一个异常稳定的macbook / iPhone 的原生投屏器。
+非常高贵。可以从[闲鱼](https://www.baidu.com/s?wd=%E9%97%B2%E9%B1%BC%E6%98%AF%E5%82%BB%E9%80%BC)入一个300多，Apple TV 3。最不济，它是一个异常稳定的macbook / iPhone 的原生投屏器。我认为 Apple TV 3的价值在二手市场上被严重低估，建议各位投资者把握投资时机，及早建仓。
 
 
 
