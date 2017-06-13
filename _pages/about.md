@@ -30,7 +30,8 @@ permalink: /about/
     - Only wimps use tape backup: real men just upload their important stuff on ftp, 
       and let the rest of the world mirror it ;)
        - Torvalds, Linus (1996-07-20).
-
+       
+    - We are drowning in information, but starved for knowledge." - John Naisbitt
 
 ## 2 Projects
 
