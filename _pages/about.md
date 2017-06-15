@@ -23,10 +23,6 @@ permalink: /about/
 
     - 不想当黑客的程序员不是好产品经理。
 
-    - 给我一队码农，我可以撬起地球。
-
-    - I write Python.
-
     - Only wimps use tape backup: real men just upload their important stuff on ftp, 
       and let the rest of the world mirror it ;)
        - Torvalds, Linus (1996-07-20).
