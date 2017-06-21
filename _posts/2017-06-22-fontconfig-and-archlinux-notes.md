@@ -4,7 +4,7 @@ date: 2017-06-22
 layout: post
 ---
 
-简言之，就是Firefox显示fastmail里用的Source Sans Pro字体，自带hinting。多次hinting之后，就会有问题，单词之间就会有很大的空间，和空格基本无法区分。
+简言之，就是Firefox显示fastmail里用的Source Sans Pro字体，自带hinting。多次hinting之后，就会有问题，单词的字母之间就会有很大的空间，和空格基本无法区分。
 
 
 依次试了:
@@ -84,9 +84,8 @@ $ fc-match mono
 
 ## 附: Archlinux 目前装的包
 
-
-```bash
-$ pacman -Qet 
+<details markdown="1"><summary> `pacman -Qet` </summary>
+```
 adobe-source-code-pro-fonts 2.030ro+1.050it-3
 adobe-source-han-sans-cn-fonts 1.004-2
 adobe-source-sans-pro-fonts 2.020ro+1.075it-2
@@ -174,6 +173,16 @@ xdg-user-dirs-gtk 0.10+9+g5b7efc6-1
 xfsprogs 4.11.0-1
 yaourt 1.8.1-1
 zsh 5.3.1-2
+```
+
+
+**Fcitx:** 由于没用X而用了Wayland，不能在`.xprofile`里加，而应该在`/etc/environment`里加:
+
+```
+$ cat /etc/environment 
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
 ```
 
 ## 参考
