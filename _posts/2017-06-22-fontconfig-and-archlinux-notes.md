@@ -49,7 +49,7 @@ pacman -S adobe-source-{sans,serif,code}-pro-fonts noto-fonts-cjk
      - Interface: Cantarell Regular 11
      - Documents: Noto Sans CJK SC Regular 11
      - Monospace: Monospace Regular 11
-     - Hinting: Full
+     - Hinting: Slight
      - Antialiasing: Rgba
 
 
