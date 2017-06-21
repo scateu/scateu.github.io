@@ -84,7 +84,7 @@ $ fc-match mono
 
 ## 附: Archlinux 目前装的包
 
-<details markdown="1"><summary> <pre> pacman -Qet </pre> </summary>
+<details markdown="1"><summary> pacman -Qet </summary>
 ```
 adobe-source-code-pro-fonts 2.030ro+1.050it-3
 adobe-source-han-sans-cn-fonts 1.004-2
