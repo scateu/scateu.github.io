@@ -179,7 +179,7 @@ zsh 5.3.1-2
 
 **Fcitx:** 由于没用X而用了Wayland，不能在`.xprofile`里加，而应该在`/etc/environment`里加:
 
-```
+```bash
 $ cat /etc/environment 
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
