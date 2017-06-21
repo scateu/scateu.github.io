@@ -174,6 +174,7 @@ xfsprogs 4.11.0-1
 yaourt 1.8.1-1
 zsh 5.3.1-2
 ```
+</details>
 
 
 **Fcitx:** 由于没用X而用了Wayland，不能在`.xprofile`里加，而应该在`/etc/environment`里加:
