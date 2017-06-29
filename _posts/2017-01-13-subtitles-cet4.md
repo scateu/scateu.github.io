@@ -11,8 +11,6 @@ multiplex:
 
 # "字幕宝"
 
-#### "老北京字幕灵"
-
 </section> <section markdown="1">
 
 > 语言学家在掌握词汇方法VLS(Vocabulary Learning Strategies)上常年关注和推荐的是通过自然语言情境掌握(natural context)
