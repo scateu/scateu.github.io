@@ -3,6 +3,9 @@ title: "字幕宝 (幻灯片)"
 date: 2017-01-13
 layout: slide
 diagram: true
+multiplex:
+  id: 8b597378a55d5144 #secret: 14987006351866732590
+  url: https://multiplex.scateu.me
 ---
 <section markdown="1">
 
