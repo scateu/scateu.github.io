@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-## 0 Contact Me.
+## 0 Contact
 
     $ whois scateu.me
 
@@ -23,10 +23,6 @@ permalink: /about/
 
     - 不想当黑客的程序员不是好产品经理。
 
-    - 给我一队码农，我可以撬起地球。
-
-    - I write Python.
-
     - Only wimps use tape backup: real men just upload their important stuff on ftp, 
       and let the rest of the world mirror it ;)
        - Torvalds, Linus (1996-07-20).
@@ -37,11 +33,15 @@ permalink: /about/
 
 ### 2.1 Github
 
+ - [Alpine Patches](http://alpine.freeiz.com/alpine/release/index.html)
+   - Unix-Alpine: Connect securely to a LDAP server on a secure port. Based on a contribution by Wang Kang. 
+   - HTML messages that contain UTF-8 may wrap at the wrong position, making Alpine not display the correct character at the position that wrapping is done. Reported by Wang Kang. 
  - [GSM-SMS-Forwarder GSM短信Email转发](https://github.com/scateu/GSM-SMS-Forwarder)
  - [GPS火星坐标转换](https://github.com/scateu/PyWGS84ToGCJ02) 
  - [在Raspberry Pi/ArchLinux上编译GNURadio](https://github.com/scateu/GNURadioForRaspberryPiOnArchlinux)
  - [RSS关键字监测](https://github.com/scateu/newsmth-monitor)
  - [gr-remotecar 遥控车GNURadio控制模块](https://github.com/scateu/gr-remotecar)
+
 
 ### 2.2 中国移动 TDLTE上网卡 Linux驱动
 
@@ -54,6 +54,7 @@ permalink: /about/
  - [GNURadio与HackRF介绍](http://www.slideshare.net/WangKang1/2014hfdgnuradio-x-hackrf-scateu)
  - [技术分析：Femtocell家庭基站通信截获、伪造任意短信漏洞](http://www.freebuf.com/articles/wireless/70458.html)
  - 2015.11.12 [BlackHat Europe 2015](http://www.blackhat.com/eu-15/speakers/Wang-Kang.html) ["Time and Position Spoofing with Open Source Projects"](https://www.blackhat.com/eu-15/briefings.html#is-your-timespace-safe-time-and-position-spoofing-opensourcely) [幻灯片](https://www.blackhat.com/docs/eu-15/materials/eu-15-Kang-Is-Your-Timespace-Safe-Time-And-Position-Spoofing-Opensourcely.pdf) / [白皮书](https://www.blackhat.com/docs/eu-15/materials/eu-15-Kang-Is-Your-Timespace-Safe-Time-And-Position-Spoofing-Opensourcely-wp.pdf) / [Youtube](https://www.youtube.com/watch?v=XpivcmmoWQU)
+ - 2017.7 [Blackhat USA 2017](https://www.blackhat.com/us-17/speakers/Wang-Kang.html)
 
 ## 3 经历
 
@@ -117,27 +118,12 @@ permalink: /about/
  * Photoshop / Picasa / ImageMagick / Python.PIL / Tesseract
  * Kindle / Blackberry 9700 / Evernote
 
-## 4 Wish
-
-  * 尝试在对讲机上跑通IP协议栈 
-  * 维护一个长久一点的博客 
-  * 好好补习数字信号处理的知识
-  * 学习钢琴/配器/和弦之后作个曲录个MV/阿卡贝拉，然后传Youtube上
-  * 养成锻炼身体的好习惯
-  * 铝热反应烧大铁门
-  * 编排演出《仙剑奇侠传》的主题曲
-  * 推动民族管弦乐团排练自动化 
-  
-## 5 Resume
-  
-  TODO
-
-## 6 装备
+##  装备
 
 见 [Devices页面](../devices)，欢迎来借=。=
 
 
-## 7 业余无线电呼号 CallSign: BH1RLW
+## 业余无线电呼号 CallSign: BH1RLW
 
 <http://qrz.com/db/BH1RLW>
 
