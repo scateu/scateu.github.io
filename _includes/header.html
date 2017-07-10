@@ -19,6 +19,9 @@
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
+        {% if site.pinboard_username %}
+	  <a class="page-link" href="https://pinboard.in/u:{{ site.pinboard_username }}/public">Pinboard</a>
+	{% endif %}
       </div>
     </nav>
 
