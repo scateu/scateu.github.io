@@ -17,6 +17,7 @@ permalink: /about/
     uid       [ultimate] [jpeg image of size 14244]
     sub   4096R/19E45ED7 2016-04-06
 
+ - [Pinboard](https://pinboard.in/u:scateu/public)  ([RSS](https://feeds.pinboard.in/rss/u:scateu/))
 ## 1 Motto
 
     - 没有什么是讲一个段子解决不了的，如果有，那就讲两个。
