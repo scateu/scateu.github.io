@@ -122,6 +122,9 @@ permalink: /about/
 
 见 [Devices页面](../devices)，欢迎来借=。=
 
+## CV
+
+ - [CV.txt](https://gist.github.com/scateu/ddfa67766de8b7151f66c03f749dc87b)
 
 ## 业余无线电呼号 CallSign: BH1RLW
 
