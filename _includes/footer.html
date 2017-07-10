@@ -9,8 +9,10 @@
         <ul class="contact-list">
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-	  <li><a href="https://pinboard.in/u:scateu/public">Pinboard:scateu</a></li>
-	  <li><a href="http://scateu.me/feed.xml">RSS Feed</a></li>
+          {% if site.pinboard_username %}
+	  <li><a href="https://pinboard.in/u:{{ site.pinboard_username }}/public">My Pinboard</a></li>
+	  {% endif %}
+	  <li><a href="{{ site.url }}/feed.xml">RSS Feed</a></li>
         </ul>
       </div>
 

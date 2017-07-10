@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://scateu.github.io" # the base hostname & protocol for your site
 twitter_username: scateu
 github_username:  scateu
+pinboard_username: scateu
 linkedin_url: "http://cn.linkedin.com/in/scateu"
 facebook_url: "https://www.facebook.com/kangw2"
 flickr_url: ""
