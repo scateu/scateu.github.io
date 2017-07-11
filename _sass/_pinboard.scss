@@ -1,8 +1,14 @@
 .pin-title { font-size:1em;text-decoration:none;color:#00a}
 .pin-title:before {
-	content: "\00BB";
-	margin-right: 6px;
+	content: "  ";
+	background: url('../../images/font-awesome/thumb-tack.svg');
+	// https://github.com/encharm/Font-Awesome-SVG-PNG/blob/master/black/svg/external-link.svg
+	background-size: 1em;
+	background-size: contain;
+	width: 1em;
+	height: 1em;
+	display: inline-block;
 }
-.pin-description { color:#555; }
+.pin-description { font-size:0.9em; color:#555; }
 //.pin-tag { color:#18c;text-decoration:none;font-size:0.9em; }
 .pin-tag { display: none; }

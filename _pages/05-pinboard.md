@@ -8,6 +8,7 @@ permalink: /pinboard/
 > 啊你们非要说我不务正业的话，这个其实叫"威胁情报感知"
 
 
+<link rel="stylesheet" href="http://icono-49d6.kxcdn.com/icono.min.css">
 
 <script language="javascript" src="http://pinboard.in//widgets/v1/linkroll/?user=scateu&count=160"></script>
 
