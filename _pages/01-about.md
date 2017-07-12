@@ -55,6 +55,7 @@ permalink: /about/
  - [技术分析：Femtocell家庭基站通信截获、伪造任意短信漏洞](http://www.freebuf.com/articles/wireless/70458.html)
  - 2015.11.12 [BlackHat Europe 2015](http://www.blackhat.com/eu-15/speakers/Wang-Kang.html) ["Time and Position Spoofing with Open Source Projects"](https://www.blackhat.com/eu-15/briefings.html#is-your-timespace-safe-time-and-position-spoofing-opensourcely) [幻灯片](https://www.blackhat.com/docs/eu-15/materials/eu-15-Kang-Is-Your-Timespace-Safe-Time-And-Position-Spoofing-Opensourcely.pdf) / [白皮书](https://www.blackhat.com/docs/eu-15/materials/eu-15-Kang-Is-Your-Timespace-Safe-Time-And-Position-Spoofing-Opensourcely-wp.pdf) / [Youtube](https://www.youtube.com/watch?v=XpivcmmoWQU)
  - 2017.7 [Blackhat USA 2017](https://www.blackhat.com/us-17/speakers/Wang-Kang.html)
+   - [Forbes 采访](https://www.forbes.com/sites/thomasbrewster/2017/07/11/alibaba-researchers-attack-facebook-vr-with-soundwaves/#63d5926b13a6)
 
 ## 3 经历
 
