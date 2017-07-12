@@ -13,6 +13,22 @@
 	height: 1em;
 	display: inline-block;
 }
-.pin-description { font-size:0.9em; color:#555; }
+.pin-description { 
+	font-size:0.9em; 
+	color:#555; 
+}
+
+.pin-description:before {
+	position: relative;
+	top: 2px;
+	right: 10px;
+	content: "  ";
+	//background: url('../../images/font-awesome/chevron-right.svg');
+	background-size: 1em;
+	background-size: contain;
+	width: 1em;
+	height: 1em;
+	display: inline-block;
+}
 //.pin-tag { color:#18c;text-decoration:none;font-size:0.9em; }
 .pin-tag { display: none; }
