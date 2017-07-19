@@ -28,6 +28,7 @@ permalink: /about/
        - Torvalds, Linus (1996-07-20).
        
     - We are drowning in information, but starved for knowledge." - John Naisbitt
+    - You can't win, by killing your enemy. - [ArthurX](http://arthurx.com/)
 
 ## 2 Projects
 
