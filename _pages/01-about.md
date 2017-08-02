@@ -57,6 +57,7 @@ permalink: /about/
  - 2015.11.12 [BlackHat Europe 2015](http://www.blackhat.com/eu-15/speakers/Wang-Kang.html) ["Time and Position Spoofing with Open Source Projects"](https://www.blackhat.com/eu-15/briefings.html#is-your-timespace-safe-time-and-position-spoofing-opensourcely) 
    - [幻灯片](https://www.blackhat.com/docs/eu-15/materials/eu-15-Kang-Is-Your-Timespace-Safe-Time-And-Position-Spoofing-Opensourcely.pdf) \| [白皮书](https://www.blackhat.com/docs/eu-15/materials/eu-15-Kang-Is-Your-Timespace-Safe-Time-And-Position-Spoofing-Opensourcely-wp.pdf) \| [Youtube](https://www.youtube.com/watch?v=XpivcmmoWQU)
  - 2017.7 [Blackhat USA 2017](https://www.blackhat.com/us-17/speakers/Wang-Kang.html)
+   - <https://sonicgun.github.io>
    - [Forbes](https://www.forbes.com/sites/thomasbrewster/2017/07/11/alibaba-researchers-attack-facebook-vr-with-soundwaves/#63d5926b13a6) \| [Wired](https://www.wired.com/story/best-black-hat-defcon-talks/) \| [法国媒体01net](http://www.01net.com/actualites/ils-hackent-des-smartphones-et-des-gyropodes-avec-des-ultrasons-1225628.html) \| [VRScout](https://vrscout.com/news/hackers-ultrasonic-waves-disrupt-vr-headset/#) \| [Ars Technica](https://arstechnica.com/gadgets/2017/07/sounds-bad-researchers-demonstrate-sonic-gun-threat-against-smart-devices/#p3)
    - [36Kr](https://36kr.com/p/5083611.html) \| [Solidot](http://www.solidot.org/story?sid=53281) \| [cnBeta](http://www.cnbeta.com/articles/tech/636609.htm) \| [Sina](http://tech.sina.com.cn/d/2017-07-31/doc-ifyinryq7213754.shtml)
 
