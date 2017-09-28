@@ -30,6 +30,7 @@ permalink: /about/
     - We are drowning in information, but starved for knowledge." - John Naisbitt
     - You can't win, by killing your enemy. - [ArthurX](http://arthurx.com/)
     - The most powerful person in the world is the storyteller. - Steve Jobs, 1994
+    - Do. Or do not. There is no try.  - Yoda
 
 ## 2 Projects
 
