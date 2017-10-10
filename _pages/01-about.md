@@ -68,7 +68,7 @@ permalink: /about/
  * 2016.7.3 [TEDx演讲: 《安全的三驾马车》](http://v.youku.com/v_show/id_XMTY2MjU0NTIwNA==.html)
    - [照片1]({{ site.imageurl }}/TEDxJuzizhou-1.jpg) [照片2]({{ site.imageurl }}/TEDxJuzizhou-2.jpg) [照片3]({{ site.imageurl }}/TEDxJuzizhou-3.jpg) [照片4]({{ site.imageurl }}/TEDxJuzizhou-4.jpg)
  * 2016.4.11 坐客[走近科学]({{ site.imageurl }}/CCTV_Approach_Science.jpg) 链接:[CNTV](http://tv.cntv.cn/video/C10355/c2eafcd11fa5480e8d370adcc21a540f)
- * 2015.3 安全专家(五达)  阿里巴巴集团安全部-安全技术与产品-移动安全 
+ * 2015.3 安全专家([五达](http://www.toutiao.com/i6475174123537433101/))  阿里巴巴集团安全部-安全技术与产品-移动安全 
    - 《尔雅·释宫》"五达谓之康，六达谓之庄"
    - 研究方向为智能硬件设备的安全
  * 2014.12 给传奇黑客Fabrice Bellard的[BPG](http://bellard.org/bpg)项目报了Bug，并获得修复。
