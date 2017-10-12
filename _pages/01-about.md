@@ -31,6 +31,7 @@ permalink: /about/
     - You can't win, by killing your enemy. - [ArthurX](http://arthurx.com/)
     - The most powerful person in the world is the storyteller. - Steve Jobs, 1994
     - Do. Or do not. There is no try.  - Yoda
+    - Everyone you meet is fighting a battle you know nothing about. Be kind. Always.  - Brad Meltzer
 
 ## 2 Projects
 
