@@ -4,6 +4,7 @@ title: Kindle
 permalink: /kindle/
 ---
 
+* TOC
 {:toc}
 
 # 别闹了,费曼先生
