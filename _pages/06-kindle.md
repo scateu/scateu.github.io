@@ -4,6 +4,8 @@ title: Kindle
 permalink: /kindle/
 ---
 
+{:toc}
+
 # 别闹了,费曼先生
 
 2017年10月19日 21:04:32
