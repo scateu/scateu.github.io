@@ -8,9 +8,6 @@ layout: post
 
 我给你们演示一下...
 
-*(暂时不支持Safari)*
-
-
 <script>
 var audio = [];
 audio.push(new Audio('{{ site.imageurl }}/ringringring/ios_notification.mp3'));
@@ -46,4 +43,4 @@ function loop() {
 // https://stackoverflow.com/questions/6962658/randomize-setinterval-how-to-rewrite-same-random-after-random-interval
 </script>
 
-<input type="button" value="走你。"  onclick="loop()">
+<input type="button" value="走你..."  onclick="javascript:loop()">
