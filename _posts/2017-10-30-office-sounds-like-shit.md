@@ -32,7 +32,7 @@ function doSomething() {
 }
 
 function loop() {
-	    var rand = Math.round(Math.random() * (3000 - 500)) + 500;
+	    var rand = Math.round(Math.random() * (10000 - 5000)) + 5000;
 	    setTimeout(function() {
 		                doSomething();
 		                loop();  
@@ -44,3 +44,5 @@ function loop() {
 </script>
 
 <input type="button" value="走你..."  onclick="loop()">
+
+(多点几下有惊喜)
