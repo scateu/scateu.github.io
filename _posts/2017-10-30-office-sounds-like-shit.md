@@ -8,6 +8,8 @@ layout: post
 
 我给你们演示一下...
 
+*(暂时不支持Safari)*
+
 
 <script>
 var audio = [];
