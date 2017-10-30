@@ -11,15 +11,15 @@ layout: post
 
 <script>
 var audio = [];
-audio.push(new Audio('{{ site.imageurl }/ringringring/ios_notification.mp3'));
-audio.push(new Audio('{{ site.imageurl }/ringringring/iphone_note_sms.mp3'));
-audio.push(new Audio('{{ site.imageurl }/ringringring/iphone_sms_original.mp3'));
-audio.push(new Audio('{{ site.imageurl }/ringringring/iphone_ding_ding.mp3'));
-audio.push(new Audio('{{ site.imageurl }/ringringring/xiaomi.mp3'));
-audio.push(new Audio('{{ site.imageurl }/ringringring/wechat-call.mp3'));
-audio.push(new Audio('{{ site.imageurl }/ringringring/ding_message.mp3'));
-audio.push(new Audio('{{ site.imageurl }/ringringring/ding.mp3'));
-audio.push(new Audio('{{ site.imageurl }/ringringring/ding_voip.mp3'));
+audio.push(new Audio('{{ site.imageurl }}/ringringring/ios_notification.mp3'));
+audio.push(new Audio('{{ site.imageurl }}/ringringring/iphone_note_sms.mp3'));
+audio.push(new Audio('{{ site.imageurl }}/ringringring/iphone_sms_original.mp3'));
+audio.push(new Audio('{{ site.imageurl }}/ringringring/iphone_ding_ding.mp3'));
+audio.push(new Audio('{{ site.imageurl }}/ringringring/xiaomi.mp3'));
+audio.push(new Audio('{{ site.imageurl }}/ringringring/wechat-call.mp3'));
+audio.push(new Audio('{{ site.imageurl }}/ringringring/ding_message.mp3'));
+audio.push(new Audio('{{ site.imageurl }}/ringringring/ding.mp3'));
+audio.push(new Audio('{{ site.imageurl }}/ringringring/ding_voip.mp3'));
 
 function choose(choices) {
 	  var index = Math.floor(Math.random() * choices.length);
