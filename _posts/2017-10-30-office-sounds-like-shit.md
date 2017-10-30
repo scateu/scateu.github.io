@@ -33,7 +33,7 @@ function doSomething() {
 }
 
 function loop() {
-	    var rand = Math.round(Math.random() * (10000 - 5000)) + 5000;
+	    var rand = Math.round(Math.random() * (6000 - 1000)) + 1000;
 	    setTimeout(function() {
 		                doSomething();
 		                loop();  
