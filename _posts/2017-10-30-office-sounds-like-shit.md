@@ -34,14 +34,16 @@ function doSomething() {
 	_audio.play();
 }
 
-(function loop() {
+function loop() {
 	    var rand = Math.round(Math.random() * (3000 - 500)) + 500;
 	    setTimeout(function() {
 		                doSomething();
 		                loop();  
 		        }, rand);
-}());
+}();
 
 
 // https://stackoverflow.com/questions/6962658/randomize-setinterval-how-to-rewrite-same-random-after-random-interval
 </script>
+
+<input type="button" value="走你。"  onclick="loop()">
