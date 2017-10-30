@@ -39,10 +39,15 @@ function loop() {
 		        }, rand);
 };
 
+function start() { 
+	doSomething();
+	loop();
+}
+
 
 // https://stackoverflow.com/questions/6962658/randomize-setinterval-how-to-rewrite-same-random-after-random-interval
 </script>
 
-<input type="button" value="走你..."  onclick="loop()">
+<input type="button" value="走你..."  onclick="start()">
 
 (多点几下有惊喜)
