@@ -176,6 +176,8 @@ Note over us: So happy.
 
 谢谢。
 
+ - [Reference](https://github.com/studyzy/LearnEnglishBySubtitle?utm_source=www.appinn.com)
+
 </section> <section>
 
 {% include disqus.html %}
