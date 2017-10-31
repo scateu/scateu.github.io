@@ -64,7 +64,7 @@ function start() {
 // https://stackoverflow.com/questions/6962658/randomize-setinterval-how-to-rewrite-same-random-after-random-interval
 </script>
 
-<input type="button" value="走你..."  onclick="start()"> &lt;---多点几下有惊喜
+<input type="button" value="走你..."  onclick="start()">  &larr; 多点几下有惊喜
 
 进一步，在使用过程中为了避免被溯源，我们推出了蓝牙版本。
 
