@@ -1,5 +1,5 @@
 ---
-title: "开放办公区 - 吵喜你"
+title: "开放办公区吵喜你"
 date: 2017-10-30
 layout: post
 disable_disqus: true
