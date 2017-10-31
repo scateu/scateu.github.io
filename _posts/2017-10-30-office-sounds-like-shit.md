@@ -11,13 +11,24 @@ disable_disqus: true
 
 <script>
 var audio = [];
-audio.push(new Audio('{{ site.imageurl }}/ringringring/ios_notification.mp3'));
+_ios = new Audio('{{ site.imageurl }}/ringringring/ios_notification.mp3');
+audio.push(_ios);
+audio.push(_ios);
+audio.push(_ios);
+audio.push(_ios);
+_ding_message = new Audio('{{ site.imageurl }}/ringringring/ding_message.mp3');
+audio.push(_ding_message);
+audio.push(_ding_message);
+audio.push(_ding_message);
+audio.push(_ding_message);
+audio.push(_ding_message);
+audio.push(_ding_message);
+audio.push(_ding_message);
 audio.push(new Audio('{{ site.imageurl }}/ringringring/iphone_note_sms.mp3'));
 audio.push(new Audio('{{ site.imageurl }}/ringringring/iphone_sms_original.mp3'));
 audio.push(new Audio('{{ site.imageurl }}/ringringring/iphone_ding_ding.mp3'));
 audio.push(new Audio('{{ site.imageurl }}/ringringring/xiaomi.mp3'));
 audio.push(new Audio('{{ site.imageurl }}/ringringring/wechat-call.mp3'));
-audio.push(new Audio('{{ site.imageurl }}/ringringring/ding_message.mp3'));
 audio.push(new Audio('{{ site.imageurl }}/ringringring/ding.mp3'));
 audio.push(new Audio('{{ site.imageurl }}/ringringring/ding_voip.mp3'));
 
