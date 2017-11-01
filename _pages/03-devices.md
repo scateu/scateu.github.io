@@ -35,9 +35,8 @@ permalink: /devices/
 
 ## 声音
 
- - SENNHEISER PX200 耳机
  - CASIO PX-310 电钢琴
- - 二胡
+ - <del>二胡</del> 某次演出回来放蒙楼丢了
 
 ## 火腿设备
 
@@ -51,6 +50,8 @@ permalink: /devices/
  - Thinkpad T410 + 8G内存 + 120GB SSD
  - Thinkpad X200 + Sierra CDMA Modem
  - Macbook Pro 13"
+ - Asus Chromebook Flip
+ - 2015 Macbook Pro 15"
 
 
 ## 嵌入式设备
@@ -87,7 +88,7 @@ permalink: /devices/
 
 ## Wish List
 
- - SONY DPT-S1
+ <del>- SONY DPT-S1</del> 已入Boox Max
 
 ## 录音设备
 
