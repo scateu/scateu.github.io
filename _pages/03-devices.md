@@ -57,7 +57,7 @@ permalink: /devices/
 | PX80                     | 1    | 199  | 2014-02-18 |
 | HD201                    | 1    | 100  | 2017-06-16 |
 | SONY SBH-20              | 1    | 99   | 2016-07-30 |
-| Bose QC30                | 1    | 1200 |            |
+| Bose QC25                | 1    | 1200 |            |
 | Bose QC20                | 1    | 1200 |            |
 | Bose Soundlink Mini II   | 1    | 1280 | 2015-11-13 |
 
