@@ -139,4 +139,4 @@ permalink: /devices/
 ## Wish List
 
  <del>- SONY DPT-S1</del> 已入Boox Max
-
+ - Genelec 音箱
