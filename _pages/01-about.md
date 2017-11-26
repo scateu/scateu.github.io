@@ -19,6 +19,8 @@ permalink: /about/
 
 ## 1 Motto
 
+    - You have no responsibility to live up to what other people think you ought to accomplish. I have no responsibility to be like they expect me to be. It's their mistake, not my failing. - Richard Feynman
+
     - 没有什么是讲一个段子解决不了的，如果有，那就讲两个。
 
     - 不想当黑客的程序员不是好产品经理。
