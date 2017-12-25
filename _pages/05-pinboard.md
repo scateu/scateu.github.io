@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pinboard
+title: Pin
 permalink: /pinboard/
 ---
 

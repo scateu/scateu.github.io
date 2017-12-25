@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Recordings
-permalink: /Recordings/
+title: Rec
+permalink: /recordings/
 ---
 
 ## 知音雅集民乐团
