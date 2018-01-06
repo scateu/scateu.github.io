@@ -35,6 +35,7 @@ permalink: /about/
     - Do. Or do not. There is no try.  - Yoda
     - Everyone you meet is fighting a battle you know nothing about. Be kind. Always.  - Brad Meltzer
     - Religion is a culture of faith; science is a culture of doubt.  - Richard Feynman
+    - "If you want total security, go to prison.  There you're fed, clothed, given medical care and so on. The only thing lacking ... is freedom." - President Eisenhower
 
 ## 2 Projects
 
