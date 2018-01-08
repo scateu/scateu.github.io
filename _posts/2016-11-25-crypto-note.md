@@ -575,6 +575,11 @@ mlucas - program to perform Lucas-Lehmer test on a Mersenne number, 2 ^ p - 1
  - <http://fatphil.org/maths/illegal1.html>
  - <http://decss.zoy.org/>
 
+
+ > This was the first known illegal prime. What people often forget is that a program (any file actually) is a string of bits (binary digits), so every program is a number. Some of these are prime. Phil Carmody found this one in March 2001. When written in base 16 (hexadecimal), this prime forms a gzip file of the original C-source code (sans tables) that decrypts the DVD Movie encryption scheme (DeCSS). See Gallery of CSS Descramblers (and its Steganography Wing) for more information. It was illegal to distribute this source code in the United States, so surely that made this number (found by Phil Carmody) also illegal.
+ > A Perl program for extracting the source code from this prime number was written by Jamie McCarthy. [Caldwell]
+ > -  <https://primes.utm.edu/curios/page.php?number_id=953>
+
 ## 参考书
 
  - Handbook of Applied Cryptography
