@@ -569,6 +569,12 @@ See Also:
 mlucas - program to perform Lucas-Lehmer test on a Mersenne number, 2 ^ p - 1
 ```
 
+### DeCSS
+
+ - <https://news.ycombinator.com/item?id=16084731>
+ - <http://fatphil.org/maths/illegal1.html>
+ - <http://decss.zoy.org/>
+
 ## 参考书
 
  - Handbook of Applied Cryptography
