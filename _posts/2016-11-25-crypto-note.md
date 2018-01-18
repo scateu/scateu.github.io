@@ -561,6 +561,10 @@ print isprime(2**11213 - 1)
 > January 7, 2016 — GIMPS celebrated its 20th anniversary with the discovery of the largest known prime number,  $2^{74207281}-1$. Curtis Cooper, one of many thousands of GIMPS volunteers, used one of his university's computers to make the find. The prime number, also known as M74207281, is calculated by multiplying together 74,207,281 twos then subtracting one. It has 22,338,618 digits -- almost 5 million digits longer than the previous record prime number. 
 </details>
 
+2017年12月26日，上述新闻又一次成为老黄历啦:
+
+> 互联网梅森素数大搜索（GIMPS）项目宣布发现第 50 个梅森素数和已知最大的素数：$2^{77232917}-1$，共有 23,249,425 位。发现者是 GIMPS 志愿者 Jonathan Pace，时间是在 2017 年 12 月 26 日。该素数已被多人使用不同的硬件和软件完成验证。Jonathan Pace 住在田纳西州的 Germantown，是一位电机工程师，他有资格获得 3000 美元的研究发现奖。GIMPS 是一个分布式计算项目，至今已有 20 年历史，它利用志愿者的空闲 CPU 创建了一个遍布全球的超级计算机，它的 prime95 软件此前发现了英特尔处理器的一个漏洞。
+
  - [List of known Mersenne prime numbers](http://www.mersenne.org/primes/)
 
 See Also:
