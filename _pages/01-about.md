@@ -162,12 +162,6 @@ I am also interested in Software Defined Radio (SDR), and having fun with GNURad
 ![]({{ site.imageurl }}/bh1rlw.jpg)
 
 
-## BTC
-
-```
-1bBWyjpPeNvfDTUqZ5PM6Dxmezp6h14rs
-```
-
 ## Pinboard
 
  - [Public Pinboard](https://pinboard.in/u:scateu/public)
