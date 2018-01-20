@@ -50,17 +50,17 @@ ssh bravo.example.com
 (这本来是ssh-agent的典型用法，用ssh-add把本地私钥加载到内存里。)
 
 
-## 2 在一台新的机器上怎么使用Yubikey的OpenPGP Card
+## 2 在一台新的机器上使用Yubikey/OpenPGP Card
 
 (假设你已经基本知道怎么用Yubikey的OpenPGP Card功能了)
 
-```
+```bash
 gpg --recv-keys <yourid>
 或 card-edit fetch
 
 gpg --card-status
 ```
-结束
+结束。
 
 `card-status`之后，会在本地机器上留下一个secret key的stub。
 
@@ -93,3 +93,8 @@ gpgsplit a.gpg
 <https://lists.gnupg.org/pipermail/gnupg-users/2007-April/030726.html>
 
 结论就是如果还没有Publish，只要拆开，删掉revoke certificate再组合起来就行。
+
+
+## See Also
+
+ - [U2F-Zero制造及使用手记](http://scateu.me/2016/11/30/u2f-zero.html)
