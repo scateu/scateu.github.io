@@ -68,3 +68,9 @@ chmod +x imgcat
 
  - <https://github.com/ranger/ranger/wiki/Official-user-guide>
  - <https://wiki.archlinux.org/index.php/ranger>
+
+## 注意: root用户预览功能被禁用
+
+见<https://github.com/ranger/ranger/issues/429>:
+
+> After some talk on IRC, the issue was that the file previews are disabled for the root user.
