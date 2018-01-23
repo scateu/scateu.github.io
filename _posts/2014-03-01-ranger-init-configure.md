@@ -13,6 +13,8 @@ ranger是一个基于Python的, vim风格键绑定的, 命令行基础的文件�
     sudo apt-get install ranger
     # cp /etc/ranger/data/scope.sh ~/.config/ranger/
     ranger --copy-config=scope
+    # 如果想定制rc.conf
+    ranger --copy-config=rc
 
 ## 配置
 
@@ -57,3 +59,7 @@ chmod +x imgcat
  - Add the line set `preview_images_method iterm2` to your `~/.config/ranger/rc.conf`.
 
 更多参见`man ranger`的`PREVIEWS`一节。
+
+## See Also 
+
+ - <https://github.com/ranger/ranger/wiki/Official-user-guide>
