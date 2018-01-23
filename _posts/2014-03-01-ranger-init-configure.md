@@ -63,3 +63,4 @@ chmod +x imgcat
 ## See Also 
 
  - <https://github.com/ranger/ranger/wiki/Official-user-guide>
+ - <https://wiki.archlinux.org/index.php/ranger>
