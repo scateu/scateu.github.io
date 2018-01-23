@@ -37,7 +37,7 @@ ranger是一个基于Python的, vim风格键绑定的, 命令行基础的文件�
 
 ### macOS
 
-    brew install w3m lynx highlight atool mediainfo xpdf libcaca imlib2
+    brew install w3m lynx highlight atool mediainfo poppler libcaca imlib2
 ## Tips
 
   * 预览状态下, 按`i`键可以滚动预览窗口
