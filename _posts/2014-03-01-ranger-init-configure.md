@@ -45,7 +45,7 @@ ranger是一个基于Python的, vim风格键绑定的, 命令行基础的文件�
 
 参见: <https://github.com/ranger/ranger/wiki/Image-Previews>
 
-iTerm2实现了一种类似于`w3mimagedisplay`的图片显示协议:
+iTerm2实现了一种类似于`w3mimgdisplay`的图片显示协议:
 
 例如，在iTerm2里: (SSH也可以哦~ 但在tmux里没试成)
 

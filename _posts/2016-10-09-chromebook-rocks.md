@@ -166,7 +166,7 @@ Chromium OS是开源的.
 
 *2018-01-23补充*
 
-类似于[iTerm2](https://iterm2.com/documentation-images.html)和w3m的`w3mimagedisplay`及[ranger](https://github.com/ranger/ranger/wiki/Image-Previews)或[termpdf](https://github.com/dsanson/termpdf)，Google Chrome近期也支持了原生的Terminal传图片的协议:
+类似于[iTerm2](https://iterm2.com/documentation-images.html)和w3m的`w3mimgdisplay`及[ranger](https://github.com/ranger/ranger/wiki/Image-Previews)或[termpdf](https://github.com/dsanson/termpdf)，Google Chrome近期也支持了原生的Terminal传图片的协议:
 
 <https://chromium.googlesource.com/apps/libapps/+/master/hterm/etc/hterm-show-file.sh>
 
