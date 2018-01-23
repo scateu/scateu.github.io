@@ -29,6 +29,9 @@ ranger是一个基于Python的, vim风格键绑定的, 命令行基础的文件�
 ### 增加pdf预览功能
     
     sudo apt-get install poppler-utils
+    #或macOS
+    brew cask install pdftotext
+
 
 ### 增加Highlight预览
     
