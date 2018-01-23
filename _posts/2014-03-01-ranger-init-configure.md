@@ -13,22 +13,26 @@ ranger是一个基于Python的, vim风格键绑定的, 命令行基础的文件�
     sudo apt-get install ranger
     # cp /etc/ranger/data/scope.sh ~/.config/ranger/
     ranger --copy-config=scope
+
     # 如果想定制rc.conf
     ranger --copy-config=rc
+
+`~/.config/ranger/rc.conf`:
+
+    set preview_images true
+    set preview_images_method iterm2
+    set colorscheme solarized
+    set vcs_aware true
 
 ## 配置
 
 ### 增加pdf预览功能
     
-    
     sudo apt-get install poppler-utils
-    
 
 ### 增加Highlight预览
     
-    
     sudo apt-get install highlight
-    
 
 ## Tips
 
