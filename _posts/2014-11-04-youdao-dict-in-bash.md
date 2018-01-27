@@ -26,7 +26,7 @@ dict <word>
 apt install dict dictd dict-wn dict-gcide
 ```
 
-在w3m里默认按下`Esc-w`或`Alt-w`就可以查字典啦。
+在w3m里默认按下`Esc w`或`Alt-w`就可以查字典啦。 (大写`W`是光标前的)
 
 缺点是<del>没找到</del>中文字典不太多。Ubuntu的PPA里有[dict-xdict](https://launchpad.net/ubuntu/+source/dict-xdict) (据说还有 `dict-stardict` 这个包，我还没找着..)
 
