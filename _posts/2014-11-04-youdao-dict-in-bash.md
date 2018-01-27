@@ -28,7 +28,7 @@ apt install dict dictd dict-wn dict-gcide
 
 在w3m里默认按下`Esc-w`或`Alt-w`就可以查字典啦。
 
-缺点是没找到中文字典。 (据说有 `dict-stardict` 和`dict-xdict` 两个包，我还没找着..)
+缺点是<del>没找到</del>中文字典不太多。Ubuntu的PPA里有[dict-xdict](https://launchpad.net/ubuntu/+source/dict-xdict) (据说还有 `dict-stardict` 这个包，我还没找着..)
 
 
 *参考:* [1](http://ju.outofmemory.cn/entry/148511) [2](http://blog.cathayan.org/item/1715) [3](http://www.cnblogs.com/bamanzi/archive/2011/06/26/emacs-dict.html) [4](https://www.mdbg.net/chinese/dictionary?page=cedict)
