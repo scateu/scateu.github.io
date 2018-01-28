@@ -287,4 +287,7 @@ Pro tips for w3m:
  - `Alt-W` 查光标下面的单词 需要[装RFC2229 dict](http://scateu.me/2014/11/04/youdao-dict-in-bash.html)
  - `w3m -N a.com b.com c.com` 同时开启多标签页，类似于`vim -p fileA fileB fileC`
 
+啊如果非要在Chrome里用的话，推荐几个插件:
 
+ - [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=zh-CN) 定时把后台的不用的标签页Suspend掉，省内存
+ - [Mercury Reader](https://mercury.postlight.com/) 用来洗文章格式，集中精神
