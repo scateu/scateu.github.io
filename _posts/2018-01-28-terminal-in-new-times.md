@@ -150,7 +150,8 @@ INBOX                      # IMAP的INBOX
 ```bash
 ssh -tA user@ServerA.example.com ssh -t user@ServerB.example.com tmux attach
 ```
- - `t` 是
+ - `t` Force pseudo-terminal allocation.
+ - `A` Enables forwarding of the authentication agent connection.
 
 如果网络条件不好，经常掉线的话，比如在高铁上，或者在飞机上用卫星，推荐使用<https://mosh.mit.edu>
 
