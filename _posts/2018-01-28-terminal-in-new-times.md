@@ -4,6 +4,12 @@ date: 2018-01-28
 layout: post
 ---
 
+<script src="https://asciinema.org/a/wfdo7K8RyNxIys4kvh5ouPVj5.js" id="asciicast-wfdo7K8RyNxIys4kvh5ouPVj5" async></script>
+
+*(无图言锤)*
+
+## 引言
+
 计算机的性能提升，并没有带来人的生产力的相应提升。反而被<del>互联网思维的产品经理们</del>用来造出了一个又一个时间黑洞，把人的创造力吞噬。
 
 > Andy gives, Bill takes away.  -- 安迪-比尔定理 Andy and Bill's Law 
@@ -280,9 +286,4 @@ Pro tips for w3m:
  - `Alt-W` 查光标下面的单词 需要[装RFC2229 dict](http://scateu.me/2014/11/04/youdao-dict-in-bash.html)
  - `w3m -N a.com b.com c.com` 同时开启多标签页，类似于`vim -p fileA fileB fileC`
 
-### 无图言锤
 
-
-<link rel="stylesheet" type="text/css" href="//scateu.me/assets/css/asciinema-player.css" />
-<asciinema-player src="{{ site.imageurl }}/2018-01-27-newsboat-w3m-alpine.cast" cols="158" rows="44"></asciinema-player>  
-<script src="//scateu.me/assets/js/asciinema-player.js"></script>
