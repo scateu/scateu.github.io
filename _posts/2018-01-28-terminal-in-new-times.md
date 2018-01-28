@@ -283,6 +283,6 @@ Pro tips for w3m:
 ### 无图言锤
 
 
-<link rel="stylesheet" type="text/css" href="assets/css/asciinema-player.css" />
+<link rel="stylesheet" type="text/css" href="//scateu.me/assets/css/asciinema-player.css" />
 <asciinema-player src="{{ site.imageurl }}/2018-01-27-newsboat-w3m-alpine.cast" cols="158" rows="44"></asciinema-player>  
-<script src="assets/js/asciinema-player.js"></script>
+<script src="//scateu.me/assets/js/asciinema-player.js"></script>
