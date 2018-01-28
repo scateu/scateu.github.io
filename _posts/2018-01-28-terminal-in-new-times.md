@@ -1,5 +1,5 @@
 ---
-title: "新时代对全Terminal办公的新要求"
+title: "新时期对于全面在Terminal中开展工作的新要求"
 date: 2018-01-28
 layout: post
 ---
@@ -17,10 +17,7 @@ layout: post
 
 我认为现在的状况是: 
 
-> CPU gives, FLAG takes away.
-> CPU gives, BAT takes away.
-> GPU gives, WangZheRongYao takes away.
-> GPU gives, bitcoin takes away.
+> CPU/GPU/SSD/LTE/WiFi gives, FLAG/BAT/王者荣耀/Bitcoin takes away.
 
 在互联网时代，人的记忆只有8秒，比金鱼还少1秒。
 
