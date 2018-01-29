@@ -283,6 +283,7 @@ Pro tips for w3m:
  - `Ctrl-q` 关闭Tab
  - `Alt-W` 查光标下面的单词 需要[装RFC2229 dict](http://scateu.me/2014/11/04/youdao-dict-in-bash.html)
  - `w3m -N a.com b.com c.com` 同时开启多标签页，类似于`vim -p fileA fileB fileC`
+ - [更多](https://box.matto.nl/w3m.html)
 
 啊如果非要在Chrome里用的话，推荐几个插件:
 
