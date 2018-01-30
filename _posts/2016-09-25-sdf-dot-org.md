@@ -274,4 +274,6 @@ Subject: What is the Super Dimensional Fortress - READ THIS
 
 ## TODO
 
- - [ ] 做个{SSH,TTY} over {RTTY, AFSK, DTMF, PSK31} (啊似乎已经有了[MiniModem](http://www.whence.com/minimodem/))
+做个{SSH,TTY} over {RTTY, AFSK, DTMF, PSK31} (啊似乎用[MiniModem](http://www.whence.com/minimodem/)和slattach应该[可以](https://xenoworld.de/knowledge/slip.html)) 
+
+[1](https://wwija.com/computer-internet-technology/2164908_possible-to-configure-login-tty-over-audio-device-morse-code-or-similar.html) [2](https://unix.stackexchange.com/questions/45228/possible-to-configure-login-tty-over-audio-device-morse-code-or-similar) [3](https://github.com/svancau/ip-minimodem) [4](https://xenoworld.de/knowledge/slip.html) 
