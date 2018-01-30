@@ -271,3 +271,7 @@ Subject: What is the Super Dimensional Fortress - READ THIS
  - [IEEE: The history of the BBS shows that pre-Internet social media was pretty great](http://spectrum.ieee.org/computing/networks/social-medias-dialup-ancestor-the-bulletin-board-system)
  - [Youtube: TWO TELETYPE MODEL 37s LINK FOR RELAY CHAT AT 150 BAUD](https://www.youtube.com/watch?v=MikoF6KZjm0)
  - [Youtube: Using a TTY Model 43 as a console on Linux]( https://www.youtube.com/watch?v=-Ul-f3hPJQM)
+
+## TODO
+
+ - [ ] 做个{SSH,TTY} over {RTTY, AFSK, DTMF, PSK31}
