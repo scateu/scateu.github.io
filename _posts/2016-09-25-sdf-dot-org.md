@@ -274,4 +274,4 @@ Subject: What is the Super Dimensional Fortress - READ THIS
 
 ## TODO
 
- - [ ] 做个{SSH,TTY} over {RTTY, AFSK, DTMF, PSK31}
+ - [ ] 做个{SSH,TTY} over {RTTY, AFSK, DTMF, PSK31} (啊似乎已经有了[MiniModem](http://www.whence.com/minimodem/))
