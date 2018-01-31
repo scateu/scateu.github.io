@@ -289,3 +289,21 @@ Pro tips for w3m:
 
  - [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=zh-CN) 定时把后台的不用的标签页Suspend掉，省内存
  - [Mercury Reader](https://mercury.postlight.com/) 用来洗文章格式，集中精神
+
+
+## NAT后面的机器
+
+比较简单的[做法](http://xmodulo.com/access-linux-server-behind-nat-reverse-ssh-tunnel.html)(前提是你有一个公网IP):
+
+```bash
+ssh -fN -R 1.1.1.1:10022:localhost:22 relayserver_user@1.1.1.1  #开到公网上
+ssh -fN -R 10022:localhost:22 relayserver_user@1.1.1.1  #只在跳转机本地
+```
+
+或
+
+```bash
+autossh -M 10900 -fN -o "PubkeyAuthentication=yes" -o "StrictHostKeyChecking=false" -o "PasswordAuthentication=no" -o "ServerAliveInterval 60" -o "ServerAliveCountMax 3" -R 1.1.1.1:10022:localhost:22 relayserver_user@1.1.1.1
+```
+
+然后在公网机器上`ssh localhost -p 10022`即可

@@ -50,6 +50,14 @@ ssh bravo.example.com
 (这本来是ssh-agent的典型用法，用ssh-add把本地私钥加载到内存里。)
 
 
+还可以一步到位:
+
+```bash
+ssh -tA alpha.example.com ssh -tA bravo.example.com  tmux att
+```
+
+`-t`是Pseduo-Terminal
+
 ## 2 在新机器上使用Yubikey/OpenPGP Card
 
 (假设你已经基本知道怎么用Yubikey的OpenPGP Card功能了)
