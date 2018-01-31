@@ -296,8 +296,11 @@ Pro tips for w3m:
 比较简单的[做法](http://xmodulo.com/access-linux-server-behind-nat-reverse-ssh-tunnel.html)(前提是你有一个公网IP):
 
 ```bash
-ssh -fN -R 1.1.1.1:10022:localhost:22 relayserver_user@1.1.1.1  #开到公网上
 ssh -fN -R 10022:localhost:22 relayserver_user@1.1.1.1  #只在跳转机本地
+
+ssh -fN -R 1.1.1.1:10022:localhost:22 relayserver_user@1.1.1.1  #开到公网上
+#需要在/etc/ssh/sshd_conf里加上
+# GatewayPorts clientspecified
 ```
 
 或
@@ -307,3 +310,6 @@ autossh -M 10900 -fN -o "PubkeyAuthentication=yes" -o "StrictHostKeyChecking=fal
 ```
 
 然后在公网机器上`ssh localhost -p 10022`即可
+
+
+复杂的方法有Zerotier或Tinc等.
