@@ -159,6 +159,8 @@ Chromium OS是开源的.
 ## See Also
 
  - [Bigeagle 关于 ASUS Chromebook Flip 的体验](https://bigeagle.me/2017/02/ASUS-chromebook-flip/)
+ - [Ubuntu.com上的教程](https://tutorials.ubuntu.com/tutorial/install-ubuntu-on-chromebook)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K_dd7yINXCE" frameborder="0" allowfullscreen></iframe>
 
 
