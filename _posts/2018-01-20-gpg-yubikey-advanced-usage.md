@@ -18,6 +18,15 @@ gpg-agent --daemon --enable-ssh-support
 ```
 然后把输出的结果(一些环境变量)放到`.bashrc`里。 或者手动source一下。
 
+进一步，放在`.bashrc`里的可以是: (参考自[1](https://0day.work/using-a-yubikey-for-gpg-and-ssh/) [2](http://www.engineerbetter.com/blog/yubikey-ssh/))
+
+```
+export GPG_TTY=$(tty)
+gpg-connect-agent updatestartuptty /bye
+unset SSH_AGENT_PID
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+```
+
 ### 1.1 导出SSH公钥
 
 ```bash
