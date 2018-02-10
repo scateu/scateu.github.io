@@ -75,6 +75,22 @@ alias newsmth="eval env SSHPASS=\$(echo <那一串hash> | openssl aes-128-cbc -d
 
 不建议`sshpass`用`-p`参数, 因为可以在`top`或`ps`里看到明文密码. 用`env`可以把`$SSHPASS`限制在这一行命令中而不泄漏. 
 
+## w3m 看带图的十大
+
+在fbterm的下面，用w3m也不错，只看十大的话。
+还能看图:
+
+```bash
+sudo apt install w3m-img jfbterm
+
+alias w3m='TERM=jfbterm w3m' #否则在fbterm里不显示中文
+#如果没有jfbterm这个包的话，可以去找个jfbterm的termcap文件，放到~/.terminfo/j/jfbterm里
+
+alias newsmth-shida="w3m -N m.newsmth.net m.newsmth.net/hot/{1..9}"
+```
+
+`{` `}` 切换标签页, `C-q`关标签页，`C-t`打开链接到新标签页。
+
 ## See Also
 
  - <http://www.newsmth.net/nForum/article/BBSMan_Dev/85311?s=85343>
