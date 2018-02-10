@@ -86,7 +86,7 @@ sudo apt install w3m-img jfbterm
 alias w3m='TERM=jfbterm w3m' #否则在fbterm里不显示中文
 #如果没有jfbterm这个包的话，可以去找个jfbterm的termcap文件，放到~/.terminfo/j/jfbterm里
 
-alias newsmth-shida="w3m -N m.newsmth.net m.newsmth.net/hot/{1..9}"
+alias newsmth-十大="w3m -N m.newsmth.net m.newsmth.net/hot/{1..9}"
 ```
 
 `{` `}` 切换标签页, `C-q`关标签页，`C-t`打开链接到新标签页。
