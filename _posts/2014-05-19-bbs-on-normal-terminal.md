@@ -35,7 +35,7 @@ Host *
 
 ## Fix 2
 
-~~新版本的ssh已经不支持ssh1了. ~~ [2016-11-04: KCN已经更新了水木, 增加了SSH2支持](http://www.newsmth.net/nForum/article/BBSMan_Dev/85355?s=85355)
+<del>新版本的ssh已经不支持ssh1了. </del> [2016-11-04: KCN已经更新了水木, 增加了SSH2支持](http://www.newsmth.net/nForum/article/BBSMan_Dev/85355?s=85355)
 
 但是有一个legacy的包还支持. 
 
