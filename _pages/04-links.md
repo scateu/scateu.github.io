@@ -19,6 +19,8 @@ permalink: /links/
 
 ## Blogroll
 
+ - <https://blog.ahokitsune.org/>
+ - <https://iecho.cc>
  - <https://news.ycombinator.com>
  - <https://bigeagle.me>
  - <http://sdr-x.github.io>

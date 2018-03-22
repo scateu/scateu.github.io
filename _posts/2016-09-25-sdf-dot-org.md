@@ -269,3 +269,11 @@ Subject: What is the Super Dimensional Fortress - READ THIS
    - [生词表](http://daixy.me/2012/04/17/all-things-considered-in-noisy-digital-era-elegant-internet-still-thrives.html)
  - BBS历史纪录片: <https://archive.org/details/bbsdocumentary>
  - [IEEE: The history of the BBS shows that pre-Internet social media was pretty great](http://spectrum.ieee.org/computing/networks/social-medias-dialup-ancestor-the-bulletin-board-system)
+ - [Youtube: TWO TELETYPE MODEL 37s LINK FOR RELAY CHAT AT 150 BAUD](https://www.youtube.com/watch?v=MikoF6KZjm0)
+ - [Youtube: Using a TTY Model 43 as a console on Linux]( https://www.youtube.com/watch?v=-Ul-f3hPJQM)
+
+## TODO
+
+做个{SSH,TTY} over {RTTY, AFSK, DTMF, PSK31} (啊似乎用[MiniModem](http://www.whence.com/minimodem/)和slattach应该[可以](https://xenoworld.de/knowledge/slip.html)) 
+
+[1](https://wwija.com/computer-internet-technology/2164908_possible-to-configure-login-tty-over-audio-device-morse-code-or-similar.html) [2](https://unix.stackexchange.com/questions/45228/possible-to-configure-login-tty-over-audio-device-morse-code-or-similar) [3](https://github.com/svancau/ip-minimodem) [4](https://xenoworld.de/knowledge/slip.html) 

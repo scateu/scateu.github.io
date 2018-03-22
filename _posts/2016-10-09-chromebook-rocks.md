@@ -98,6 +98,8 @@ Android子系统里的网络是以NAT的方式从ChromeOS出来的.
 
 配合SwitchOmega/xxxlist使用风味更佳. 
 
+2018-01-23补充: <chrome://flags> 里 `#arc-vpn` 可以让Android里面的应用接管Chrome的流量
+
 ## BTSync (Resilio Sync)
 
 在chroot环境里用armhf版本的就行了. 
@@ -157,4 +159,33 @@ Chromium OS是开源的.
 ## See Also
 
  - [Bigeagle 关于 ASUS Chromebook Flip 的体验](https://bigeagle.me/2017/02/ASUS-chromebook-flip/)
+ - [Ubuntu.com上的教程](https://tutorials.ubuntu.com/tutorial/install-ubuntu-on-chromebook)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K_dd7yINXCE" frameborder="0" allowfullscreen></iframe>
+
+
+## Secure Shell里显示图片
+
+*2018-01-23补充*
+
+类似于[iTerm2](https://iterm2.com/documentation-images.html)和w3m的`w3mimgdisplay`及[ranger](https://github.com/ranger/ranger/wiki/Image-Previews)或[termpdf](https://github.com/dsanson/termpdf)，Google Chrome近期也支持了原生的Terminal传图片的协议:
+
+<https://chromium.googlesource.com/apps/libapps/+/master/hterm/etc/hterm-show-file.sh>
+
+在最近的版本，Secure Shell，按`Ctrl-Shift-P`
+
+```
+Extensions
+	allow-image-inline : true
+```
+
+即可。
+
+用上述`hterm-show-file.sh`
+
+```
+hterm-show-file.sh blahblah.png
+```
+
+Chroot环境、ssh都可以。
+

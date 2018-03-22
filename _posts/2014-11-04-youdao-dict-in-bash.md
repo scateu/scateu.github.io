@@ -1,10 +1,42 @@
 ---
 layout: post
-title:  "使用命令行在有道上查字典"
+title:  "命令行里查字典"
 date:   2014-11-04 00:28:13
 ---
 
-补充: 金山版 <https://github.com/Flowerowl/ici>
+*Update: 2018-01-27*
+
+## RFC 2229: dict
+
+很古老的协议，端口号为2628
+
+```
+telnet dict.org dict
+nc dict.org 2628
+```
+
+```
+apt install dict
+dict <word>
+```
+
+本地使用可以装个dictd，起个服务(只监听在localhost，且会自动放弃掉root权限，感觉上略安全)
+
+```
+apt install dict dictd dict-wn dict-gcide
+```
+
+在w3m里默认按下`Esc w`或`Alt-w`就可以查字典啦。 (大写`W`是光标前的)
+
+缺点是<del>没找到</del>中文字典不太多。Ubuntu的PPA里有[dict-xdict](https://launchpad.net/ubuntu/+source/dict-xdict) (据说还有 `dict-stardict` 这个包，我还没找着..)
+
+
+*参考:* [1](http://ju.outofmemory.cn/entry/148511) [2](http://blog.cathayan.org/item/1715) [3](http://www.cnblogs.com/bamanzi/archive/2011/06/26/emacs-dict.html) [4](https://www.mdbg.net/chinese/dictionary?page=cedict)
+
+
+## ici
+
+金山版 <https://github.com/Flowerowl/ici>
 
     sudo pip install ici
 
@@ -25,6 +57,17 @@ bind -t vi-copy 'v' begin-selection
 bind -t vi-copy y copy-pipe "xargs -I{} tmux split-window 'ici {};echo "... Press any key to exit ...";read'"
 ```
 
+### Bash留个记录
+
+我的习惯是放在`.bashrc`:
+
+```bash
+ici() {
+        echo `date +%F` $1 >> ~/words
+        /usr/local/bin/ici $1
+}
+```
+
 ## ydcv
 
 肥猫写的`ydcv`也很不错:
@@ -39,8 +82,7 @@ wget https://raw.githubusercontent.com/felixonmars/ydcv/master/ydcv.py
 
 我的用法是, 把下面的代码放在`/usr/local/bin/y`里面
 
-{% highlight python %}
-
+```python
 #! /usr/bin/python
 import re
 import urllib
@@ -166,4 +208,4 @@ def main(argv):
 if __name__ == "__main__":
     main(sys.argv[1:])
 
-{% endhighlight %}
+```
