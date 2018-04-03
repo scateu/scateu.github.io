@@ -138,5 +138,5 @@ permalink: /devices/
 
 ## Wish List
 
- <del>- SONY DPT-S1</del> 已入Boox Max
+ <del>- SONY DPT-S1</del> <del> 已入Boox Max </del> 又入 SONY DPT-RP1
  - Genelec 音箱
