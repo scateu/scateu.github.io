@@ -55,6 +55,7 @@ date: 2016-07-09
   
  - iPhone上用自带的"播客"(Podcast) App即可
  - Android上推荐AntennaPod, MIT许可证, 无广告, 开源. 
+   - [Google在2018年推出的原生Podcast客户端](https://play.google.com/store/apps/details?id=com.google.android.apps.podcasts)
    - <del>有人推荐Podcast Addict或者Podcast Republic, 个人觉得后者略好一点. 但这两个都有广告Banner, 不过还好咱们只听, 影响不大. </del>
   
   
