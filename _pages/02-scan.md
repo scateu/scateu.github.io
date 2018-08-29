@@ -8,6 +8,9 @@ permalink: /scan/
 
 ## Wechat
 
+
+发....<a href="mailto:scateu@gmail.com">发电子邮件</a>....不行吗..?
+
 <div id="qrcode"></div>
 
 <script>
