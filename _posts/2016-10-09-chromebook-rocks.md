@@ -189,3 +189,12 @@ hterm-show-file.sh blahblah.png
 
 Chroot环境、ssh都可以。
 
+
+## 2018年9月23日补充
+
+ - 入了一台Samsung Chromebook Plus
+
+如果想干掉原来的系统，装原生的Linux:
+
+ - <https://galliumos.org/>
+ - <https://chrx.org/>
