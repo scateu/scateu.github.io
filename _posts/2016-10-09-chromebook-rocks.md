@@ -189,3 +189,15 @@ hterm-show-file.sh blahblah.png
 
 Chroot环境、ssh都可以。
 
+
+## 2018年9月23日补充
+
+ - 入了一台Samsung Chromebook Plus
+
+如果想干掉原来的系统，装原生的Linux:(仅X86... //sad)
+
+ - <https://galliumos.org/>
+ - <https://chrx.org/>
+
+如果是ARM的，Debian的教程似乎不错:
+ - <https://wiki.debian.org/InstallingDebianOn/Asus/C201#Installing_to_internal_memory_from_SD_card>
