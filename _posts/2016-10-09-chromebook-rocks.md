@@ -160,6 +160,8 @@ Chromium OS是开源的.
 
  - [Bigeagle 关于 ASUS Chromebook Flip 的体验](https://bigeagle.me/2017/02/ASUS-chromebook-flip/)
  - [Ubuntu.com上的教程](https://tutorials.ubuntu.com/tutorial/install-ubuntu-on-chromebook)
+ - [Fugoes: Chromebook手记](https://blog.fugoes.xyz/2018/09/19/Notes-on-Chromebook.html)
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K_dd7yINXCE" frameborder="0" allowfullscreen></iframe>
 
@@ -192,7 +194,7 @@ Chroot环境、ssh都可以。
 
 ## 2018年9月23日补充
 
- - 入了一台Samsung Chromebook Plus
+ - 入了一台Samsung Chromebook Plus，可以参看[Fugoes: Chromebook手记](https://blog.fugoes.xyz/2018/09/19/Notes-on-Chromebook.html)
 
 如果想干掉原来的系统，装原生的Linux:(仅X86... //sad)
 
