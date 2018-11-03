@@ -4,6 +4,7 @@ date: 2017-10-30
 layout: post
 disable_disqus: true
 ---
+2018-10-15 更新: 被动的方案有: <https://simplynoise.com/> , 有人推荐Brown噪声
 
 最近实在是被开放办公区吵惨了。戴上耳机也不行，因为有时候并不想听音乐，只想安静地想想事情。
 
