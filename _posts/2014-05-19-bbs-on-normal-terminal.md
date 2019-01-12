@@ -7,6 +7,19 @@ date: 2014/05/19 00:23:00
 # 在UTF8的终端里逛水木
 
 	luit -encoding gbk ssh <id>@newsmth.net  #newsmth最近已经支持了ssh v2了, 不需要再加`-1`参数
+						 #也支持在BBS里设置public key
+
+
+## 防发呆(2019-01-12更新)
+
+```bash
+alias newsmth-expect='expect -c "set timeout 60; spawn luit -encoding gbk ssh newsmth.net; interact timeout 30  {send \"\000\"}; "'
+```
+
+
+---
+
+(正文结束)
 
 ## 防发呆
 
