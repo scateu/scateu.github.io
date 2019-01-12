@@ -94,3 +94,4 @@ alias newsmth-十大="w3m -N m.newsmth.net m.newsmth.net/hot/{1..9}"
 ## See Also
 
  - <http://www.newsmth.net/nForum/article/BBSMan_Dev/85311?s=85343>
+ - [防发呆-expect脚本](https://9.obelus.net/2016/03/29/ssh-smth-no-idleness-and-encoding.html)
