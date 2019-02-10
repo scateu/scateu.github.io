@@ -272,6 +272,7 @@ Subject: What is the Super Dimensional Fortress - READ THIS
  - [Youtube: TWO TELETYPE MODEL 37s LINK FOR RELAY CHAT AT 150 BAUD](https://www.youtube.com/watch?v=MikoF6KZjm0)
  - [Youtube: Using a TTY Model 43 as a console on Linux]( https://www.youtube.com/watch?v=-Ul-f3hPJQM)
  - <https://emacs-china.org/t/topic/4118/2>
+ - <https://sdf-cn.org/2018/01/hello-world/>
 
 ## TODO
 
