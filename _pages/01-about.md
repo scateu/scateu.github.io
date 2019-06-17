@@ -84,7 +84,7 @@ permalink: /about/
    - 2011 翘掉清华大学毕业典礼去台湾 
  * 2011 从垄断国企里跳槽出来
  * 2011 创立清华大学电脑协会和清华大学学生网管会[TUNA](http://tuna.tsinghua.edu.cn)
-   - 2011 Co-founder of [TUNA](https://groups.google.com/forum/#!topic/tunet_admin/US9QZ6fw3t0)(Tsinghua University Network Administrators)
+   - 2011 Initiator of [TUNA](https://groups.google.com/forum/#!topic/tunet_admin/US9QZ6fw3t0)(Tsinghua University Network Administrators)
    - 2012 Raspbian(Raspberry Pi上的Debian发行版)亚洲第二个/国内第一个镜像源的维护者
    - 2012 Raspbian mirror maintainer of <http://mirrors.tuna.tsinghua.edu.cn> which is the first mirror in China.
  * 2010 IETF '79 Volunteer [照片1]({{ site.imageurl }}/ietf_1.jpg)  [照片2]({{ site.imageurl }}/ietf_2.jpg)
