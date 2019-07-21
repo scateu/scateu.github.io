@@ -4,10 +4,6 @@ title: About
 permalink: /about/
 ---
 
-## -1 Podcast
-
-<http://podcast.scateu.me/>
-
 ## 0 Contact
 
     $ whois scateu.me
