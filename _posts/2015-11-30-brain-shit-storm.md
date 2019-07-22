@@ -4,7 +4,10 @@ title:  "最近开的几个脑洞"
 date: 2015-11-30
 ---
 
+
 ## Slidecast
+
+2019-07-22: See [Id3](http://id3.org/id3v2-chapters-1.0) and [overcast](https://overcast.fm/forecast)
 
 As we know, podcast is a very convenient way to use your commute time to get some useful information.
 
@@ -104,3 +107,5 @@ I will show a simple syntax protocol below.
         --         --           --     . --
 
 Hopefully it will generates a beautiful Jianpu format.
+
+
