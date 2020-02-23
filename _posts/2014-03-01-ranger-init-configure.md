@@ -79,3 +79,12 @@ chmod +x imgcat
 见<https://github.com/ranger/ranger/issues/429>:
 
 > After some talk on IRC, the issue was that the file previews are disabled for the root user.
+## 按S进bash加个提示
+
+否则经常不记得自己是在ranger里面的bash还是外面的bash了，有点盗梦空间的意思。
+
+> In previous post I wrote about file manager Ranger. In Ranger there is keyboard shortcut Shift + S to execute shell (Bash in my case). You can modify /etc/ranger/config/rc.conf (or your local ~/.config/ranger/rc.conf) and add this line: [Source](https://www.posvic.eu/2019/01/change-prompt-in-ranger/)
+
+```
+map S shell bash --rcfile <(cat ~/.bashrc; echo 'PS1="(ranger) $PS1"')
+```
