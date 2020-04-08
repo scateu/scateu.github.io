@@ -6,14 +6,14 @@ date: 2014/05/19 00:23:00
 
 # 在UTF8的终端里逛水木
 
-	luit -encoding gbk ssh <id>@newsmth.net  #newsmth最近已经支持了ssh v2了, 不需要再加`-1`参数
+	luit -encoding gbk ssh <id>@bbs.newsmth.net  #newsmth最近已经支持了ssh v2了, 不需要再加`-1`参数
 						 #也支持在BBS里设置public key
 
 
 ## 防发呆(2019-01-12更新)
 
 ```bash
-alias newsmth-expect='expect -c "set timeout 60; spawn luit -encoding gbk ssh newsmth.net; interact timeout 30  {send \"\000\"}; "'
+alias newsmth-expect='expect -c "set timeout 60; spawn luit -encoding gbk ssh bbs.newsmth.net; interact timeout 30  {send \"\000\"}; "'
 ```
 
 
@@ -54,7 +54,7 @@ Host *
 
     $ sudo apt-get install openssh-client-ssh1
 
-    $ luit -encoding gbk ssh1 -1 <id>@newsmth.net
+    $ luit -encoding gbk ssh1 -1 <id>@bbs.newsmth.net
 
 ## Fix 3: gnome-terminal 字符宽度问题
 
@@ -65,7 +65,7 @@ Host *
 ## 自动输入密码
 
     $ sudo apt-get install sshpass
-    $ alias newsmth="luit -encoding gbk sshpass -p <yourpassword> ssh1 -1 <id>@newsmth.net"
+    $ alias newsmth="luit -encoding gbk sshpass -p <yourpassword> ssh1 -1 <id>@bbs.newsmth.net"
 
 ### 用gpg加密一下
 
@@ -81,7 +81,7 @@ alias newsmth="eval \"luit -encoding gbk sshpass -p \$(cat ~/.newsmthpassword | 
 ```bash
 echo <yourpassword> | openssl aes-128-cbc -e -a
 # 在~/.bashrc里加入下面一行
-alias newsmth="eval env SSHPASS=\$(echo <那一串hash> | openssl aes-128-cbc -d -a) luit -encoding gbk sshpass -e ssh scateu@newsmth.net"  
+alias newsmth="eval env SSHPASS=\$(echo <那一串hash> | openssl aes-128-cbc -d -a) luit -encoding gbk sshpass -e ssh scateu@bbs.newsmth.net"  
 ```
 
 之所以用`eval`, 是为了避免一开bash就执行那个解密操作. 
