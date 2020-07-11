@@ -83,8 +83,9 @@ wget https://raw.githubusercontent.com/felixonmars/ydcv/master/ydcv.py
 我的用法是, 把下面的代码放在`/usr/local/bin/y`里面
 
 <details markdown="1"><summary>
-### Python 2 版本
+Python 2 版本
 </summary>
+
 ```python
 #! /usr/bin/python2
 import re
