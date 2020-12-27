@@ -17,6 +17,7 @@ imageurl: "https://scateu.github.io/images"
 # Build settings
 markdown: kramdown
 kramdown:
+        math_engine: mathjax
         input: GFM
         hard_wrap: true
         syntax_highlighter_opts:
