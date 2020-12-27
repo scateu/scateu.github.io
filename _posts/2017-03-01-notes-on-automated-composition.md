@@ -22,13 +22,13 @@ $$
 
 学有余力的同学，建议参考[Yaboo: 《律学》](https://leoyaboo.github.io/2017/03/04/musical-temperament.html)
 
-$$
+\$$
 \mathrm{A} = 441 \mathrm{Hz} \\
 \mathrm{A\#} = 441 \times 2^{\frac{1}{12}} = 467.223 \mathrm{Hz} \\
 \mathrm{B} = 441 \times 2^{\frac{2}{12}} = 495.006 \mathrm{Hz} \\
 \vdots \\
 \mathrm{a} = 441 \times 2^{\frac{12}{12}} = 882 \mathrm{Hz}
-$$
+\$$
 
 (在演出前，[吹笙的同学](https://sites.google.com/site/mydtsinghua/dui-wei-jie-shao/xue-yuan-ban)会四处找我们给我们校音，亮出家伙低声道: "要A么?")
 
@@ -40,9 +40,9 @@ $$
 
 则$\mathrm{G}$的频率为:
 
-$$
+\$$
 2^{\frac{7}{12}} f \approx 1.498 f \approx \frac{3}{2} f \approx 392.476 \mathrm{Hz}
-$$
+\$$
 
 
 | C (Do) | D (Re) | E (Mi) | F (Fa) | G (Sol) | A (La) | B (Si) | c (Do) |
@@ -53,31 +53,31 @@ $$
 
 把 C (Do) 乘一下 $\frac{3}{2}$
 
-$$
+\$$
 262 \times \frac{3}{2} = 393 \mathrm{Hz}
-$$
+\$$
 
 即生成了 G (Sol)。
 
 再继续来:
 
-$$
+\$$
 393 \times \frac{3}{2} = 589.5 \mathrm{Hz}
-$$
+\$$
 
 $589.5$超了，那么除以$2$(即降低八度):
 
-$$
+\$$
 589.5 \times \frac{1}{2} = 294.75 \mathrm{Hz}
-$$
+\$$
 
 即是 D (Re)。
 
 如是往复
 
-$$
+\$$
 294.75 \times \frac{3}{2} = 442 \mathrm{Hz}
-$$
+\$$
 
 生成了 A (La)。
 
