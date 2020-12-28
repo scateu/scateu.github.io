@@ -11,10 +11,10 @@ layout: default
   </header>
 
   <article class="post-content">
-    {% if page.mathjax %} {% include mathjax.html %} {% endif %}
     {{ content }}
   </article>
 
+  {% if page.mathjax %} {% include mathjax.html %} {% endif %}
   {% if page.diagram %} {% include diagram.html %} {% endif %}
 
   {% unless page.disable_disqus %} {%include disqus.html %} {% endunless %}
