@@ -2,6 +2,7 @@
 title: "音频跳频序列搜索:自动作曲导(倒)论"
 date: 2017-03-01
 layout: post
+mathjax: true
 ---
 
 
