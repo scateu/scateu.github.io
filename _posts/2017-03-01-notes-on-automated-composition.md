@@ -22,13 +22,13 @@ $$
 
 学有余力的同学，建议参考[Yaboo: 《律学》](https://leoyaboo.github.io/2017/03/04/musical-temperament.html)
 
-$$
+\[
 \mathrm{A} = 441 \mathrm{Hz} \\
 \mathrm{A\#} = 441 \times 2^{\frac{1}{12}} = 467.223 \mathrm{Hz} \\
 \mathrm{B} = 441 \times 2^{\frac{2}{12}} = 495.006 \mathrm{Hz} \\
 \vdots \\
 \mathrm{a} = 441 \times 2^{\frac{12}{12}} = 882 \mathrm{Hz}
-$$
+\]
 
 (在演出前，[吹笙的同学](https://sites.google.com/site/mydtsinghua/dui-wei-jie-shao/xue-yuan-ban)会四处找我们给我们校音，亮出家伙低声道: "要A么?")
 
