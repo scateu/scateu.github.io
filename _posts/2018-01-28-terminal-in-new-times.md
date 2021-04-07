@@ -287,7 +287,7 @@ Pro tips for w3m:
 
 啊如果非要在Chrome里用的话，推荐几个插件:
 
- - [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=zh-CN) 定时把后台的不用的标签页Suspend掉，省内存
+ - [The Great Suspender](https://comparite.ch/great-suspender-alternative) 定时把后台的不用的标签页Suspend掉，省内存
  - [Mercury Reader](https://mercury.postlight.com/) 用来洗文章格式，集中精神
 
 
