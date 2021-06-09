@@ -4,6 +4,11 @@ title: 在UTF8的终端里逛水木
 date: 2014/05/19 00:23:00
 ---
 
+# 2021-06-10更新: 域名挂了，改用mysmth
+
+	luit -encoding gbk ssh <id>@bbs.mysmth.net
+
+
 # 在UTF8的终端里逛水木
 
 	luit -encoding gbk ssh <id>@bbs.newsmth.net  #newsmth最近已经支持了ssh v2了, 不需要再加`-1`参数
