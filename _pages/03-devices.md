@@ -89,10 +89,11 @@ permalink: /devices/
 
 ## 火腿设备
 
- - 宝峰UV-5R手台 2部
- - FT817 全波段QRP电台
- - 常熟K5电键
- - <del>一台由synsun提供的Yaesu电台，特别大特别重，已归还</del>
+ - 常熟K5电键. LMAO电键. 盔甲电键. 电容触摸电键
+ - <del>一台由synsun提供的Yaesu电台，特别大特别重，已归还</del> UPDATE: 已弄丢
+ - Yaesu FT-817,  FTdx10, ICOM IC-705, Elecraft KX3, Elecraft KX2
+ - UV-5R, UV-5R, VX-5, VX-5, VX-6, VX-6, VX-6, FT-60, FT-60, IC-10
+ - QCX Mini 20m, QCX 40m, uSDX 5-Bands, uSDX 8-Bands, (tr)uSDX 5-Bands, QCX 40m(Deceased) 
 
 ## 电脑
 
