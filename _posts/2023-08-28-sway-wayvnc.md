@@ -91,6 +91,7 @@ bindsym $mod+Shift+q kill
 # start dmenu (a program launcher)
 bindsym $mod+d exec wofi --show run
 # wofi是wayland版的rofi
+bindsym $mod+d exec --no-startup-id bemenu-run  #这个快
 # bindsym $mod+d exec rofi -show run
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
