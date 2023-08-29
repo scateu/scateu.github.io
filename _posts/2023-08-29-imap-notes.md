@@ -76,11 +76,12 @@ Set Other Hdrs  = X-Uniform-Type-Identifier: com.apple.mail-note
 
 ### Troubleshoot: 更新慢
 
-经测试，新建一封Notes是很快能送到IMAP服务器上的。无论是在iPhone、mac还是在alpine里。
+经测试，新建一封Notes是很快能推到IMAP服务器上的，无论是在iPhone、mac还是在alpine里。
 
 但被更新方的手机的Notes.app可能不会及时拉取。而Notes.app界面上没有下拉刷新。
 
-只需要到Mail.app里下拉刷新一下，然后在Notes.app界面上退到列表上，就会更新了。
+1. 只需要到Mail.app里下拉刷新一下，然后在Notes.app界面上退到列表上，就会更新了。
+2. 或者，在"设置>备忘录>账户>抓取新数据>[你的IMAP]" 由"抓取"改为"手动"。貌似效率反而更高。
 
 
 ### See also
