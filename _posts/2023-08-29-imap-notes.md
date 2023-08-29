@@ -10,7 +10,11 @@ IMAP的实时性是非常好的。 它的速度比什么Handover速度不相上�
 
 我一度在[alpine电子邮件客户端](http://scateu.me/2015/08/23/alpine.html)里配置了一个Role，新建一封消息，把所有都置空，只留Fcc (File Carbon Copy)到NOTE目录。
 
-然后在主界面上按`#`，即可选这个`NOTE`的角色， 来写一封笔记。然后按`C-x`发送。由于我配置了允许空收件人，Fcc Only。所以就可以优雅地把任何IMAP Server变成笔记工具。
+然后在主界面上按`#`，即可选这个`NOTE`的角色， 来写一封笔记。然后按`C-x`发送。
+
+由于我配置了允许空收件人，`[X]  Send to Fcc Only Without Confirming`。
+
+至此，可以优雅地把任何IMAP Server变成笔记工具。
 
 ```
 Current Folder Type =
