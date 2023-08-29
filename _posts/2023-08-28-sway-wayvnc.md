@@ -4,7 +4,7 @@ date: 2023-08-28
 layout: post
 ---
 
-十分[怀念](2016/07/19/i3-wm.html)i3wm。macOS上切来切去效率很低。
+十分[怀念](https://scateu.me/2016/07/19/i3-wm.html)i3wm。macOS上切来切去效率很低。
 
 以下办法可以无头(headless)地联上Linux主机，效率还不错。随身用树莓派办公好了。
 
