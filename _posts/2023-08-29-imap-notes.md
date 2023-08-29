@@ -89,6 +89,8 @@ Set Other Hdrs  = X-Uniform-Type-Identifier: com.apple.mail-note
  - <https://jpmens.net/2015/09/28/experiments-using-imap-for-notes/>
     - <https://gist.github.com/jpmens/4ffde3335d1479a9abf0>
  - Thunderbird插件: <https://addons.thunderbird.net/cs/thunderbird/addon/ios-imap-notes/>
+ - <https://kevinlee.io/wiki/IPhone_Notes_Shell_Script>
+ - <https://forums.zimbra.org/viewtopic.php?t=66943>
 
 > Well, I use the HeaderTools plugin with Thunderbird to accomplish this, so it's certainly possible. The notes app picks up the changes right away. 
 
