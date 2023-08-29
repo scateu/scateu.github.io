@@ -22,6 +22,7 @@ Current Folder Type =
                  Folder List = {mail.example.com:993/ssl/user=scateu@example.com}NOTE
                  
 Set From        = NOTE <note@scateu.me>
+Set Fcc         = NOTE  #注意，在Fastmail里或者其它主流邮箱，Notes名字是苹果Notes.app用的保留字。下面马上要讨论到。
 Use SMTP Server = dumb
 Use NNTP Server = dumb   #防止误发
 ```
