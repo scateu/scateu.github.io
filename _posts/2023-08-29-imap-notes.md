@@ -4,7 +4,7 @@ date: 2023-08-29
 layout: post
 ---
 
-IMAP的实时性是非常好的。 它的速度比什么Handover速度不相上下。可惜作者Mark R. Crispin英年早逝，sigh。
+IMAP的实时性是非常好的。 它的和什么Handover速度不相上下。可惜作者Mark R. Crispin英年早逝，sigh。
 
 ## Alpine IMAP Notes
 
