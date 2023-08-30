@@ -86,6 +86,8 @@ Set Other Hdrs  = X-Uniform-Type-Identifier: com.apple.mail-note
 
 ### See also
  - <https://f-droid.org/packages/com.Pau.ImapNotes2/>
+ - <https://github.com/niendo1/ImapNotes3>
+    - <https://f-droid.org/en/packages/de.niendo.ImapNotes3/>
  - <https://jpmens.net/2015/09/28/experiments-using-imap-for-notes/>
     - <https://gist.github.com/jpmens/4ffde3335d1479a9abf0>
  - Thunderbird插件: <https://addons.thunderbird.net/cs/thunderbird/addon/ios-imap-notes/>
