@@ -84,10 +84,17 @@ Set Other Hdrs  = X-Uniform-Type-Identifier: com.apple.mail-note
 2. 或者，在"设置>备忘录>账户>抓取新数据>[你的IMAP]" 由"抓取"改为"手动"。貌似效率反而更高。
 
 
-### See also
- - <https://f-droid.org/packages/com.Pau.ImapNotes2/>
+## Android 上也能用！
+
+用ImapNote3即可！哇咔咔！可以和macOS/iOS同步！
+唯一的缺点是看不了图片。不过笔记嘛，看什么图啦。
+
+ - <del> <https://f-droid.org/packages/com.Pau.ImapNotes2/> </del>
  - <https://github.com/niendo1/ImapNotes3>
     - <https://f-droid.org/en/packages/de.niendo.ImapNotes3/>
+
+### See also
+
  - <https://jpmens.net/2015/09/28/experiments-using-imap-for-notes/>
     - <https://gist.github.com/jpmens/4ffde3335d1479a9abf0>
  - Thunderbird插件: <https://addons.thunderbird.net/cs/thunderbird/addon/ios-imap-notes/>
