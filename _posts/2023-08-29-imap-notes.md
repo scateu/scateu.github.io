@@ -12,7 +12,9 @@ IMAP的实时性是非常好的。 它的和什么Handover速度不相上下。�
 
 然后在主界面上按`#`，即可选这个`NOTE`的角色， 来写一封笔记。然后按`C-x`发送。
 
-由于我配置了允许空收件人，`[X]  Send to Fcc Only Without Confirming`。
+ - 由于我配置了允许空收件人，`[X]  Send to Fcc Only Without Confirming`。所以当收件人为空时，按`C-x`之后无需再确认。
+ - `[X]  Enable Reply Indent String Editing` 对于修改NOTE也是挺有用的。
+
 
 至此，可以优雅地把任何IMAP Server变成笔记工具。
 
