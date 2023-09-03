@@ -104,6 +104,7 @@ Set Other Hdrs  = X-Uniform-Type-Identifier: com.apple.mail-note
     - <https://github.com/valinet/IMAPNotes>
  - <https://kevinlee.io/wiki/IPhone_Notes_Shell_Script>
  - <https://forums.zimbra.org/viewtopic.php?t=66943>
+ - <https://maft.co.uk/musings/2012/how-to-icloud-notes-in-mozilla-thunderbird/>
 
 > Well, I use the HeaderTools plugin with Thunderbird to accomplish this, so it's certainly possible. The notes app picks up the changes right away. 
 
