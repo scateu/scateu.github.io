@@ -108,6 +108,11 @@ Set Other Hdrs  = X-Uniform-Type-Identifier: com.apple.mail-note
 
 > Well, I use the HeaderTools plugin with Thunderbird to accomplish this, so it's certainly possible. The notes app picks up the changes right away. 
 
+
+### TIPS
+
+ - 在alpine里，按`D`删除一封Notes，但不急Expunge，传导到macOS上的Notes.app里似乎更好。如果D完了马上E，Notes.app反而收不到这个删除信息。
+
 ## 外一则: taskpaper 通过 alpine 的 IMAP 工具同步
 
 用户在一个全新的机器上(比如图书馆公用计算机)，可以直接敲
