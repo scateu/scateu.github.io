@@ -15,32 +15,31 @@ layout: post
 
 先说过程，再说结论。
 
-## 试了这几个海鲜项目
+## 先一天一夜试了这几个海鲜项目
 
-这几条路，2和3可以继续用，其它的可以不再看了。
+(这几条路，1和5可以继续用，其它的可以不再看了。)
 
-1. Cadmium(只能用u盘装)，装上有WiFi固件，但没声，原因是Kernel版本卡在不高不低，刚好把声音搞坏了。而且作者已经把项目Archive掉了。
-2. [PrawnOS](https://github.com/SolidHal/PrawnOS)(只能用sd卡装)。完成度不错。但作者把所有专有固件什么的都干掉了，即使你找到了Firmware，Kernel也会拒绝load... 没有WiFi，有声音。串口驱动有些不支持。比如QRP Labs的QMX插上去玩FT8不行。貌似也可以[手动编译](https://github.com/SolidHal/PrawnOS/issues/282)，`make BLOBBY_BUILD=1 TARGET=armhf kernel_config`这样。
-3. hexdump0815/imagebuilder  **胜出！** 最新Kernel！自动Build！支持设备种类多！有WiFi! 有声音! 开发活跃!
-4. Gentoo: <https://wiki.gentoo.org/wiki/Samsung_Chromebook_Plus>
-5. Arch: <https://archlinuxarm.org/platforms/armv8/rockchip/samsung-chromebook-plus>
+1. [PrawnOS](https://github.com/SolidHal/PrawnOS)(只能用sd卡装)。完成度不错。但作者把所有专有固件什么的都干掉了，即使你找到了Firmware，Kernel也会拒绝load... 没有WiFi，有声音。串口驱动有些不支持。比如QRP Labs的QMX插上去玩FT8不行。貌似也可以[手动编译](https://github.com/SolidHal/PrawnOS/issues/282)，`make BLOBBY_BUILD=1 TARGET=armhf kernel_config`这样。
+2. Cadmium(只能用u盘装)，装上有WiFi固件，但没声，原因是Kernel版本卡在不高不低，刚好把声音搞坏了。而且作者已经把项目Archive掉了。
+3. Gentoo: <https://wiki.gentoo.org/wiki/Samsung_Chromebook_Plus>
+4. Arch: <https://archlinuxarm.org/platforms/armv8/rockchip/samsung-chromebook-plus>
+5. hexdump0815/imagebuilder  **胜出！** 最新Kernel！自动Build！支持设备种类多！有WiFi! 有声音! 开发活跃! 硬件解码视频正常！触摸屏正常！
 
-这些项目的名字都是海产品，吃多了海产品会镉中毒(Cadmium)吧，我猜。
+这些项目的名字都是海产品，吃多了海产品会镉中毒(Cadmium)吧。
 
-我理解是，先有PrawnOS(对虾)。后有ShrimpOS(虾),再有镉(中毒)OS - CadmiumOS ，后来再有人基于这俩出了[CrawfishOS](https://github.com/austin987/crawfishos
+我理解是，先有Prawn(对虾)。后有Shrimp(虾)，再有Cadmium(镉 <del>中毒</del>)，后来再有人基于这俩出了[CrawfishOS](https://github.com/austin987/crawfishos
 )。
 
 ## 柳暗花明 SOLUTION: hexdump0815/imagebuilder
 
 ### 1. 设置开发者模式
 
-这些部署可以参考[PrawnOS](https://github.com/SolidHal/PrawnOS)的教程。
-
+这些步骤可以参考[PrawnOS](https://github.com/SolidHal/PrawnOS)的教程。
 
 1. 先要在Chromebook上按 "ESC - Refresh - 电源" 开机，置为Developer模式。
 2. Enable Debugging Features.  设置密码
 3. 登录google账号 (可以不做，直接Ctrl-Alt-F2, root 然后你的密码)
-4. Ctrl-alt-t  
+4. Ctrl-Alt-T  开终端
 5. 敲`shell`回车，再敲下面两行允许usb引导，不检查签名
 
 ```bash
@@ -73,13 +72,6 @@ crossystem dev_boot_usb=1
 3. `zcat *.img.gz | dd of=/dev/mmcblk1 bs=1024k status=progress` 此处的`mmcblk1`可以由`fdisk -l`看出，21GB左右。
 4. 写完eMMC后，重启，启动按Ctrl-D引导。(每次都要)
 5. eMMC系统进去之后，再执行一下`/script/extend-rootfs.sh`，把eMMC撑大。
-
-## 又及
-
-当年有幸[见过一回](https://github.com/scateu/scateu.github.io/blob/master/images/with_rms.jpg?raw=true)Richard Matthew Stallman，当时没有理解他为什么若为自由故。现场貌似还有个哥们拿了台mba找他签名，RMS果然不签。
-
-用了iPhone Android macbook越多，越觉得自由软件重要，起码不至于被强制报废。
-
 
 
 
@@ -143,9 +135,14 @@ The device you inserted does not contain chrome os:
 ```
 </details>
 
-
 ## 小结
 
 Chromebook原生Linux: 进developer模式，`Ctrl-U`引导进U盘系统，hexdump0815/imagebuilder牛。
 
 可惜bigeagle和fugoes都把Chromebook卖掉了。
+
+## 又及
+
+当年有幸[见过一回](https://github.com/scateu/scateu.github.io/blob/master/images/with_rms.jpg?raw=true)Richard Matthew Stallman，当时没有理解他为什么若为自由故。现场貌似还有个哥们拿了台mba找他签名，RMS果然不签。
+
+用了iPhone Android macbook越多，越觉得自由软件重要，起码不至于被强制报废。
