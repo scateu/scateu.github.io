@@ -139,7 +139,7 @@ The device you inserted does not contain chrome os:
 
 Chromebook原生Linux: 进developer模式，`Ctrl-U`引导进U盘系统，hexdump0815/imagebuilder牛。
 
-可惜bigeagle和fugoes都把Chromebook卖掉了。<del> "就差一步啊，就差一步 ...." </del>
+可惜bigeagle和[fugoes](https://blog.fugoes.xyz/2018/09/19/Notes-on-Chromebook.html)都把Chromebook卖掉了。<del> "就差一步啊，就差一步 ...." </del>
 
 ## 又及
 
