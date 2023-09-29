@@ -155,6 +155,9 @@ battery all {
 }
 ```
 
+Suspend的话， <del>以root`# echo mem > /sys/power/state`，这个太猛了。 </del>
+通常会用`systemctl suspend`
+
 ## 小结
 
 Chromebook原生Linux: 进developer模式，`Ctrl-U`引导进U盘系统，hexdump0815/imagebuilder牛。
