@@ -140,7 +140,20 @@ The device you inserted does not contain chrome os:
    - Power Manager > Laptop Lid: When Laptop lid is closed: Switch off display
    - Login Window > Users > Hide the user list -> OFF
 
+ - i3status的电池: 在`/etc/i3status.conf`里`battery all`一节改成: (然后alt-shift-r重启i3才能生效)
 
+```
+battery all {
+    path = "/sys/class/power_supply/%d/uevent"
+	format = "%status %percentage %remaining %emptytime"
+	format_down = "No battery"
+	status_chr = "⚡ CHR"
+	status_bat = "🔋 BAT"
+	status_unk = "? UNK"
+	status_full = "☻ FULL"
+	low_threshold = 10
+}
+```
 
 ## 小结
 
