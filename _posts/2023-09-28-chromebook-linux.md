@@ -135,6 +135,13 @@ The device you inserted does not contain chrome os:
 ```
 </details>
 
+## 小调整们
+ - xfce: settings > 
+   - Power Manager > Laptop Lid: When Laptop lid is closed: Switch off display
+   - Login Window > Users > Hide the user list -> OFF
+
+
+
 ## 小结
 
 Chromebook原生Linux: 进developer模式，`Ctrl-U`引导进U盘系统，hexdump0815/imagebuilder牛。
