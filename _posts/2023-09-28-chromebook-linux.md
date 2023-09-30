@@ -157,6 +157,7 @@ battery all {
 
  - Suspend的话， <del>以root`# echo mem > /sys/power/state`，这个太猛了。 </del> 通常会用`systemctl suspend`
  - PowerButton: 先在`/etc/systemd/logind.conf`里把`HandlePowerKey=ignore`，再在`.config/i3/config`里绑上`bindsym XF86PowerOff exec --no-startup-id systemctl suspend`
+ - 关Trackpad，有时候容易误触 `synclient TouchpadOff=1` 开是`0`
 
 ## 小结
 
