@@ -170,3 +170,7 @@ Chromebook原生Linux: 进developer模式，`Ctrl-U`引导进U盘系统，hexdum
 当年有幸[见过一回](https://github.com/scateu/scateu.github.io/blob/master/images/with_rms.jpg?raw=true)Richard Matthew Stallman，当时没有理解他为什么若为自由故。现场貌似还有个哥们拿了台mba找他签名，RMS果然不签。
 
 用了iPhone Android macbook越多，越觉得自由软件重要，起码不至于被强制报废。
+
+## See Also (updated: May 9, 2024)
+
+ - <https://wiki.postmarketos.org/wiki/Devices>
