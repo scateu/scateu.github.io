@@ -13,9 +13,9 @@ layout: post
 
 而最近我才意识到，本子，Book，是时间长河里竹筏子，是对抗遗忘的利器。Book-keeping is time-keeping.
 
-Field Notes的创始人Aaron Draplin说笔记本可以"Slow my ass down".
+Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm not writing it down to remember it later, I'm writing it down to remember it now." 
 
-从1995年成立的Moleskine公司，成为硅谷创业家、投资人[手中的最爱](https://www.newyorker.com/business/currency/why-startups-love-moleskines)，字面意义上的手。据说Dropbox公司的文具角有足够多的Moleskine任取。
+从1997年成立的Moleskine公司，成为硅谷创业家、投资人[手中的最爱](https://www.newyorker.com/business/currency/why-startups-love-moleskines)，字面意义上的手。据说Dropbox公司的文具角有足够多的Moleskine任取。
 
 # 名人的笔记本们
  - 居里夫人的[笔记本PDF](https://wellcomecollection.org/works/cywqefw4), 注意看她用的是网格本; (网格通常是5mm x 5mm) 网格本的好处是，可以随时随地填写实验数据，拉个表格出来。而且网格本可以Portrait，也可以Landscape来用，横线而不行。
