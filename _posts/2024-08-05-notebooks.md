@@ -77,9 +77,9 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
  | A6                                                                        | 10.5  | 14.8  | -        |
  | Moleskine Cahiers                                                         | 14    | 9     | 64       |
  | Moleskine Pocket                                                          | 14    | 9     | 192      |
- | Moleskine Medium                                                          | 11.5  | 17.5  | -        |
- | Moleskine Large                                                           | 13    | 21    | -        |
- | Moleskine XL                                                              | 19    | 25    | -        |
+ | Moleskine Medium                                                          | 17.5  | 11.5  | -        |
+ | Moleskine Large                                                           | 21    | 13    | -        |
+ | Moleskine XL                                                              | 25    | 19    | -        |
  | A4                                                                        | 21    | 29.7  | -        |
  | Moleskine XXL                                                             | 21.59 | 27.94 | -        |
  | Rite in the rain (On the go)                                              | 8.6   | 5.1   | -        |
@@ -87,7 +87,7 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
  | Rite in the rain (Stapled)                                                | 12    | 8.3   | -        |
  | Rite in the rain (Top Spiral, 3x5")                                       | 13    | 7.6   | -        |
  | Kokuyo Gambol Steno (6x4)                                                 | 15    | 10    | -        |
- | 道林 40K  日历                                                            | 11    | 21    | -        |
+ | 道林 40K  日历                                                            | 21    | 11    | -        |
  | Traveler's Notebook (Regular)                                             | 22.2  | 12.1  | -        |
  | Traveler's Notebook (Passport)                                            | 13.7  | 10    | -        |
  | IKEA KNAGGLIG 木箱 (小号) 刚好收纳Pocket Size                             | 15    | 23    | 9cm高    |
