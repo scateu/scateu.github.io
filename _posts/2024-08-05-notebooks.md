@@ -101,7 +101,9 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
  | 深圳造: Front [前通 D15-A601](http://www.sz-front.com/news_detail/2.html) | 14    | 9     | 50       |
 
 
+
 # See Also
+
  - 骑马订书机, Saddle Stitch, Booklet Stapler, 订折一体机
  - Bone Folder, 用以替代指甲来折纸
  - Book binding technique
