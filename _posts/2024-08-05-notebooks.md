@@ -5,7 +5,8 @@ layout: post
 ---
 
 # 引言
- - Write something down, so you can forget it.
+
+"Write something down, so you can forget it."
 
 "Dear Diary,"常见于西方人的日记开头。《安妮日记》里作者甚至给这本日记起了个名字，"Dear Kitty"，可见记事本可以、本应与人多么亲密。
 
@@ -19,13 +20,6 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
 
 从1997年成立的Moleskine公司，成为硅谷创业家、投资人[手中的最爱](https://www.newyorker.com/business/currency/why-startups-love-moleskines)，字面意义上的手。据说Dropbox公司的文具角有足够多的Moleskine任取。
 
-![图1]({{ site.imageurl }}/notebooks_1.jpg)
-
-![图2]({{ site.imageurl }}/notebooks_2.jpg)
-
-![图3]({{ site.imageurl }}/notebooks_3.jpg)
-
-![图4]({{ site.imageurl }}/notebooks_4.jpg)
 
 # 名人的笔记本们
  - 居里夫人的[笔记本PDF](https://wellcomecollection.org/works/cywqefw4), 注意看她用的是网格本; (网格通常是5mm x 5mm) 网格本的好处是，可以随时随地填写实验数据，拉个表格出来。而且网格本可以Portrait，也可以Landscape来用，横线而不行。
@@ -51,6 +45,14 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
    - 网格可以当Excel用。一定要注意网格的颜色要浅一些，不然会喧宾夺主。典型的5cm x 5cm最好。国产的没文化本子可能会用6cm x 6cm，不好。
    - 点阵看起来有用，实际用起来体验不好。字经常写歪。把整页用尺子画成一个7x5的格子，当Monthly Calendar用或许不错
    - 线(Ruled lines): 要留意线距，Moleskine是6mm线距，写起来很舒服。中文的可能会是8mm，或更宽，写起来有点傻
+
+![图1]({{ site.imageurl }}/notebooks_1.jpg)
+
+![图2]({{ site.imageurl }}/notebooks_2.jpg)
+
+![图3]({{ site.imageurl }}/notebooks_3.jpg)
+
+![图4]({{ site.imageurl }}/notebooks_4.jpg)
 
 # 手画Calendar
 
@@ -123,7 +125,7 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
 
 # 价格
 
- - Moleskine贵。200多一本。闲鱼上我找到了一家保健品联名款，我笃定没什么奸商去一个造一个小众联名款的假。30块一本，买了50本。用来武装周围的朋友们。(没错，是在我发现自己写不完之后) 联名款上有品牌名，拿到之后闭着眼把品牌名都划掉涂黑，就不会受它的心灵影响了。后来又看到了梅赛德斯联名款，怀疑被车贩咪了，于是又买了50本。我在工作上主力用它，摊开一面，大小可比拟A4 Landscape，作规划，平均两年写完一本。
+ - Moleskine贵。200多一本。闲鱼上我找到了一家保健品联名款，我笃定没什么奸商去造一个小众联名款的假。30块一本，买了50本。用来武装周围的朋友们。(没错，是在我发现自己写不完之后) 联名款上有品牌名，拿到之后闭着眼把品牌名都划掉涂黑，就不会受它的心灵影响了。后来又看到了梅赛德斯联名款，怀疑被车贩咪了，于是又买了50本。我在工作上主力用它，摊开一面，大小可比拟A4 Landscape，作规划，平均两年写完一本。
  - Field Notes: 更贵，平均30人民币一小本。斥巨资买了4包(12本)网格，2包(6本)横线，结果发现横线款和网格款外观尺寸不一致，任拆一包网格款，三本里有两本的中间钉子没透全，还发现创始人之一此刻在狂踩川普力捧哈里斯，于是全退掉了... made in america my ass
    - 万幸，手边买过一个三合一倒角器，找点废旧本子，直接按尺寸裁剪一下，倒个角，骑马钉钉上三个，效果也非常好
    - 深圳前通(Front)这个品牌非常不错，可以入一点。3块5一本，分小本线装
