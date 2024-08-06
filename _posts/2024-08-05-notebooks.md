@@ -25,6 +25,8 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
 
 ![图3]({{ site.imageurl }}/notebooks_3.jpg)
 
+![图4]({{ site.imageurl }}/notebooks_4.jpg)
+
 # 名人的笔记本们
  - 居里夫人的[笔记本PDF](https://wellcomecollection.org/works/cywqefw4), 注意看她用的是网格本; (网格通常是5mm x 5mm) 网格本的好处是，可以随时随地填写实验数据，拉个表格出来。而且网格本可以Portrait，也可以Landscape来用，横线而不行。
  - 达芬奇的笔记本，他镜像书写。有人扫描并OCR: <https://www.leonardodigitale.com/en/browse/codex-arundel/0001-v/>
