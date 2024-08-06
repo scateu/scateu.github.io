@@ -7,11 +7,13 @@ layout: post
 # 引言
  - Write something down, so you can forget it.
 
-《安妮日记》，每篇都是"Dear Diary,"开头。可见日记本可以与人多么亲密。
+"Dear Diary,"常见于西方人的日记开头。《安妮日记》里作者甚至给这本日记起了个名字，"Dear Kitty"，可见记事本可以、本应与人多么亲密。
 
-然而，在我所受的教育中，日记本，周记本，通常是被用来使人劳顿，替代体罚(参见: 自动写字机器人)，使人一笔一划不敢潦草态度要好，使人填满了上交而不一定有人看但空着一定会被人注意到的东西。一本装订好了的本子，在我手里，经常会在写了几页之后，被我剖开，当成便笺使用。
+但我所受的教育中，日记本、周记本、练习册，通常被用来使人劳顿、替代体罚(参见: 自动写字机器人)，使人一笔一划不敢潦草态度要好，使人填满了上交而不一定有人看但空着一定会被人注意到。一本装订好了的本子，在我手里，经常会在写了几页之后，被我剖开，当成便笺使用。
 
-而最近我才意识到，本子，Book，是时间长河里竹筏子，是对抗遗忘的利器。Book-keeping is time-keeping.
+而最近我才意识到，本子，Book，是时间长河里的竹筏，是对抗遗忘的利器。
+
+Book-keeping is time-keeping.
 
 Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm not writing it down to remember it later, I'm writing it down to remember it now." 
 
