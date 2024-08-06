@@ -12,9 +12,9 @@ layout: post
 
 但我所受的教育中，日记本、周记本、练习册，通常被用来使人劳顿、替代体罚(参见: 自动写字机器人)，使人一笔一划不敢潦草态度要好，使人填满了上交而不一定有人看但空着一定会被人注意到。一本装订好了的本子，在我手里，经常会在写了几页之后，被我剖开，当成便笺使用。
 
-而最近我才意识到，本子，Book，是时间长河里的竹筏，是对抗遗忘的利器。[^1]
+而最近我才意识到，本子，Book，是时间长河里的竹筏，可以对抗遗忘。
 
-[^1]: "The struggle of man against power is the struggle of memory against forgetting." - Milan Kundera, The Book of Laughter and Forgetting
+> The struggle of man against power is the struggle of memory against forgetting. - Milan Kundera, The Book of Laughter and Forgetting
 
 Book-keeping is time-keeping.
 
