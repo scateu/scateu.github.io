@@ -17,11 +17,17 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
 
 从1997年成立的Moleskine公司，成为硅谷创业家、投资人[手中的最爱](https://www.newyorker.com/business/currency/why-startups-love-moleskines)，字面意义上的手。据说Dropbox公司的文具角有足够多的Moleskine任取。
 
+![图1]({{ site.imageurl }}/notebooks_1.jpg)
+
+![图2]({{ site.imageurl }}/notebooks_2.jpg)
+
+![图3]({{ site.imageurl }}/notebooks_3.jpg)
+
 # 名人的笔记本们
  - 居里夫人的[笔记本PDF](https://wellcomecollection.org/works/cywqefw4), 注意看她用的是网格本; (网格通常是5mm x 5mm) 网格本的好处是，可以随时随地填写实验数据，拉个表格出来。而且网格本可以Portrait，也可以Landscape来用，横线而不行。
  - 达芬奇的笔记本，他镜像书写。有人扫描并OCR: <https://www.leonardodigitale.com/en/browse/codex-arundel/0001-v/>
 
-我的一位物理学家同学，他会随身带一个A4活页夹，四孔(两孔的打孔器，正反各打一次即可成为四孔)。首页会有一个Index，标注一个月的日期，每天在上面画"正"字，一划表示工作了一个25分钟时间段(番茄)。这样做的好处是，随身只要带一个打孔器，到处都有A4纸。定期将这些纸用线缝起来archive。他从大四(~2010年)开始一直保持这样的习惯，已经14年了。
+ - 我的一位[物理学家同学](https://xunjiexu.github.io/)，他会随身带一个A4活页夹，四孔(两孔的打孔器，正反各打一次即可成为四孔)。首页会有一个Index，标注一个月的日期，每天在上面画"正"字，一划表示工作了一个40分钟时间段(番茄)。这样做的好处是，随身只要带一个打孔器，到处都有A4纸。定期将这些纸用线缝起来archive。他从大四(~2010年)开始一直保持这样的习惯，已经14年了。
 
 # 从产品角度来看记事本有以下的好特性:
 
