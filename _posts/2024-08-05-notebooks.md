@@ -130,4 +130,5 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
  - British Royal Notebook - 据说英国皇室也每天填日历格子，左三右四这样
 
 # Response
- - 中文古籍出版编辑同学: "用完再说吧(笑哭) 纸会老的"
+ - 中文古籍出版编辑李同学: "用完再说吧😂 纸会老的"
+ - 建筑系学分绩第一李同学: "Dropbox不是文具角，是个免费的自动贩卖机😆"
