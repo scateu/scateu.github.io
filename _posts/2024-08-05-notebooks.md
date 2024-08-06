@@ -112,3 +112,6 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
  - Bullet Journal Legend. 子弹笔记定义了很多itemize的图标，可以参考
  - 考研打格尺 - 这玩意用来DIY Calendar Book很有用: 
  - British Royal Notebook - 据说英国皇室也每天填日历格子，左三右四这样
+
+# Response
+ - 中文古籍出版编辑同学: "用完再说吧(笑哭) 纸会老的"
