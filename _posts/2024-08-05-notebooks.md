@@ -156,7 +156,8 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
 
 可以在每个org mode文件里加上这个
 
-<code>
+```
+{% raw %}
 #+title: Title
 #+AUTHOR: Author
 #+LATEX_CLASS: ctexart
@@ -176,14 +177,16 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
            (setq org-latex-default-class "ctexart")
            (setq org-latex-compiler "xelatex"))
   #+end_src
-</code>
+{% end raw %}
+```
 
 > 参考自DimLight: 
 > 如果你不需要到处到英文的话，把Configuration里的elisp放进你自己的配置里(~/.config/doom/init.el)。 然后执行`~/.config/emacs/bin/doom sync`
 > 否则需要在第一次开这个文件的时候选中这段代码，M-x eval-region
 
 
-<code>
+```
+{% raw %}
     #+TITLE: Title
     #+LATEX_HEADER: \usepackage{ctex}
     * COMMENT Config
@@ -202,7 +205,8 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
     #+LABEL: fig:billiboard
     #+ATTR_LATEX: :height 0.95\textheight :float t
     [[file:some_fig.png]]
-</code>
+{% end raw %}
+```
 
 
 > 然后有个命令应该会喜欢：counsel-descbinds，可以让你interactive地查看命令跟快捷键的对应
@@ -230,7 +234,8 @@ $ tail ~/.emacs.d/init.el
 `.doom.d/config.el`:
 
 
-<code>
+```
+{% raw %}
 (setq user-full-name "John Doe"
       user-mail-address "john@doe.com")
 (setq doom-theme 'doom-one)
@@ -273,7 +278,8 @@ $ tail ~/.emacs.d/init.el
 (advice-add 'ispell-lookup-words :around
             (lambda (orig &rest args)
               (shut-up (apply orig args))))
-</code>
+{% end raw %}
+```
 
 </details>
 
