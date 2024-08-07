@@ -120,6 +120,163 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
 
 记录每天发生的Event。好处是可以grep，比如工位附近有不肖同事咆哮怒骂手下员工，就可以记一笔。有自动的时间戳。
 
+<details markdown="1"><summary>配置过程</summary>
+GNU Emacs 28.1 (build 1, aarch64-apple-darwin21.4.0, Carbon Version 165 AppKit 2113.4) of 2022-05-04
+
+## mac上装emacs
+
+<https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org>
+
+    brew tap railwaycat/emacsmacport
+    brew install emacs-mac --with-modules
+    #ln -s /usr/local/opt/emacs-mac/Emacs.app /Applications/Emacs.app
+    ln -s /opt/homebrew/opt/emacs-mac/Emacs.app /Applications/Emacs.app 
+
+## doom 配置
+
+    git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+    ~/.config/emacs/bin/doom install
+
+
+## 装texlive
+
+    brew install texlive
+
+## 配置字体 (参考自DimLight)
+
+
+```elisp
+(setq doom-font (font-spec :family "Sarasa Mono SC" :size 16)
+      doom-variable-pitch-font (font-spec :family "Libre Baskerville") ; inherits `doom-font''s :size
+      doom-unicode-font (font-spec :family "Sarasa Mono SC"))
+```
+
+
+
+## 配置LaTeX的模板
+
+可以在每个org mode文件里加上这个
+
+```orgmode
+#+title: Title
+#+AUTHOR: Author
+#+LATEX_CLASS: ctexart
+# #+LATEX_CLASS_OPTIONS: [letter]
+#+LATEX_HEADER: \usepackage[driver=dvipdfm,margin=1in,a4paper]{geometry}
+#+OPTIONS: toc:nil num:nil
+* COMMENT Configuration
+  #+begin_src emacs-lisp
+          (with-eval-after-load 'ox-latex
+           (add-to-list 'org-latex-classes
+                        '("ctexart" "\\documentclass[11pt]{ctexart}"
+                          ("\\section{%s}" . "\\section*{%s}")
+                          ("\\subsection{%s}" . "\\subsection*{%s}")
+                          ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+                          ("\\paragraph{%s}" . "\\paragraph*{%s}")
+                          ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+           (setq org-latex-default-class "ctexart")
+           (setq org-latex-compiler "xelatex"))
+  #+end_src
+```
+
+> 参考自DimLight: 
+> 如果你不需要到处到英文的话，把Configuration里的elisp放进你自己的配置里(~/.config/doom/init.el)。 然后执行`~/.config/emacs/bin/doom sync`
+> 否则需要在第一次开这个文件的时候选中这段代码，M-x eval-region
+
+
+```orgmode
+#+TITLE: Title
+#+LATEX_HEADER: \usepackage{ctex}
+* COMMENT Config
+#+begin_src emacs-lisp
+(setq-local org-latex-compiler "xelatex")
+#+end_src
+* 测试中文
+  测试中文
+
+
+geometry那一行是调整页边距的
+
+
+一些文字 (图 ref:fig:billiboard)
+#+CAPTION: 标题
+#+LABEL: fig:billiboard
+#+ATTR_LATEX: :height 0.95\textheight :float t
+[[file:some_fig.png]]
+```
+
+
+
+> 然后有个命令应该会喜欢：counsel-descbinds，可以让你interactive地查看命令跟快捷键的对应
+
+> 比如跟buffer相关的在SPC b下面，跟window相关的在SPC w下面，跟搜索相关的在SPC s下面，等等
+
+
+
+## 加速
+
+
+```
+$ tail ~/.emacs.d/init.el
+
+	(doom-initialize-modules)
+	(setq package-archives '(("gnu"    .  "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+				 ("nongnu" .  "http://mirrors.tuna.tsinghua.edu.cn/elpa/nongnu/")
+				 ("melpa"  .  "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
+	(package-initialize) ;; You might already have this line
+```
+
+
+## 小结: 我的配置文件 (相比于原始的Doom Emacs)
+
+### .doom.d/config.el
+```
+(setq user-full-name "John Doe"
+      user-mail-address "john@doe.com")
+(setq doom-theme 'doom-one)
+(setq org-directory "~/org/")
+(setq display-line-numbers-type t)
+;;brew tap laishulu/cask-fonts
+;;brew install --cask font-sarasa-nerd
+(setq doom-font (font-spec :family "Sarasa Term SC Nerd" :size 16)  
+     doom-unicode-font (font-spec :family "file-icons"))
+(with-eval-after-load 'ox-latex
+           (add-to-list 'org-latex-classes
+                        '("ctexart" "\\documentclass[11pt]{ctexart}"
+                          ("\\section{%s}" . "\\section*{%s}")
+                          ("\\subsection{%s}" . "\\subsection*{%s}")
+                          ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+                          ("\\paragraph{%s}" . "\\paragraph*{%s}")
+                          ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+           (setq org-latex-default-class "ctexart")
+           (setq org-latex-compiler "xelatex"))
+(with-eval-after-load 'evil-maps
+  (define-key evil-normal-state-map (kbd "C-n") nil)
+  (define-key evil-normal-state-map (kbd "C-p") nil)
+  )
+(eval-after-load "evil-maps"
+  (dolist (map '(evil-motion-state-map
+                 evil-insert-state-map
+                 evil-emacs-state-map))
+    (define-key (eval map) "\C-w" nil)))
+;; macOS: use command key as meta
+(setq mac-option-key-is-meta nil)
+(setq mac-command-key-is-meta t)
+(setq mac-command-modifier 'meta)
+(setq mac-option-modifier nil)
+(setenv "SHELL" "/bin/bash")
+
+(global-set-key (kbd "C-c l") 'org-store-link)
+(global-set-key (kbd "C-c a") 'org-agenda)
+(global-set-key (kbd "C-c c") 'org-capture)
+
+(advice-add 'ispell-lookup-words :around
+            (lambda (orig &rest args)
+              (shut-up (apply orig args))))
+```
+</details>
+
+
 # 价格
 
 
@@ -147,28 +304,34 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
 
 ![图2: IKEA收纳]({{ site.imageurl }}/notebooks_2.jpg)
 
- | 型号                                                                      | 长/cm | 宽/cm | 可书写页 |
- |---------------------------------------------------------------------------|-------|-------|----------|
- | Field Notes (倒角 R=10mm)                                                 | 14    | 8.9   | 48       |
- | A6                                                                        | 10.5  | 14.8  | -        |
- | Moleskine Cahiers                                                         | 14    | 9     | 64       |
- | Moleskine Pocket                                                          | 14    | 9     | 192      |
- | Moleskine Medium                                                          | 17.5  | 11.5  | -        |
- | Moleskine Large                                                           | 21    | 13    | -        |
- | Moleskine XL                                                              | 25    | 19    | -        |
- | A4                                                                        | 21    | 29.7  | -        |
- | Moleskine XXL                                                             | 21.59 | 27.94 | -        |
- | Rite in the rain (On the go)                                              | 8.6   | 5.1   | -        |
- | Rite in the rain (Stapled)                                                | 18    | 12    | -        |
- | Rite in the rain (Stapled)                                                | 12    | 8.3   | -        |
- | Rite in the rain (Top Spiral, 3x5")                                       | 13    | 7.6   | -        |
- | Kokuyo Gambol Steno (6x4)                                                 | 15    | 10    | -        |
- | 道林 40K  日历                                                            | 21    | 11    | -        |
- | Traveler's Notebook (Regular)                                             | 22.2  | 12.1  | -        |
- | Traveler's Notebook (Passport)                                            | 13.7  | 10    | -        |
- | IKEA KNAGGLIG 木箱 (小号) 刚好收纳Pocket Size                             | 15    | 23    | 9cm高    |
- | LEUCHTTURM 1917                                                           | 19    | 12.8  | -        |
- | 深圳造: Front [前通 D15-A601](http://www.sz-front.com/news_detail/2.html) | 14    | 9     | 50       |
+|-----------------------------------------------------------------------------|---------|---------|------------|
+| 型号                                                                        | 长/cm   | 宽/cm   | 可书写页   |
+|-----------------------------------------------------------------------------|---------|---------|------------|
+| A6                                                                          | 10.5    | 14.8    | -          |
+| Moleskine Medium                                                            | 17.5    | 11.5    | -          |
+| Moleskine Large                                                             | 21      | 13      | -          |
+| LEUCHTTURM 1917                                                             | 19      | 12.8    | -          |
+| Moleskine XL                                                                | 25      | 19      | -          |
+| A4                                                                          | 29.7    | 21      | -          |
+| Moleskine XXL                                                               | 27.94   | 21.59   | -          |
+| Rite in the rain (On the go)                                                | 8.6     | 5.1     | -          |
+| Rite in the rain (Stapled)                                                  | 18      | 12      | -          |
+| Rite in the rain (Stapled)                                                  | 12      | 8.3     | -          |
+| 3x5 Index Cards 标准索引卡                                                  | 12.5    | 7.6     | -          |
+| Rite in the rain (Top Spiral, 3x5")                                         | 13      | 7.6     | -          |
+| Kokuyo Gambol Steno (6x4)                                                   | 15      | 10      | -          |
+| --------------------------------------------------------------------------- | ------- | ------- | ---------- |
+| 道林 40K  日历                                                              | 21      | 11      | -          |
+| Traveler's Notebook (Regular)                                               | 22.2    | 12.1    | -          |
+| --------------------------------------------------------------------------- | ------- | ------- | ---------- |
+| Traveler's Notebook (Passport)                                              | 13.7    | 10      | -          |
+| --------------------------------------------------------------------------- | ------- | ------- | ---------- |
+| Field Notes (倒角 R=10mm)                                                   | 14      | 8.9     | 48         |
+| Moleskine Cahiers                                                           | 14      | 9       | 64         |
+| Moleskine Pocket                                                            | 14      | 9       | 192        |
+| 深圳造: Front [前通 D15-A601](http://www.sz-front.com/news_detail/2.html)   | 14      | 9       | 50         |
+| IKEA KNAGGLIG 木箱 (小号) 刚好收纳Pocket Size                               | 15      | 23      | 9cm高      |
+|-----------------------------------------------------------------------------|---------|---------|------------|
 
 
 
