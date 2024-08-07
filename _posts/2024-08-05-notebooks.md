@@ -156,31 +156,34 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
 
 可以在每个org mode文件里加上这个
 
-    #+title: Title
-    #+AUTHOR: Author
-    #+LATEX_CLASS: ctexart
-    # #+LATEX_CLASS_OPTIONS: [letter]
-    #+LATEX_HEADER: \usepackage[driver=dvipdfm,margin=1in,a4paper]{geometry}
-    #+OPTIONS: toc:nil num:nil
-    * COMMENT Configuration
-      #+begin_src emacs-lisp
-              (with-eval-after-load 'ox-latex
-               (add-to-list 'org-latex-classes
-                            '("ctexart" "\\documentclass[11pt]{ctexart}"
-                              ("\\section{%s}" . "\\section*{%s}")
-                              ("\\subsection{%s}" . "\\subsection*{%s}")
-                              ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
-                              ("\\paragraph{%s}" . "\\paragraph*{%s}")
-                              ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
-               (setq org-latex-default-class "ctexart")
-               (setq org-latex-compiler "xelatex"))
-      #+end_src
+<code>
+#+title: Title
+#+AUTHOR: Author
+#+LATEX_CLASS: ctexart
+# #+LATEX_CLASS_OPTIONS: [letter]
+#+LATEX_HEADER: \usepackage[driver=dvipdfm,margin=1in,a4paper]{geometry}
+#+OPTIONS: toc:nil num:nil
+* COMMENT Configuration
+  #+begin_src emacs-lisp
+          (with-eval-after-load 'ox-latex
+           (add-to-list 'org-latex-classes
+                        '("ctexart" "\\documentclass[11pt]{ctexart}"
+                          ("\\section{%s}" . "\\section*{%s}")
+                          ("\\subsection{%s}" . "\\subsection*{%s}")
+                          ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+                          ("\\paragraph{%s}" . "\\paragraph*{%s}")
+                          ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+           (setq org-latex-default-class "ctexart")
+           (setq org-latex-compiler "xelatex"))
+  #+end_src
+</code>
 
 > 参考自DimLight: 
 > 如果你不需要到处到英文的话，把Configuration里的elisp放进你自己的配置里(~/.config/doom/init.el)。 然后执行`~/.config/emacs/bin/doom sync`
 > 否则需要在第一次开这个文件的时候选中这段代码，M-x eval-region
 
 
+<code>
     #+TITLE: Title
     #+LATEX_HEADER: \usepackage{ctex}
     * COMMENT Config
@@ -199,7 +202,7 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
     #+LABEL: fig:billiboard
     #+ATTR_LATEX: :height 0.95\textheight :float t
     [[file:some_fig.png]]
-
+</code>
 
 
 > 然后有个命令应该会喜欢：counsel-descbinds，可以让你interactive地查看命令跟快捷键的对应
@@ -227,48 +230,50 @@ $ tail ~/.emacs.d/init.el
 `.doom.d/config.el`:
 
 
-    (setq user-full-name "John Doe"
-          user-mail-address "john@doe.com")
-    (setq doom-theme 'doom-one)
-    (setq org-directory "~/org/")
-    (setq display-line-numbers-type t)
-    ;;brew tap laishulu/cask-fonts
-    ;;brew install --cask font-sarasa-nerd
-    (setq doom-font (font-spec :family "Sarasa Term SC Nerd" :size 16)  
-         doom-unicode-font (font-spec :family "file-icons"))
-    (with-eval-after-load 'ox-latex
-               (add-to-list 'org-latex-classes
-                            '("ctexart" "\\documentclass[11pt]{ctexart}"
-                              ("\\section{%s}" . "\\section*{%s}")
-                              ("\\subsection{%s}" . "\\subsection*{%s}")
-                              ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
-                              ("\\paragraph{%s}" . "\\paragraph*{%s}")
-                              ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
-               (setq org-latex-default-class "ctexart")
-               (setq org-latex-compiler "xelatex"))
-    (with-eval-after-load 'evil-maps
-      (define-key evil-normal-state-map (kbd "C-n") nil)
-      (define-key evil-normal-state-map (kbd "C-p") nil)
-      )
-    (eval-after-load "evil-maps"
-      (dolist (map '(evil-motion-state-map
-                     evil-insert-state-map
-                     evil-emacs-state-map))
-        (define-key (eval map) "\C-w" nil)))
-    ;; macOS: use command key as meta
-    (setq mac-option-key-is-meta nil)
-    (setq mac-command-key-is-meta t)
-    (setq mac-command-modifier 'meta)
-    (setq mac-option-modifier nil)
-    (setenv "SHELL" "/bin/bash")
+<code>
+(setq user-full-name "John Doe"
+      user-mail-address "john@doe.com")
+(setq doom-theme 'doom-one)
+(setq org-directory "~/org/")
+(setq display-line-numbers-type t)
+;;brew tap laishulu/cask-fonts
+;;brew install --cask font-sarasa-nerd
+(setq doom-font (font-spec :family "Sarasa Term SC Nerd" :size 16)  
+     doom-unicode-font (font-spec :family "file-icons"))
+(with-eval-after-load 'ox-latex
+           (add-to-list 'org-latex-classes
+                        '("ctexart" "\\documentclass[11pt]{ctexart}"
+                          ("\\section{%s}" . "\\section*{%s}")
+                          ("\\subsection{%s}" . "\\subsection*{%s}")
+                          ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+                          ("\\paragraph{%s}" . "\\paragraph*{%s}")
+                          ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+           (setq org-latex-default-class "ctexart")
+           (setq org-latex-compiler "xelatex"))
+(with-eval-after-load 'evil-maps
+  (define-key evil-normal-state-map (kbd "C-n") nil)
+  (define-key evil-normal-state-map (kbd "C-p") nil)
+  )
+(eval-after-load "evil-maps"
+  (dolist (map '(evil-motion-state-map
+                 evil-insert-state-map
+                 evil-emacs-state-map))
+    (define-key (eval map) "\C-w" nil)))
+;; macOS: use command key as meta
+(setq mac-option-key-is-meta nil)
+(setq mac-command-key-is-meta t)
+(setq mac-command-modifier 'meta)
+(setq mac-option-modifier nil)
+(setenv "SHELL" "/bin/bash")
 
-    (global-set-key (kbd "C-c l") 'org-store-link)
-    (global-set-key (kbd "C-c a") 'org-agenda)
-    (global-set-key (kbd "C-c c") 'org-capture)
+(global-set-key (kbd "C-c l") 'org-store-link)
+(global-set-key (kbd "C-c a") 'org-agenda)
+(global-set-key (kbd "C-c c") 'org-capture)
 
-    (advice-add 'ispell-lookup-words :around
-                (lambda (orig &rest args)
-                  (shut-up (apply orig args))))
+(advice-add 'ispell-lookup-words :around
+            (lambda (orig &rest args)
+              (shut-up (apply orig args))))
+</code>
 
 </details>
 
