@@ -121,7 +121,6 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
 记录每天发生的Event。好处是可以grep，比如工位附近有不肖同事咆哮怒骂手下员工，就可以记一笔。有自动的时间戳。
 
 <details markdown="1"><summary>配置过程</summary>
-GNU Emacs 28.1 (build 1, aarch64-apple-darwin21.4.0, Carbon Version 165 AppKit 2113.4) of 2022-05-04
 
 ## mac上装emacs
 
@@ -229,7 +228,8 @@ $ tail ~/.emacs.d/init.el
 
 ## 小结: 我的配置文件 (相比于原始的Doom Emacs)
 
-### .doom.d/config.el
+`.doom.d/config.el`:
+
 ```
 (setq user-full-name "John Doe"
       user-mail-address "john@doe.com")
@@ -274,6 +274,7 @@ $ tail ~/.emacs.d/init.el
             (lambda (orig &rest args)
               (shut-up (apply orig args))))
 ```
+
 </details>
 
 
