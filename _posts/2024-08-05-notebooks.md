@@ -122,7 +122,7 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
 
 <details markdown="1"><summary>配置过程</summary>
 
-## mac上装emacs
+#### mac上装emacs
 
 <https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org>
 
@@ -131,17 +131,17 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
     #ln -s /usr/local/opt/emacs-mac/Emacs.app /Applications/Emacs.app
     ln -s /opt/homebrew/opt/emacs-mac/Emacs.app /Applications/Emacs.app 
 
-## doom 配置
+#### doom 配置
 
     git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
     ~/.config/emacs/bin/doom install
 
 
-## 装texlive
+#### 装texlive
 
     brew install texlive
 
-## 配置字体 (参考自DimLight)
+#### 配置字体 (参考自DimLight)
 
 
 ```elisp
@@ -150,7 +150,7 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
       doom-unicode-font (font-spec :family "Sarasa Mono SC"))
 ```
 
-## 配置LaTeX的模板
+#### 配置LaTeX的模板
 
 可以在每个org mode文件里加上这个
 
@@ -213,7 +213,7 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
 
 
 
-## 加速
+#### 加速
 
 
 ```
@@ -227,7 +227,7 @@ $ tail ~/.emacs.d/init.el
 ```
 
 
-## 小结: 我的配置文件 (相比于原始的Doom Emacs)
+#### 小结: 我的配置文件 (相比于原始的Doom Emacs)
 
 `.doom.d/config.el`:
 
