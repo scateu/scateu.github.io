@@ -9,7 +9,6 @@ details {
   padding-top: 15px;  // added Aug 7, 2024
   padding-left: 15px;  // added Aug 7, 2024
   padding-right: 15px; // added Aug 7, 2024
-  padding-bottom: 15px; // added Aug 7, 2024
 }
 
 summary {
@@ -28,6 +27,10 @@ summary {
 details[open] summary {
   background: #333;
   color: #FFF;
+}
+
+details[open] {
+  padding-bottom: 15px; // added Aug 7, 2024
 }
 
 summary:hover {
