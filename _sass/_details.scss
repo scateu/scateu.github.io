@@ -6,6 +6,8 @@ details {
   border-radius: 3px;
   background: #EEE;
   margin: 1em 0;
+  padding-left: 15px;  // added Aug 7, 2024
+  padding-right: 15px; // added Aug 7, 2024
 }
 
 summary {
@@ -15,6 +17,7 @@ summary {
   border-radius: 3px;
   padding: 5px 10px;
   outline: none;
+  margin-left: -15px; // added Aug 7, 2024
 }
 
 /* Style the summary when details box is open */
@@ -28,4 +31,3 @@ summary:hover {
   color: #FFF;
   cursor: pointer;
 }
-
