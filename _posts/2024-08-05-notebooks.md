@@ -305,29 +305,29 @@ $ tail ~/.emacs.d/init.el
 
 ![图2: IKEA收纳]({{ site.imageurl }}/notebooks_2.jpg)
 
-| 型号                                                                        | 长/cm   | 宽/cm   | 可书写页   |
-|-----------------------------------------------------------------------------|---------|---------|------------|
-| A6                                                                          | 10.5    | 14.8    | -          |
-| Moleskine Medium                                                            | 17.5    | 11.5    | -          |
-| Moleskine Large                                                             | 21      | 13      | -          |
-| LEUCHTTURM 1917                                                             | 19      | 12.8    | -          |
-| Moleskine XL                                                                | 25      | 19      | -          |
-| A4                                                                          | 29.7    | 21      | -          |
-| Moleskine XXL                                                               | 27.94   | 21.59   | -          |
-| Rite in the rain (On the go)                                                | 8.6     | 5.1     | -          |
-| Rite in the rain (Stapled)                                                  | 18      | 12      | -          |
-| Rite in the rain (Stapled)                                                  | 12      | 8.3     | -          |
-| 3x5 Index Cards 标准索引卡                                                  | 12.5    | 7.6     | -          |
-| Rite in the rain (Top Spiral, 3x5")                                         | 13      | 7.6     | -          |
-| Kokuyo Gambol Steno (6x4)                                                   | 15      | 10      | -          |
-| 道林 40K  日历                                                              | 21      | 11      | -          |
-| Traveler's Notebook (Regular)                                               | 22.2    | 12.1    | -          |
-| Traveler's Notebook (Passport)                                              | 13.7    | 10      | -          |
-| Field Notes (倒角 R=10mm)                                                   | 14      | 8.9     | 48         |
-| Moleskine Cahiers                                                           | 14      | 9       | 64         |
-| Moleskine Pocket                                                            | 14      | 9       | 192        |
-| 深圳造: Front [前通 D15-A601](http://www.sz-front.com/news_detail/2.html)   | 14      | 9       | 50         |
-| IKEA KNAGGLIG 木箱 (小号) 刚好收纳Pocket Size                               | 15      | 23      | 9cm高      |
+| 型号                                                                      | 长/cm | 宽/cm | 可书写页 |
+|---------------------------------------------------------------------------|-------|-------|----------|
+| A6                                                                        | 10.5  | 14.8  | -        |
+| Moleskine Medium                                                          | 17.5  | 11.5  | -        |
+| Moleskine Large                                                           | 21    | 13    | -        |
+| LEUCHTTURM 1917                                                           | 19    | 12.8  | -        |
+| Moleskine XL                                                              | 25    | 19    | -        |
+| A4                                                                        | 29.7  | 21    | -        |
+| Moleskine XXL                                                             | 27.94 | 21.59 | -        |
+| Rite in the rain (On the go)                                              | 8.6   | 5.1   | -        |
+| Rite in the rain (Stapled)                                                | 18    | 12    | -        |
+| Rite in the rain (Stapled)                                                | 12    | 8.3   | -        |
+| 3x5 Index Cards 标准索引卡                                                | 12.5  | 7.6   | -        |
+| Rite in the rain (Top Spiral, 3x5")                                       | 13    | 7.6   | -        |
+| Kokuyo Gambol Steno (6x4)                                                 | 15    | 10    | -        |
+| 道林 40K  日历                                                            | 21    | 11    | -        |
+| Traveler's Notebook (Regular)                                             | 22.2  | 12.1  | -        |
+| Traveler's Notebook (Passport)                                            | 13.7  | 10    | -        |
+| Field Notes (倒角 R=10mm)                                                 | 14    | 8.9   | 48       |
+| Moleskine Cahiers                                                         | 14    | 9     | 64       |
+| Moleskine Pocket                                                          | 14    | 9     | 192      |
+| 深圳造: Front [前通 D15-A601](http://www.sz-front.com/news_detail/2.html) | 14    | 9     | 50       |
+| IKEA KNAGGLIG 木箱 (小号) 刚好收纳Pocket Size                             | 15    | 23    | 9cm高    |
 
 
 
