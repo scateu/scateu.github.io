@@ -302,7 +302,7 @@ $ tail ~/.emacs.d/init.el
 最后，找个裁纸刀(可以用刀尾掰一下，用一段新刀片)，用钢尺比着一页一页地切边，再厚的书也可以轻松切好。
 
 # 笔
- - Bic Crystal很不错。圆珠笔的始祖，两三块钱一根。创始人Bich在业务扩展到英国的时候，被人提醒还是把h去掉吧，不然念起来不好听。也有四合一的版本。Fargo S01里，Nygarrd在店里向人推销的那根笔就是BIC 4-Color。
+ - Bic Crystal很不错。圆珠笔的始祖，两三块钱一根。创始人Bich在业务扩展到英国的时候，被人提醒还是把h去掉吧，不然念起来不好听。也有四合一的版本。Fargo S01里，Nygarrd在店里向人推销的那根笔就是BIC 4-Color。《别惹我 Malavita (2013)》里，男主的儿子在校报上写下"If it's good enough for you, it's Godunov for me."用的也是这支。
  - 三菱 Uni Jetstream 也不错，可以买四种颜色四合一的，70块钱左右。三菱铅笔在2024年初把Lamy公司收购了。
 
 # 尺寸
