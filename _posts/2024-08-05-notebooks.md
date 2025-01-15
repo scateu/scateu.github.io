@@ -120,6 +120,8 @@ Field Notes的创始人Aaron Draplin说笔记本可以 slow his ass down. "I'm n
 
 记录每天发生的Event。好处是可以grep，比如工位附近有不肖同事咆哮怒骂手下员工，就可以记一笔。有自动的时间戳。
 
+最小配置(不依赖于Doom Emacs): <https://gist.github.com/scateu/7261f78823ea3496094003fb4d5d4f8b>
+
 <details markdown="1"><summary>配置过程</summary>
 
 #### mac上装emacs
