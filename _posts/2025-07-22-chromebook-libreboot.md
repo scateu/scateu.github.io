@@ -114,3 +114,9 @@ exec xrandr --dpi 220
 sudo apt install suckless-tools
 ```
 
+## 中文Console
+
+ - ucdos style: `sudo apt install zhcon; zhcon --utf8`
+ - 很神奇的替代agetty的东西: `sudo apt install kmscon` 然后重启; 输入法可以配合github.com/scateu/ywvim，在Vim里打字得了
+
+
