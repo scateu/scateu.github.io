@@ -139,12 +139,74 @@ load mmc 0:2 $fdt_addr_r boot/rk3399-gru-kevin.dtb  #从/usr/lib/linux-image-6.1
 load mmc 0:2 $kernel_addr_r  boot/vmlinuz
 load mmc 0:2 $ramdisk_addr_r boot/initrd.img
 #此行不用 用来参考 setenv bootargs root=/dev/mmcblk0p2 root=PARTUUID=$PARTUUID rootfstype=ext4 rw console=tty1 console=ttyS2,115200 earlycon rootwait LANG=en_US.UTF-8
-setenv bootargs root=UUID=8f02889f-0c43-4163-9874-7e18d557cf17  # UUID是从/sbin/u-boot-update执行后产生的/etc/extlinux/extlinux.conf里看到的; 或者用blkid
+setenv bootargs root=UUID=8f02889f-0c43-4163-9874-7e18d557cf17  # UUID是从/sbin/u-boot-update执行后产生的/boot/extlinux/extlinux.conf里看到的; 或者用blkid
 setenv bootargs root=/dev/mmcblk1p2 ro #GRUB启动的是0p1，而用这种办法启动出来的是1p2，从1计数
 booti $kernel_addr_r $ramdisk_addr_r:$filesize $fdt_addr_r
 ```
 
 回车，就可以引导了。在思考是不是打印出barcode，用扫码枪输入。就跟摇把柴油机似的。
+
+## 用extlinux.conf引导
+
+猜测这个libreboot里的uboot不支持ext4。
+
+当前的盘的分区是:
+
+1. FAT EFI, 挂载到/boot/efi/
+2. EXT4, 挂载到/
+
+用`u-boot-update`生成的`/boot/extlinux/extlinux.conf`是在EXT4分区里，因此识别不到。
+
+于是把initrd dtb vmlinuz三个文件都拷到EFI目录里。
+
+```
+.
+├── EFI
+│   ├── BOOT
+│   │   ├── BOOTAA64.EFI
+│   │   ├── BOOTAA64.EFI.bak
+│   │   ├── fbaa64.efi
+│   │   ├── grubaa64.efi
+│   │   └── mmaa64.efi
+│   └── debian
+│       ├── BOOTAA64.CSV
+│       ├── fbaa64.efi
+│       ├── grubaa64.efi
+│       ├── grub.cfg
+│       ├── mmaa64.efi
+│       └── shimaa64.efi
+└── extlinux
+    ├── extlinux.conf
+    ├── initrd.img-6.1.0-35-arm64
+    ├── rk3399-gru-kevin.dtb
+    └── vmlinuz-6.1.0-35-arm64
+```
+
+把extlinux.conf的路径也改好，在uboot里就可以识别到了。
+
+```
+default l0
+menu title U-Boot menu
+prompt 0
+timeout 50
+
+label l0
+	menu label Debian GNU/Linux 12 (bookworm) 6.1.0-35-arm64
+	linux /extlinux/vmlinuz-6.1.0-35-arm64
+	initrd /extlinux/initrd.img-6.1.0-35-arm64
+	fdtdir /extlinux/
+	
+	append root=UUID=8f02889f-0c43-4163-9874-7e18d557cf17 ro quiet
+
+label l0r
+	menu label Debian GNU/Linux 12 (bookworm) 6.1.0-35-arm64 (rescue target)
+	linux /extlinux/vmlinuz-6.1.0-35-arm64
+	initrd /extlinux/initrd.img-6.1.0-35-arm64
+	fdtdir /extlinux/
+	append root=UUID=8f02889f-0c43-4163-9874-7e18d557cf17 ro single
+	
+```
+
 
 ## RESCUE GRUB Load
 
@@ -159,3 +221,4 @@ linux /boot/vmlinuz root=/dev/mmcblk0p2
 initrd /boot/initrd.img
 boot
 ```
+
