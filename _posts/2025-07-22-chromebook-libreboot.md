@@ -139,7 +139,7 @@ load mmc 0:2 $fdt_addr_r boot/rk3399-gru-kevin.dtb  #从/usr/lib/linux-image-6.1
 load mmc 0:2 $kernel_addr_r  boot/vmlinuz
 load mmc 0:2 $ramdisk_addr_r boot/initrd.img
 #此行不用 用来参考 setenv bootargs root=/dev/mmcblk0p2 root=PARTUUID=$PARTUUID rootfstype=ext4 rw console=tty1 console=ttyS2,115200 earlycon rootwait LANG=en_US.UTF-8
-setenv bootargs root=UUID=8f02889f-0c43-4163-9874-7e18d557cf17  # UUID是从/sbin/u-boot-update执行后产生的/etc/extlinux/extlinux.conf里看到的
+setenv bootargs root=UUID=8f02889f-0c43-4163-9874-7e18d557cf17  # UUID是从/sbin/u-boot-update执行后产生的/etc/extlinux/extlinux.conf里看到的; 或者用blkid
 setenv bootargs root=/dev/mmcblk1p2 ro #GRUB启动的是0p1，而用这种办法启动出来的是1p2，从1计数
 booti $kernel_addr_r $ramdisk_addr_r:$filesize $fdt_addr_r
 ```
