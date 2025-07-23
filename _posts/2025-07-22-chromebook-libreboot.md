@@ -116,6 +116,8 @@ sudo apt install suckless-tools
  - ucdos style: `sudo apt install zhcon; zhcon --utf8`
  - 很神奇的替代agetty的东西: `sudo apt install kmscon` 然后重启; 输入法可以配合github.com/scateu/ywvim，在Vim里打字得了
 
+   如果不想在所有tty上都打开kmscon。可以`sudo systemctl disable autovt@.service` 再 `sudo systemctl enable kmsconvt@tty1.service`，这样就只在tty1上有kmscon，其它的都是原来的了(原来的速度快一些)。
+
 
 
 ## Debian禁用/启用图形界面
