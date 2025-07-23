@@ -69,7 +69,7 @@ Windows上有个比较好用的工具叫: `thereadreg/asprogrammer-dregmod`
 
 https://mirror.math.princeton.edu/pub/libreboot/
 
-最新版 FAILED: libreboot-25.06_gru_kevin.tar.xz 没有wifi。lspci里是空的。
+最新版 FAILED: libreboot-25.06_gru_kevin.tar.xz 没有wifi。lspci里是空的。已经[上报Bug](https://codeberg.org/libreboot/lbmk/issues/353)
 
 
 ## 装Debian
