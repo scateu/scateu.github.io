@@ -129,3 +129,32 @@ sudo apt install suckless-tools
  - <https://github.com/corna/me_cleaner>
  - <https://goos.blog/2023/10/chromebook-kevin/>
 
+
+## Uboot 直接引导vmlinuz
+
+参考 <https://docs.u-boot.org/en/latest/usage/cmd/booti.html>
+
+```
+load mmc 0:2 $fdt_addr_r boot/rk3399-gru-kevin.dtb  #从其它地方/usr/啥位置找到移过来的
+load mmc 0:2 $kernel_addr_r  boot/vmlinuz
+load mmc 0:2 $ramdisk_addr_r boot/initrd.img
+#setenv bootargs root=/dev/mmcblk0p2 root=PARTUUID=$PARTUUID rootfstype=ext4 rw console=tty1 console=ttyS2,115200 earlycon rootwait LANG=en_US.UTF-8
+setenv bootargs root=/dev/mmcblk1p1 ro rootfstype=ext4 rootwait 
+booti $kernel_addr_r $ramdisk_addr_r:$filesize $fdt_addr_r
+```
+
+## RESCUE GRUB Load
+
+```
+U-Boot:
+load mmc 0:1 $loadaddr efi/boot/BOOTAA64.EFI
+bootefi $loadaddr
+
+GRUB>
+set root=(hd0,gpt2)
+linux /boot/vmlinuz root=/dev/mmcblk0p2
+initrd /boot/initrd.img
+boot
+```
+
+
