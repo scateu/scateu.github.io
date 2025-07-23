@@ -126,3 +126,12 @@ sudo apt install suckless-tools
  - <https://wiki.chucknemeth.com/laptop/lenovo-x230/flash-lenovo-x230-coreboot>
  - <https://github.com/corna/me_cleaner>
  - <https://goos.blog/2023/10/chromebook-kevin/>
+
+## Debian禁用/启用图形界面
+
+    sudo systemctl set-default multi-user.target #禁用
+    sudo systemctl set-default graphical.target #启用
+    #systemctl restart sddm #不对头
+    #systemctl start sddm   #不对头
+    systemctl start lightdm.service 
+    systemctl stop lightdm.service
