@@ -4,14 +4,14 @@ date: 2025-07-22
 layout: post
 ---
 
-设备: Samsung Chromebook Plus V1 (arm64, codename: gru/kevin, CPU Rockchip RK3399, XE513C24)。 网卡型号 Marvel 88W8997
+设备: Samsung Chromebook Plus V1 (arm64, codename: gru/kevin, CPU Rockchip RK3399, XE513C24)。 网卡型号 Marvell 88W8997
 
 ## 安装Libreboot
 
 ### 1. 解除SPI Flash写保护螺丝
 
 参考文章:
- - 
+ - <https://libreboot.org/docs/install/chromebooks.html>
 
 写保护螺丝是把SPI Flash的WE(Write Enable)线拉到GND上。需要拆除才能刷Libreboot
 
@@ -44,16 +44,13 @@ SPK    电池    SPK
 ### 2. 上编程器
 
 Samsung Chromebook Plus v1, codename: Kevin
-使用的Flash是TODO
-
-它用的是1.8V电压
+使用的Flash是GD25LQ64C，用的是1.8V电压.
 
 买回来CH341A，还需要买1.8V的适配板。
 
 用夹具夹上，烧写`libreboot-20241206rev11_gru_kevin.tar.xz` 中的.rom文件
 
 Windows上有个比较好用的工具叫: `thereadreg/asprogrammer-dregmod`
-
 
 如果直接把这个SPI Flash吹下来烧录，就可以省得折腾第1步里的写保护螺丝了。
 
@@ -120,3 +117,12 @@ sudo apt install suckless-tools
  - 很神奇的替代agetty的东西: `sudo apt install kmscon` 然后重启; 输入法可以配合github.com/scateu/ywvim，在Vim里打字得了
 
 
+
+## See also
+ - <https://libreboot.org/docs/uboot/uboot-debian-bookworm.html>
+ - <https://szclsya.me/zh-cn/posts/coreboot/x220/>
+ - <https://zhuanlan.zhihu.com/p/28760228700>
+ - <https://github.com/mytbk/firmware_notes/blob/master/coreboot/x200-libreboot.md>
+ - <https://wiki.chucknemeth.com/laptop/lenovo-x230/flash-lenovo-x230-coreboot>
+ - <https://github.com/corna/me_cleaner>
+ - <https://goos.blog/2023/10/chromebook-kevin/>
