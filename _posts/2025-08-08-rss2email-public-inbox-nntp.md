@@ -47,11 +47,11 @@ public-inbox主要的思路是用git仓库来存邮件，每个patch就是一封
 
 参考我之前的文章: [NNTP/USENET:旧世界的遗产和新世界的大门](https://scateu.me/2018/01/05/nntp.html)
 
-朱令当年的求救邮件在sci.med里。
+朱令当年的求救邮件在[sci.med](https://groups.google.com/g/sci.med.transcription/c/ofMqZehUYDc/m/kaXYTpAHINEJ)里。不过原始的不是这一封，我见过一次找不到了。底下有人上来就回复consider Thallium
 
 水木清华BBS站也在USENET里有一个对应的分区。
 
-NNTP就是Newsgroup，可以用Emacs GNUS / Alpine / W3m / Thunderbird等阅读。
+NNTP就是Newsgroup，可以用Emacs Gnus / alpine / w3m / thunderbird等阅读。
 所有人共享一份数据，已读/未读标记是在本地的，存在于`.newsrc`里，里面只标记了从哪到哪读过，很简单。(据说水木的已读/未读也是类似)
 
 
@@ -194,6 +194,7 @@ proxychains4是用来保持与国际互联网的通信用的。
 
 ### 3. public-inbox
 
+    sudo apt install public-inbox
     public-inbox-init  -V2 RSS /home/pi/RSS  http://192.168.1.31/RSS pi@localhost
 
 在配置里指定好上游maildir目录，在watch字段:
@@ -209,9 +210,7 @@ proxychains4是用来保持与国际互联网的通信用的。
 
 然后执行
 
-```
-public-inbox-watch
-```
+    public-inbox-watch
 
 就会从maildir里把邮件塞进public-inbox的git目录(在这里是`RSS/`)了，可惜这个程序没啥输出
 
