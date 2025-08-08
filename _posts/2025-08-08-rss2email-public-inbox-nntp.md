@@ -47,7 +47,7 @@ public-inbox主要的思路是用git仓库来存邮件，每个patch就是一封
 
 参考我之前的文章: [NNTP/USENET:旧世界的遗产和新世界的大门](https://scateu.me/2018/01/05/nntp.html)
 
-朱令当年的求救邮件在[sci.med](https://groups.google.com/g/sci.med.transcription/c/ofMqZehUYDc/m/kaXYTpAHINEJ)里。不过原始的不是这一封，我见过一次找不到了。底下有人上来就回复consider Thallium
+朱令当年的求救邮件在[sci.med](https://groups.google.com/g/sci.med.nutrition/c/PnHC-1Ipr9Q/m/q6hgcOjGcZMJ)里。底下有人上来就回复sound like Thallium。发信IP是162.105.195.2，所在地北京大学力学系。北大救清华，谢谢了。
 
 水木清华BBS站也在USENET里有一个对应的分区。
 
