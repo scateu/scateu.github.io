@@ -304,3 +304,16 @@ systemd的配置文件们:
     alpine -url nntp://news.public-inbox.org/inbox.comp.mail.public-inbox.meta
 
 Thunderbird里添加Newsgroup账号先，服务器就是你的公网IP对应的域名，然后Subscribe里面的RSS频道。
+
+
+## tip: RSS去重 - r2e-dedup.sh
+```bash
+#!/bin/bash
+# simple bash script to remove duplicated RSS items from rss2email
+
+r2e list > r2e-list.txt
+cat r2e-list.txt |cut -d'(' -f2 |awk '{print $1'} |sort |uniq -c | grep '2 http' > a
+while read line; do cat r2e-list.txt |grep `echo $line |cut -d/ -f3` | tail -n1; done < a > b
+cat b |cut -d: -f1|sort |uniq | xargs r2e delete
+rm -i a b r2e-list.txt
+```
