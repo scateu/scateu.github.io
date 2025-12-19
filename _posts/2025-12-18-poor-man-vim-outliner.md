@@ -26,3 +26,11 @@ layout: post
 ```
 
 这样就可以用`>>`或`<<`来改变缩进状态了。
+
+如果Modeline因为安全问题被Disable掉了，可以在`.vimrc`里加上:
+
+```
+autocmd FileType text setlocal tabstop=2 shiftwidth=2 expandtab
+```
+
+来对所有`.txt`文件生效。
