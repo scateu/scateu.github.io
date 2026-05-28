@@ -8,6 +8,17 @@ layout: post
 
 IMAP的部署手记在此:
 ```
+pi@rpi4:/etc/dovecot $ tree 
+.
+├── certs
+│   └── dovecot.pem
+├── conf.d (空哒)
+├── dovecot.conf
+├── private
+│   └── dovecot.key
+└── users
+
+pi@rpi4:/etc/dovecot $ cat dovecot.conf 
 ssl = required
 ssl_cert = </etc/dovecot/certs/dovecot.pem
 ssl_key = </etc/dovecot/private/dovecot.key
