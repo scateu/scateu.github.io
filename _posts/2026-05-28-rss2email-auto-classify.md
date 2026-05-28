@@ -4,7 +4,42 @@ date: 2026-05-28
 layout: post
 ---
 
-[上一篇文章](https://scateu.me/2025/08/08/rss2email-public-inbox-nntp.html)里我在家里的RPi4+SSD引导(完全不要SD卡)上跑了一年多，很稳定。
+[上一篇文章](https://scateu.me/2025/08/08/rss2email-public-inbox-nntp.html)里我在家里的RPi4+SSD引导(完全不要SD卡)上跑了一年多，很稳定。但我为了统一已读未读标志，不再使用nntp，而是用dovecot提供的imap。
+
+IMAP的部署手记在此:
+```
+ssl = required
+ssl_cert = </etc/dovecot/certs/dovecot.pem
+ssl_key = </etc/dovecot/private/dovecot.key
+#    sudo openssl genrsa -out /etc/dovecot/private/dovecot.key 4096
+#    sudo openssl req -new -x509 -key /etc/dovecot/private/dovecot.key -out /etc/dovecot/certs/dovecot.pem -days 365
+ssl_min_protocol = TLSv1.2
+ssl_prefer_server_ciphers = yes
+disable_plaintext_auth = yes
+protocols = imap
+service imap-login {
+	inet_listener imap {
+		port = 143
+	}
+	
+	inet_listener imaps {
+		port = 993
+	}
+}
+passdb {
+	driver = passwd-file
+	args = scheme=SHA512-CRYPT username_format=%n /etc/dovecot/users
+	#doveadm pw -s SHA512-CRYPT
+}
+userdb {
+	driver = passwd-file
+	args = username_format=%n /etc/dovecot/users
+	#override_fields = uid=vmail gid=vmail home=/home/vmail/%n
+}
+mail_location = maildir:/home/pi/Maildir/INBOX
+```
+
+建一对公私钥，建一个密码文件。办法都在注释里。然后就good to go啦。
 
 这个方案有很多好处:
 
