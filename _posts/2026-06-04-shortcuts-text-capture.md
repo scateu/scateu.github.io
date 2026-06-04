@@ -30,4 +30,4 @@ layout: post
 
 # macOS里切换输入法加速
 
-     Keyboard Shortcuts > Input Sources > Select next sourc in Input Menu 绑成 `^Space`
+     Keyboard Shortcuts > Input Sources > Select next source in Input Menu 绑成 `^Space`
