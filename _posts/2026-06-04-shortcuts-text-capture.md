@@ -41,6 +41,8 @@ Append `Ask for Input`
 Open `Appended File` in `Default App`
 ```
 
+我绑在了`Control-Cmd-/`
+
 # macOS里切换输入法加速
 
      Keyboard Shortcuts > Input Sources > Select next source in Input Menu 绑成 `^Space`
