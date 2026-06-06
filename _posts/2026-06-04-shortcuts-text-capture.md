@@ -22,7 +22,7 @@ layout: post
     - File Path: `inbox.txt`
     - Make New Line: [x]
     - `Current Date`里写成Date-Custom `**** [yyyy-MM-dd EEE HH:mm] ` 最后加个空格
- - 然后把它放进Dock里
+ - 然后把它放进Dock里；或绑快捷键`Control-Cmd-,`
 
 ![]({{ site.imageurl }}/shortcuts-app-text-capture.png)
 
@@ -46,3 +46,5 @@ Open `Appended File` in `Default App`
 # macOS里切换输入法加速
 
      Keyboard Shortcuts > Input Sources > Select next source in Input Menu 绑成 `^Space`
+
+>  from xiaq: 输入法我用 hammerspoon 绑了 cmd+1 2 3
