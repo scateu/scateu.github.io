@@ -28,6 +28,19 @@ layout: post
 
 我的链接: <https://www.icloud.com/shortcuts/236b0b3fb0b74d7e9ce1aa43bc4a587e>
 
+# 查词-Anki
+
+<https://www.icloud.com/shortcuts/0e53823ae3e548ad9cf76485b258ab47>
+
+```
+Ask for  Text with 记入notes/anki.txt Cmd回车确认
+Show definition of `Ask for Input`
+Append `Ask for Input`
+  File Path: `notes
+  Make New Line: [x]
+Open `Appended File` in `Default App`
+```
+
 # macOS里切换输入法加速
 
      Keyboard Shortcuts > Input Sources > Select next source in Input Menu 绑成 `^Space`
