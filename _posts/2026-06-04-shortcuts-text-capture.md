@@ -22,7 +22,7 @@ layout: post
     - File Path: `inbox.txt`
     - Make New Line: [x]
     - `Current Date`里写成Date-Custom `**** [yyyy-MM-dd EEE HH:mm] ` 最后加个空格
- - 然后把它放进Dock里；或绑快捷键`Control-Cmd-,`
+ - 然后把它放进Dock里；或绑快捷键`Control-Cmd-,` 再把`Control-Cmd-.`绑到打开这个文件的快捷指令上
 
 ![]({{ site.imageurl }}/shortcuts-app-text-capture.png)
 
