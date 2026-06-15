@@ -51,6 +51,13 @@ Open URL: org-protocol://capture?template=j
 
 > 史称 出门不捡个快捷键就算亏
 
+至此，Control Cmd系列:
+
+ - `,` append to inbox.txt
+ - `.` open inbox.txt
+ - `/` append to anki.txt
+ - `Enter` org capture
+
 # macOS里切换输入法加速
 
      Keyboard Shortcuts > Input Sources > Select next source in Input Menu 绑成 `^Space`
