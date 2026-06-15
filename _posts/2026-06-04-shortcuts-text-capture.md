@@ -49,7 +49,7 @@ Open `Appended File` in `Default App`
 
 我绑在了`Control-Cmd-/`
 
-# Emacs Org Mode的Capture绑到Control-Cmd-Shift-C
+# Emacs Org Mode的Capture绑到Control-Cmd-Shift-Enter
 
 ```
 Open URL: org-protocol://capture?template=j
@@ -57,14 +57,14 @@ Open URL: org-protocol://capture?template=j
 
 > 史称 出门不捡个快捷键就算亏
 
-回车和小写c在某些程序里不响应，只能绑个大写C了。
+回车和小写c和大写C在某些程序里不响应，只能绑个大写回车了。
 
 至此，Control Cmd系列:
 
  - `,` append to inbox.txt
  - `.` open inbox.txt
  - `/` append to anki.txt
- - `C` org capture
+ - `Shift-Enter` org capture
 
 # macOS里切换输入法加速
 
