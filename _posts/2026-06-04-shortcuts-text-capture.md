@@ -28,6 +28,12 @@ layout: post
 
 我的链接: <https://www.icloud.com/shortcuts/236b0b3fb0b74d7e9ce1aa43bc4a587e>
 
+# 进一步，Append到Notes.app里
+
+长话短说，有缺点，Notes.app在同步/后台的时候可能会存在不往里面append的情况.
+
+可以考虑同时append到Notes.app和inbox.txt两份。
+
 # 查词-Anki
 
 <https://www.icloud.com/shortcuts/0e53823ae3e548ad9cf76485b258ab47>
@@ -43,7 +49,7 @@ Open `Appended File` in `Default App`
 
 我绑在了`Control-Cmd-/`
 
-# Emacs Org Mode的Capture绑到Control-Cmd-Enter
+# Emacs Org Mode的Capture绑到Control-Cmd-C
 
 ```
 Open URL: org-protocol://capture?template=j
@@ -56,7 +62,7 @@ Open URL: org-protocol://capture?template=j
  - `,` append to inbox.txt
  - `.` open inbox.txt
  - `/` append to anki.txt
- - `Enter` org capture
+ - `c` org capture
 
 # macOS里切换输入法加速
 
