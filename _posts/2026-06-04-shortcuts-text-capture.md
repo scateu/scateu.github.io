@@ -43,6 +43,14 @@ Open `Appended File` in `Default App`
 
 我绑在了`Control-Cmd-/`
 
+# Emacs Org Mode的Capture绑到Control-Cmd-Enter
+
+```
+Open URL: org-protocol://capture?template=j
+```
+
+> 史称 出门不捡个快捷键就算亏
+
 # macOS里切换输入法加速
 
      Keyboard Shortcuts > Input Sources > Select next source in Input Menu 绑成 `^Space`
