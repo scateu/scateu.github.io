@@ -34,6 +34,7 @@ layout: post
  - 买过Pomera DM250, DM100
  - 口水过BYOK
  - 买过MS2401和MS2406，并[捐](https://tsm.tsinghua.edu.cn/?p=6939)[赠](https://m.thepaper.cn/newsDetail_forward_15277083)
+ - 买过真Underwood和olivetti打字机
 
 ## Cardputer
 
