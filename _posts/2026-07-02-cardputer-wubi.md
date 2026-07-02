@@ -66,6 +66,7 @@ Micro Journal上游支持的功能:
 5. 按住e键开机,可以进入USB Drive模式,把TF卡给电脑读,导出
 6. Flash里给分出了512KB的位置存码表,码表里有index,会载入到内存(因为内存不足够大); 如果码表不够用,还可以考虑把它放进SD卡里,Index仍然进RAM,或Flash;
 7. 双拼/拼音/五笔在编译时可选
+8. 把上屏时间减少了好多，之前打英文都卡; debounce的时间减少
 
 
 演示视频在: [1](https://youtube.com/shorts/lltQv1eadMk) [2](https://www.youtube.com/watch?v=CoNwv29xYIk)
@@ -73,10 +74,10 @@ Micro Journal上游支持的功能:
 项目地址在:<https://github.com/scateu/micro-journal-wubi-v4-esp32> 
 
 
-
 ## Tips
 
 1. Vim不开swp文件: `vim -n -p *.txt`  不然电脑在TF卡上操作卡，卡夫卡
+2. See also: <https://github.com/joejee90/Tiny-Journal>
 
 ---
 
