@@ -19,7 +19,7 @@ layout: post
 
 ## 之前
 
-一直想要有一个中文Distriction-Free的打字机.
+一直想要有一个中文Distraction-Free的打字机.
 
 我之前做过如下努力:
 
