@@ -33,6 +33,7 @@ layout: post
  - 看过Freewrite,但据说有人在上面打了一万多字后丢了
  - 买过Pomera DM250, DM100
  - 口水过BYOK
+ - 买过MS2401和MS2406，并[捐](https://tsm.tsinghua.edu.cn/?p=6939)[赠](https://m.thepaper.cn/newsDetail_forward_15277083)
 
 ## Cardputer
 
@@ -62,13 +63,19 @@ Micro Journal上游支持的功能:
 3. Ctrl - S 触发保存
 4. Ctrl -/+ 切三种字号
 5. 按住e键开机,可以进入USB Drive模式,把TF卡给电脑读,导出
-6. Flash里给分出了512KB的位置存码表,码表里有index,会载入到内存(因为内存不足够大); 如果码表不够用,还可以考虑把它放进SD卡里,Index仍然进RAM,或Flash.
+6. Flash里给分出了512KB的位置存码表,码表里有index,会载入到内存(因为内存不足够大); 如果码表不够用,还可以考虑把它放进SD卡里,Index仍然进RAM,或Flash;
+7. 双拼/拼音/五笔在编译时可选
 
 
 演示视频在: [1](https://youtube.com/shorts/lltQv1eadMk) [2](https://www.youtube.com/watch?v=CoNwv29xYIk)
 
 项目地址在:<https://github.com/scateu/micro-journal-wubi-v4-esp32> 
 
+
+
+## Tips
+
+1. Vim不开swp文件: `vim -n -p *.txt`  不然电脑在TF卡上操作卡，卡夫卡
 
 ---
 
