@@ -24,7 +24,7 @@ layout: post
 我之前做过如下努力:
 
  - uim-fep:  仿UCDOS,在Terminal里直接打中文 <https://github.com/scateu/uim-fep-wb86>
- - VIM 五笔输入法: <https://github.com/scateu/ywvim>
+ - VIM 五笔输入法: <https://github.com/scateu/ywvim> (非原创，只是搬过来，原版是在vim script网站上)
  - Linux 内核里把汉字编进去: <https://github.com/Gentoo-zh/linux-cjktty>
  - 还在想使用Grub/Coreboot写
 
