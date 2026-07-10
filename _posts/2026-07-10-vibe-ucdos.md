@@ -23,6 +23,7 @@ layout: post
  - `-s` 只载入五笔还是拼音还是全载入
  - 带词组嘿嘿
  - 不需要其它资源文件,码表集成在文件本体(大了点,4MB多)
+ - 透传readline按键们:`C-n C-p ... M-f C-d C-k`
 ```
 ./wubi-ime -h
    usage: wubi [-s SCHEME] [-a] [-V] [-h]
