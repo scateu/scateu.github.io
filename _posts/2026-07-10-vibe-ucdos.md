@@ -4,7 +4,7 @@ date: 2026-07-10
 layout: post
 ---
 
-[![asciicast](https://asciinema.org/a/JzauBlLHOmWr0ZCZ.svg)](https://asciinema.org/a/JzauBlLHOmWr0ZCZ)
+<script src="https://asciinema.org/a/JzauBlLHOmWr0ZCZ.js" id="asciicast-JzauBlLHOmWr0ZCZ" async="true"></script>
 
 小时候在DOS 6.22上使用UCDOS+WPS打字,响应非常快.即使是在486/586的机器上也运指如飞.
 
