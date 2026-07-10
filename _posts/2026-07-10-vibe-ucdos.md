@@ -8,7 +8,7 @@ layout: post
 
 小时候在DOS 6.22上使用UCDOS+WPS打字,响应非常快.即使是在486/586的机器上也运指如飞.
 
-一直想复刻,但水平有限.之前折腾过uim-fep: <https://github.com/scateu/uim-fep-wb86>,勉强可用,要装很多信赖包,年久失修.
+一直想复刻,但水平有限.之前折腾过uim-fep: <https://github.com/scateu/uim-fep-wb86>,勉强可用,要装很多依赖包,年久失修.
 
 还折腾过Vim自带的输入法,速度太慢: <https://github.com/scateu/ywvim>
 
