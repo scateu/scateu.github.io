@@ -4,6 +4,8 @@ date: 2026-07-10
 layout: post
 ---
 
+[![asciicast](https://asciinema.org/a/JzauBlLHOmWr0ZCZ.svg)](https://asciinema.org/a/JzauBlLHOmWr0ZCZ)
+
 小时候在DOS 6.22上使用UCDOS+WPS打字,响应非常快.即使是在486/586的机器上也运指如飞.
 
 一直想复刻,但水平有限.之前折腾过uim-fep: <https://github.com/scateu/uim-fep-wb86>,勉强可用,要装很多信赖包,年久失修.
@@ -43,3 +45,5 @@ layout: post
 地址: <https://github.com/scateu/wubi-fep>
 
 Demo: [1](https://asciinema.org/a/ybRjkiDkExr9qIUA) [2](https://asciinema.org/a/ElvhVDs2w2y1LZnh) [3](https://asciinema.org/a/JzauBlLHOmWr0ZCZ)
+
+
