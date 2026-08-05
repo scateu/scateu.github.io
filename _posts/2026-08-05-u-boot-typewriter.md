@@ -6,7 +6,10 @@ layout: post
 
 ## 演示
 
+![图]({{ site.imageurl }}/uboot_typewrite.jpeg)
 
+
+- 视频: <https://youtu.be/vDTKMEDWPtY>
 
 ## 之前的努力
 
@@ -23,6 +26,7 @@ layout: post
 2. 可以写TF卡(VFAT或EXT4)
 3. 不需要硬盘,全在Flash里面.
 4. 三秒开机 适用于"灵感!憋不住了!"场景
+5. 完全没有电源管理,一直用到没电.不用担心灵感来了机器还在休眠,机器只可能没电,不可能在唤醒或启动中！
 
 ## 大致的安装过程
 
@@ -41,11 +45,11 @@ layout: post
 
 ## 自己编译的大致过程
 
-libreboot基本上就是一些helper，本质上你是要先编译一个coreboot，然后再编U-Boot作为payload，还要处理dtb设备树之类的东西。最后把U-Boot作为载荷放进coreboot里。
+libreboot基本上就是一些helper,本质上你是要先编译一个coreboot,然后再编U-Boot作为payload,还要处理dtb设备树之类的东西.最后把U-Boot作为载荷放进coreboot里.
 
 1. 下载libreboot的src包
 2. 使用`./mk`来安装依赖,然后配置一下默认的板卡,以及设置一下环境变量,使用40个CPU核心编译
-3. 使用`./mk -m U-Boot gru_kevin`来配置一下U-Boot的各个开关. 可以提速. 在项目的README里都有. 还可以配置BOOTCMD和AUTOBOOT等待时长。注意: libreboot不允许U-Boot运行的时候改BOOTCMD等变量，无法保存。估计是没地方写入。写盘上容易把盘写坏了。
+3. 使用`./mk -m U-Boot gru_kevin`来配置一下U-Boot的各个开关. 可以提速. 在项目的README里都有. 还可以配置BOOTCMD和AUTOBOOT等待时长.注意: libreboot不允许U-Boot运行的时候改BOOTCMD等变量,无法保存.估计是没地方写入.写盘上容易把盘写坏了.
 4. `./mk -c coreboot gru_kevin`可以编出rom.然后烧入. 注意U-Boot可能需要去把编译产物全清了,否则编coreboot的时候不会去重新取.
 
 注意: CH341A的Flash programmer,在Linux下需要编一下驱动`.ko`.原生的串口驱动不能被`flashrom`所识别. 使用Raspberry Pi,或Pico也都可以烧.
