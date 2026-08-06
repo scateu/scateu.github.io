@@ -21,6 +21,7 @@ layout: post
 4. Distraction-free typewriter: Alphasmart, Pomera, Freewrite, BYOK
 5. Vim五笔输入法: <https://github.com/scateu/ywvim>, 使用AI对性能提升了不少
 6. 基于ESP32, M5 Cardputer的打字机: <https://scateu.me/2026/07/02/cardputer-wubi.html>
+
 ## 特性
 
 1. 作为U-Boot的子命令,可选编译进去
@@ -29,7 +30,7 @@ layout: post
 4. 三秒开机 适用于"灵感!憋不住了!"场景
 5. 完全没有电源管理,一直用到没电.不用担心灵感来了机器还在休眠,机器只可能没电,不可能在唤醒或启动中！
 
-## 大致的安装过程
+## (不编译) 大致的安装过程
 
 以Chromebook(gru kevin)为例:
 
@@ -44,7 +45,7 @@ layout: post
 5. 自己再想办法安装系统. 或者不要装系统了
 
 
-## 自己编译的大致过程
+## 从头自己编译的大致过程
 
 libreboot基本上就是一些helper,本质上你是要先编译一个coreboot,然后再编U-Boot作为payload,还要处理dtb设备树之类的东西.最后把U-Boot作为载荷放进coreboot里.
 
@@ -57,7 +58,7 @@ libreboot基本上就是一些helper,本质上你是要先编译一个coreboot,�
 
 ## 不足
 
-1. CPU转速似乎还是很高
-2. 在Samsung Chromebook Plus上不能直接写eMMC的FAT分区,会把结构写坏掉.
+1. CPU转速似乎还是很高，差不多是Linux的3倍电耗。估计U-Boot里可以工作5小时，Linux里可以工作15小时.
+2. 在Samsung Chromebook Plus上不能直接写eMMC的FAT分区,会把结构写坏掉. 写TF卡没问题
 3. U-Boot+Coreboot编出来很容易超过8MB Flash限制,要么换大Flash,要么把U-Boot里的`UEFI`子功能和网络子功能关掉不编译.
 
