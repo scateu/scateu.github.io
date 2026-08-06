@@ -8,7 +8,6 @@ layout: post
 
 ![图]({{ site.imageurl }}/uboot_typewrite.jpeg)
 
-
  - 视频: <https://youtu.be/vDTKMEDWPtY> <https://www.youtube.com/shorts/Up-6oE29sNA>
  - 项目: <https://github.com/scateu/u-boot-typewriter/>
  - 实测从按下开机键到进入可以打字的状态是4秒
