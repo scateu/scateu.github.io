@@ -21,7 +21,7 @@ layout: post
 3. fbterm, kmscon: fbterm太丑,纯白色无法显示; [kmscon](https://wiki.archlinuxcn.org/zh-hk/KMSCON)太卡,影响心情
 4. Distraction-free typewriter: Alphasmart, Pomera, Freewrite, BYOK
 5. Vim五笔输入法: <https://github.com/scateu/ywvim>, 使用AI对性能提升了不少
-
+6. 基于ESP32, M5 Cardputer的打字机: <https://scateu.me/2026/07/02/cardputer-wubi.html>
 ## 特性
 
 1. 作为U-Boot的子命令,可选编译进去
