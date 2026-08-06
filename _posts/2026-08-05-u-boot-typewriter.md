@@ -34,7 +34,7 @@ layout: post
 
 1. 拆开后壳,拆开主板,把写保护螺丝拿掉,参看我的blog的文章
 2. 使用flashrom烧进预编译好的rom. 见[U-Boot中文打字机项目的Release页](https://github.com/scateu/U-Boot-typewriter)
-3. 插张TF卡. 完成
+3. 插张FAT32的TF卡. 完成
 4. 开机提示"press any key to stop autoboot in 1..0"时迅速按个键. 进入U-boot的命令行,敲`typewriter`即可默认打开TF卡(FAT格式)的a.txt; 
    - 其它屏幕下方有帮助
    - 按`C-r`可以出一个列表,会把TF卡里的文件都列出来,方便切换.
