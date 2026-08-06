@@ -13,11 +13,11 @@ layout: post
 
 ## 之前的努力
 
-0. 四通MS-2401. 以及difan写的四通打字机WASM全模拟器.
+0. 四通MS-2401. 以及[difan写的四通打字机WASM全模拟器](https://difan.org.cn/ms2401/).
 1. CJKTTY Kernel: 参看[我的RPi编译内核指南](https://github.com/scateu/raspberrypi-cjktty-howto) 很快. 注意HiDPI屏幕要把32x32的字体也编进去
 2. 仿UCDOS的FEP们: uim-fep或[我Vibe出来的基于Golang的wubi-fep](https://github.com/scateu/wubi-fep)
-3. fbterm, kmscon: fbterm太丑,纯白色无法显示; kmscon太卡,影响心情
-4. Distraction-free typewriter: Alphasmart, Pomera, 
+3. fbterm, kmscon: fbterm太丑,纯白色无法显示; [kmscon](https://wiki.archlinuxcn.org/zh-hk/KMSCON)太卡,影响心情
+4. Distraction-free typewriter: Alphasmart, Pomera, Freewrite, BYOK
 5. Vim五笔输入法: <https://github.com/scateu/ywvim>, 使用AI对性能提升了不少
 
 ## 特性
