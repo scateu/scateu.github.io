@@ -12,6 +12,8 @@ layout: post
 - 视频: <https://youtu.be/vDTKMEDWPtY> <https://www.youtube.com/shorts/Up-6oE29sNA>
 - 项目: <https://github.com/scateu/u-boot-typewriter/>
 
+实测从按下开机键到进入可以打字的状态是4秒
+
 ## 之前的努力
 
 0. 四通MS-2401. 以及[difan写的四通打字机WASM全模拟器](https://difan.org.cn/ms2401/).
