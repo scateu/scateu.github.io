@@ -231,7 +231,9 @@ boot
 
 有几个坑，趁脑子还热赶紧记一下
 
-## 1. 制备Debian引导SD卡(使用extlinux) - <https://gist.github.com/scateu/171227cc952fd432464da0512de6b06c>
+## 1. 制备Debian引导SD卡(使用extlinux) 
+
+参考 <https://gist.github.com/scateu/171227cc952fd432464da0512de6b06c>
 
 两个分区，第一分区里装extlinux.conf和vmlinuz以及initrd.gz
 
