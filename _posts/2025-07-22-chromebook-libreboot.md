@@ -222,3 +222,95 @@ initrd /boot/initrd.img
 boot
 ```
 
+
+# Update: Oct 21, 2026
+
+我又入了一台同款，含快递一共480元。
+
+由于我的U-Boot固件里没有EFI功能，为了省空间装五笔码表。只能用EXTLINUX来安装Debian。
+
+有几个坑，趁脑子还热赶紧记一下
+
+## 1. 制备Debian引导SD卡(使用extlinux) - <https://gist.github.com/scateu/171227cc952fd432464da0512de6b06c>
+
+两个分区，第一分区里装extlinux.conf和vmlinuz以及initrd.gz
+
+长这样:
+
+```
+├── extlinux/
+│   └── extlinux.conf
+├── initrd.gz
+├── rk3399-gru-kevin.dtb
+└── vmlinuz
+```
+
+```
+TIMEOUT 50
+DEFAULT Debian-Installer
+
+LABEL Debian-Installer
+    MENU LABEL Debian 13.7.0 ARM64 Installer
+    LINUX /vmlinuz
+    INITRD /initrd.gz
+    FDT /rk3399-gru-kevin.dtb
+    APPEND root=/dev/ram0 rw  #NOTE!! No console= here, otherwise screen will remain pure black.
+```
+
+第二个分区，完全把debian的iso写进去
+
+```
+sudo dd if=debian-13.7.0-arm64-DVD-1.iso of=/dev/sdc2 bs=4M status=progress oflag=sync
+```
+
+然后就可以在uboot里`bootflow scan -lb`来引导了。
+
+## 2 安装
+
+进Debian安装向导时，由于没有办法自动挂载CDROM，会报错`your installation media couldn't mounted`。这时进到了Debian向导的目录里，选进到Shell里，(注意不要用Ctrl-Alt-F2，可能会有时间上的冲突，导致/cdrom被umount)，然后`mount /dev/mmcblk0p2 /cdrom`
+
+然后就可以安装了。
+
+安装完选择不要引导器。
+
+然后到Shell里，在`/target/....`里有目标系统盘
+
+进到`/target/boot`里，创建extlinux相关的东西。注意有个大坑，不知道uboot/extlinux为啥会提示`skipping debian for failure retrieving FDT`，必须用FDTDIR才行，会去`$FDTDIR/rockchip/rk3399-gru-kevin.dtb`来取文件
+
+我的`/boot`和extlinux.conf长这样:
+
+```
+k@uTypewriter2:/boot$ mount|grep mmc
+/dev/mmcblk1p3 on / type ext4 (rw,relatime,errors=remount-ro)
+/dev/mmcblk1p2 on /boot type ext4 (rw,relatime)
+
+k@uTypewriter2:/boot$ tree 
+.
+├── config-6.12.107+deb13-arm64
+├── extlinux
+│   ├── extlinux.conf
+│   └── rockchip
+│       └── rk3399-gru-kevin.dtb
+├── initrd.img -> initrd.img-6.12.107+deb13-arm64
+├── initrd.img-6.12.107+deb13-arm64
+├── initrd.img.old -> initrd.img-6.12.107+deb13-arm64
+├── lost+found  [error opening dir]
+├── System.map-6.12.107+deb13-arm64
+├── vmlinuz -> vmlinuz-6.12.107+deb13-arm64
+├── vmlinuz-6.12.107+deb13-arm64
+└── vmlinuz.old -> vmlinuz-6.12.107+deb13-arm64
+
+
+Device            Start      End  Sectors  Size Type
+/dev/mmcblk1p1     2048    34815    32768   16M Linux filesystem
+/dev/mmcblk1p2    34816  2035711  2000896  977M Linux filesystem
+/dev/mmcblk1p3  2035712 57907199 55871488 26.6G Linux filesystem
+/dev/mmcblk1p4 57907200 61069311  3162112  1.5G Linux swap
+```
+
+
+注意: 
+
+- FDT文件与内核版本是绑定的，否则会报错
+
+
