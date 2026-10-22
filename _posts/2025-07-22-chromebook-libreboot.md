@@ -313,6 +313,6 @@ Device            Start      End  Sectors  Size Type
 
 注意: 
 
-- FDT文件与内核版本是绑定的，否则会报错
-
+ - FDT文件与内核版本是绑定的，否则会报错
+ - 更新了Kernel之后，记得`sudo cp /usr/lib/linux-image-`uname -r`/rockchip/rk3399-gru-kevin.dtb  /boot/extlinux/rockchip/` 否则虽然仍然可以用，但很有可能dtb有问题会报一些错
 
