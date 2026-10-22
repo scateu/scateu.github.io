@@ -76,6 +76,7 @@ https://mirror.math.princeton.edu/pub/libreboot/
 
 ```
 sudo apt install firmware-libertas firmware-realtek
+echo "blacklist rk_crypto" | sudo tee /etc/modprobe.d/blacklist-crypto.conf #如果dmesg里有摄氏就把这个加密引擎干掉
 ```
 
 
