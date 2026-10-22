@@ -75,7 +75,7 @@ https://mirror.math.princeton.edu/pub/libreboot/
 网卡驱动在:
 
 ```
-sudo apt install firmware-libertas
+sudo apt install firmware-libertas firmware-realtek
 ```
 
 
