@@ -309,6 +309,22 @@ Device            Start      End  Sectors  Size Type
 /dev/mmcblk1p2    34816  2035711  2000896  977M Linux filesystem
 /dev/mmcblk1p3  2035712 57907199 55871488 26.6G Linux filesystem
 /dev/mmcblk1p4 57907200 61069311  3162112  1.5G Linux swap
+
+#extlinux.conf:
+default l0
+menu title Debian
+prompt 0
+timeout 50
+
+label l0
+	menu label Debian
+	linux /vmlinuz
+	initrd /initrd.img
+	fdtdir /extlinux/
+	append root=/dev/mmcblk1p3 ro quiet
+
+apt install xfce4 lightdm xfce4-goodies network-manager sudo htop tmux
+systemctl enable NetworkManager
 ```
 
 
