@@ -66,3 +66,7 @@ libreboot基本上就是一些helper,本质上你是要先编译一个coreboot,�
 4. Distraction-free typewriter: Alphasmart, Pomera, Freewrite, BYOK
 5. Vim五笔输入法: <https://github.com/scateu/ywvim>, 使用AI对性能提升了不少
 6. 基于ESP32, M5 Cardputer的打字机: <https://scateu.me/2026/07/02/cardputer-wubi.html>
+
+## Oct 31, 2026 移植到Pomera DM250
+
+- <https://github.com/scateu/u-boot-pomera-dm250-typewriter/blob/uboot-typewriter-pomera-dm250/README.typewriter.md>
